@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* Scoped perfume page container */
+.perfumeContainer {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Apply Playfair Display font to body text elements within perfume container */
+.perfumeContainer p,
+.perfumeContainer div,
+.perfumeContainer span,
+.perfumeContainer article,
+.perfumeContainer section,
+.perfumeContainer main,
+.perfumeContainer aside,
+.perfumeContainer footer {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Ensure headings use Montserrat within perfume container */
+.perfumeContainer h1,
+.perfumeContainer h2,
+.perfumeContainer h3,
+.perfumeContainer h4,
+.perfumeContainer h5,
+.perfumeContainer h6 {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+/* Apply Montserrat to navigation elements within perfume container */
+.perfumeContainer nav,
+.perfumeContainer nav * {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+/* Montserrat utility classes scoped to perfume container */
+.perfumeContainer .font-montserrat,
+.perfumeContainer .font-montserrat *,
+.perfumeContainer li.font-montserrat,
+.perfumeContainer li.font-montserrat * {
+  font-family: 'Montserrat', sans-serif !important;
+}

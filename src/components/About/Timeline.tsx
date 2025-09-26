@@ -60,7 +60,7 @@ export const Timeline = () => {
 								{entry.date}
 							</h5>
 
-							<Card className="my-5 border-none shadow-none bg-base-200/60 shadow-sm rounded-xl">
+							<Card className="my-5 border-none bg-base-200/60 shadow-sm rounded-xl">
 								<CardContent className="px-0 xl:px-2">
 									<div
 										className="prose dark:prose-invert text-base-content"

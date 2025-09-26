@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-export const MainTopbar = () => {
+export const PerfumeTopbar = () => {
 	return (
 		<div
 			id="layout-topbar"
@@ -29,8 +29,8 @@ export const MainTopbar = () => {
 						>
 							<Image
 								alt="Nusantara Aroma Craft Logo"
-								src="/images/logo/nac-logo-official.svg"
-								width={100}
+								src="/images/logo/nac-text-logo-official.svg"
+								width={300}
 								height={100}
 							/>
 						</Link>
@@ -44,8 +44,8 @@ export const MainTopbar = () => {
 						>
 							<Image
 								alt="Nusantara Aroma Craft Logo"
-								src="/images/logo/nac-logo-official.svg"
-								width={100}
+								src="/images/logo/nac-text-logo-official.svg"
+								width={300}
 								height={100}
 							/>
 						</Link>
@@ -53,14 +53,11 @@ export const MainTopbar = () => {
 
 					<div className="max-lg:hidden">
 						<ul className="menu menu-horizontal gap-2 px-1">
-							<li className="font-medium">
-								<Link href="/">Home</Link>
+							<li className="font-medium font-montserrat">
+								<Link href="/perfume">HOME</Link>
 							</li>
 							<li className="font-medium">
-								<Link href="/about">About Us</Link>
-							</li>
-							<li className="font-medium">
-								<Link href="/contact">Contact Us</Link>
+								<Link href="/perfume/catalog">CATALOG</Link>
 							</li>
 						</ul>
 					</div>
@@ -91,14 +88,11 @@ export const MainTopbar = () => {
 								/>
 							</Link>
 							<ul className="menu w-full gap-2 p-0 pt-4">
-								<li className="font-medium">
-									<Link href="/">Home</Link>
+								<li className="font-medium font-montserrat">
+									<Link href="/perfume">HOME</Link>
 								</li>
-								<li className="font-medium">
-									<Link href="/about">About Us</Link>
-								</li>
-								<li className="font-medium">
-									<Link href="/contact">Contact Us</Link>
+								<li className="font-medium font-montserrat">
+									<Link href="/perfume/catalog">CATALOG</Link>
 								</li>
 							</ul>
 						</div>

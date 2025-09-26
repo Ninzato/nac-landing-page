@@ -27,17 +27,13 @@ export const MainFooter = () => {
                             <h2 className="text-lg font-medium">Our Brands</h2>
                             <div className="**:hover:text-primary mt-4 space-y-2 **:block **:transition-all">
                                 <Link href="/perfume">NAC perfume</Link>
-                                <Link href="/perfume/collection">Collection</Link>
                                 <Link href="/export-import">NAC Export</Link>
-                                <Link href="/export-import/commodities">Commodities</Link>
                             </div>
                         </div>
                         <div>
                             <h2 className="text-lg font-medium">Services</h2>
                             <div className="**:hover:text-primary mt-4 space-y-2 **:block **:transition-all">
                                 <Link href="/export-import/services">Export Import</Link>
-                                <Link href="/perfume">Custom perfume</Link>
-                                <Link href="/contact">Business Partnership</Link>
                             </div>
                         </div>
                     </div>

@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export const WhoWeAre = () => {
 	return (
@@ -51,9 +52,9 @@ export const WhoWeAre = () => {
                             </p>
 
 							<div className="mt-8 flex justify-center lg:justify-start">
-								<a href="/about">
-									<button className="btn btn-primary">Read More</button>
-								</a>
+								<Link href="/about">
+									<button className="btn btn-primary">Baca selengkapnya</button>
+								</Link>
 							</div>
 						</div>
 					</div>
