@@ -1,42 +1,169 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800;1000&display=swap");
+
+@import "tailwindcss";
+
+@plugin "@iconify/tailwind4" {
+    prefixes: lucide;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@plugin "daisyui" {
+    exclude: rootscrollgutter;
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
+@plugin "daisyui/theme" {
+    name: "dark";
     color-scheme: dark;
-  }
+    prefersdark: true;
+    
+    /* Brand sage green - sophisticated and natural */
+    --color-primary: #5d8a82; /* Brighter sage for dark theme visibility */
+    --color-primary-content: #ffffff;
+    
+    /* Warm bronze from logo - artisanal and earthy */
+    --color-secondary: #b8916b; /* The exact bronze tone from their logo */
+    --color-secondary-content: #2d1810;
+    
+    /* Champagne gold - complements sage and bronze beautifully */
+    --color-accent: #d4af37; /* Rich champagne gold */
+    --color-accent-content: #2d2510;
+    
+    /* Warm stone neutral - natural and sophisticated */
+    --color-neutral: #8b8680; /* Warm stone gray that harmonizes with earth tones */
+    --color-neutral-content: #f7f5f3;
+    
+    /* Semantic colors adjusted to complement earth-tone palette */
+    --color-info: #4a9eff; /* Softer blue that doesn't clash with sage */
+    --color-info-content: #ffffff;
+    --color-success: #6b9b47; /* Forest green that harmonizes with sage */
+    --color-success-content: #ffffff;
+    --color-warning: #d4973c; /* Warm amber that complements bronze */
+    --color-warning-content: #2d1f0a;
+    --color-error: #c85a54; /* Muted terracotta red - earthy, not harsh */
+    --color-error-content: #ffffff;
+
+    /* Deep sage foundation - natural luxury */
+    --color-base-100: #2a3530; /* Deep sage-tinted charcoal */
+    --color-base-200: #3a453f; /* Medium sage-gray */
+    --color-base-300: #4a554f; /* Lighter sage-gray */
+    --color-base-content: #f0f3f1; /* Soft sage-tinted white */
+
+    /* Keep your existing spacing and border radius */
+    --radius-field: 0.25rem;
+    --radius-box: 0.25rem;
+    --rounded-box: 0.25rem;
+    --radius-selector: 0.25rem;
+    --size-selector: 0.25rem;
+    --size-field: 0.25rem;
+    --border: 1px;
+    --card-p: 20px;
+    --card-fs: var(--text-base);
+
+    --depth: 0;
+    --noise: 0;
+}
+
+@plugin "daisyui/theme" {
+    name: "light";
+    default: true;
+    color-scheme: light;
+    
+    /* Deep sage green from logo - natural authority */
+    --color-primary: #4a6741; /* Deep sage that matches logo sentiment */
+    --color-primary-content: #ffffff;
+    
+    /* Warm bronze from logo - artisanal craftsmanship */
+    --color-secondary: #a67c52; /* The bronze tone from their actual logo */
+    --color-secondary-content: #faf7f3;
+    
+    /* Refined gold that harmonizes with earth tones */
+    --color-accent: #b8860b; /* Antique gold that complements sage and bronze */
+    --color-accent-content: #fefcf7;
+    
+    /* Warm charcoal with sage undertones */
+    --color-neutral: #54524f; /* Warm charcoal that harmonizes with earth palette */
+    --color-neutral-content: #fafaf9;
+    
+    /* Semantic colors that work with natural palette */
+    --color-info: #2563eb; /* Professional blue that doesn't clash */
+    --color-info-content: #ffffff;
+    --color-success: #16a34a; /* Fresh green that complements sage */
+    --color-success-content: #ffffff;
+    --color-warning: #ca8a04; /* Rich amber that harmonizes with bronze */
+    --color-warning-content: #fefcf3;
+    --color-error: #dc2626; /* Classic red that works with earth tones */
+    --color-error-content: #ffffff;
+
+    /* Clean foundation with warm undertones */
+    --color-base-100: #ffffff; /* Pure white */
+    --color-base-200: #f8f6f4; /* Warm off-white with sage hint */
+    --color-base-300: #e8e5e1; /* Warm light gray with earth undertones */
+    --color-base-content: #2c2a27; /* Rich charcoal with warm undertones */
+
+    /* Keep your existing spacing and border radius */
+    --radius-field: 0.25rem;
+    --radius-box: 0.25rem;
+    --rounded-box: 0.25rem;
+    --radius-selector: 0.25rem;
+    --size-selector: 0.25rem;
+    --size-field: 0.25rem;
+    --border: 1px;
+    --card-p: 20px;
+    --card-fs: var(--text-base);
+
+    --depth: 0;
+    --noise: 0;
+}
+
+@theme {
+    --font-body: "DM Sans", sans-serif;
+}
+
+/** Container utility **/
+@utility container {
+    margin-inline: auto;
+    padding-inline: 1rem;
+    @apply px-[1rem] sm:px-[1rem] md:px-[2rem] lg:px-[3rem] xl:px-[4rem] 2xl:px-[6rem];
+}
+
+html {
+    @apply relative scroll-smooth;
+}
+
+body {
+    @apply bg-base-100 font-body text-base-content overflow-x-hidden;
+}
+
+:target {
+    @apply scroll-m-12 lg:scroll-mt-0;
+}
+
+/* == Components == */
+
+.btn {
+    @apply font-medium;
+}
+
+/* == Forms == */
+
+.fieldset {
+    .fieldset-legend {
+        @apply text-base-content/80 text-sm font-normal;
+    }
+}
+
+.checkbox,
+.radio,
+.range,
+.toggle {
+    &:disabled {
+        @apply opacity-35;
+    }
+}
+
+.label {
+    @apply text-base-content/80 cursor-pointer;
+}
+
+.input:focus-within {
+    outline: none !important;
 }
