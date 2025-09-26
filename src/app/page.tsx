@@ -15,7 +15,7 @@ export default function Home() {
       <OurBrands />
       <WhyChooseUs/>
       <MainFooter />
-      <ThemeToggle />
+      {/* <ThemeToggle /> */}
     </>
   );
 }

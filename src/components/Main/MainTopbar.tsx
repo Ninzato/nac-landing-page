@@ -9,16 +9,35 @@ export const MainTopbar = () => {
 		>
 			<div className="container">
 				<nav className="flex items-center justify-between py-4">
-					<div className="flex items-center gap-2">
+					{/* Mobile: Hamburger on left */}
+					<div className="lg:hidden">
 						<label
 							htmlFor="menu-drawer"
 							id="menu-drawer-trigger"
 							aria-label="open sidebar"
-							className="btn btn-square btn-ghost btn-sm lg:hidden"
+							className="btn btn-square btn-ghost btn-sm"
 						>
 							<span className="iconify lucide--menu size-5"></span>
 						</label>
+					</div>
 
+					{/* Desktop: Logo on left */}
+					<div className="max-lg:hidden">
+						<Link
+							href="/"
+							className="text-2xl font-bold text-primary relative"
+						>
+							<Image
+								alt="Nusantara Aroma Craft Logo"
+								src="/images/logo/nac-logo-official.svg"
+								width={100}
+								height={100}
+							/>
+						</Link>
+					</div>
+
+					{/* Mobile: Logo on right */}
+					<div className="lg:hidden">
 						<Link
 							href="/"
 							className="text-2xl font-bold text-primary relative"

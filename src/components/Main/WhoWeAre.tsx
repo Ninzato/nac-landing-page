@@ -14,9 +14,21 @@ export const WhoWeAre = () => {
 						mengangkat warisan aromatik Indonesia ke panggung dunia
 					</p>
 				</div>
-				<div className="bg-base-200 rounded-lg mt-12 p-8 lg:p-16">
+				<div className="bg-base-200 rounded-xl mt-12 p-8 lg:p-16">
 					<div className="grid items-center gap-12 lg:grid-cols-5">
-						<div className="lg:col-span-3">
+						{/* Mobile: Logo at top, Desktop: Logo on right */}
+						<div className="lg:col-span-2 order-first lg:order-last flex justify-center">
+							<Image
+								alt="Nusantara Aroma Craft Logo"
+								src="/images/logo/nac-logo-official-vertical.png"
+								width={300}
+								height={200}
+								className="lg:w-[450px] lg:h-[300px]"
+							/>
+						</div>
+
+						{/* Mobile: Text below logo, Desktop: Text on left */}
+						<div className="lg:col-span-3 order-last lg:order-first">
 							<h3 className="text-2xl font-medium sm:text-3xl">
 								Membangun Jembatan Antara Kearifan Tradisional dan Pasar Global
 							</h3>
@@ -43,15 +55,6 @@ export const WhoWeAre = () => {
 									<button className="btn btn-primary">Read More</button>
 								</a>
 							</div>
-						</div>
-
-						<div className="lg:col-span-2">
-							<Image
-								alt="Nusantara Aroma Craft Logo"
-								src="/images/logo/nac-logo-official-vertical.png"
-								width={450}
-								height={300}
-							/>
 						</div>
 					</div>
 				</div>

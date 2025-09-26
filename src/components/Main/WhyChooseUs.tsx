@@ -69,6 +69,20 @@ const WhyChooseUs = () => {
 						/>
 					))}
 				</div>
+				<div className="mt-16 text-center">
+					<h3 className="text-2xl font-medium">Mari Ciptakan Keunggulan Bersama</h3>
+					<p className="text-base-content/80 mt-2">
+						Bergabunglah dengan jaringan mitra eksklusif yang telah merasakan keunggulan produk Indoneisa di pasar global.
+					</p>
+					<div className="mt-6">
+						<a href="/contact">
+							<button className="btn btn-outline btn-wide btn-lg rounded-xl">
+								<span className="iconify lucide--handshake size-5"></span>
+								Contact Us Today
+							</button>
+						</a>
+					</div>
+				</div>
 			</div>
 		</section>
 	);
