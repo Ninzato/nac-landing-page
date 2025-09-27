@@ -11,7 +11,7 @@ export const PerfumeCatalogDataEng: PerfumeCatalog[] = [
 		price: 100000,
 		title: 'JAVA OUDH',
 		description:
-			"Journey into the heart of Java, where ancient trees whisper secrets of the earth. JAVA OUDH is more than a scent; it's an echo of misty jungles and sacred traditions. This bold, smoky fragrance is for the discerning individual who carries an air of mystery and unwavering strength. It’s the aroma of timeless heritage, bottled.",
+			"Journey into the heart of Java, where ancient trees whisper secrets of the earth. JAVA OUDH is more than a scent; it's an echo of misty jungles and sacred traditions. This bold, smoky fragrance is for the discerning individual who carries an air of mystery and unwavering strength. It's the aroma of timeless heritage, bottled.",
 		uniquePoints: [
 			'Deep smoky oud',
 			'Resinous and mystical',
@@ -59,7 +59,7 @@ export const PerfumeCatalogDataEng: PerfumeCatalog[] = [
 		price: 100000,
 		title: 'BALI SUNRISE',
 		description:
-			'Experience the first light of dawn over the shores of Bali. BALI SUNRISE is a breath of fresh, floral air, blended with the calming serenity of aquatic notes. It’s a fragrance that evokes peace, new beginnings, and the simple, pure joy of a perfect morning by the ocean.',
+			`Experience the first light of dawn over the shores of Bali. BALI SUNRISE is a breath of fresh, floral air, blended with the calming serenity of aquatic notes. It's a fragrance that evokes peace, new beginnings, and the simple, pure joy of a perfect morning by the ocean.`,
 		uniquePoints: [
 			'Fresh floral aquatic',
 			'Captures serene Bali sunrise',
@@ -71,7 +71,7 @@ export const PerfumeCatalogDataEng: PerfumeCatalog[] = [
 		price: 100000,
 		title: 'MELATI DREAM',
 		description:
-			"MELATI DREAM is an ode to Indonesia's most cherished flower. This fragrance captures the intoxicating romance of jasmine blossoms under the moonlight. It’s a dreamy, elegant scent that speaks of timeless beauty, delicate grace, and the sweet promise of a tropical night.",
+			"MELATI DREAM is an ode to Indonesia's most cherished flower. This fragrance captures the intoxicating romance of jasmine blossoms under the moonlight. It's a dreamy, elegant scent that speaks of timeless beauty, delicate grace, and the sweet promise of a tropical night.",
 		uniquePoints: [
 			'Intensely floral jasmine',
 			'Romantic and elegant',
@@ -83,7 +83,7 @@ export const PerfumeCatalogDataEng: PerfumeCatalog[] = [
 		price: 100000,
 		title: 'SUNDA BREEZE',
 		description:
-			'Feel the refreshing coolness of the wind across the Sunda Strait. SUNDA BREEZE is a clean, uplifting blend of bright citrus and airy aquatic notes. It’s the scent of clarity, freedom, and effortless style—a revitalizing splash that awakens the senses and clears the mind.',
+			`Feel the refreshing coolness of the wind across the Sunda Strait. SUNDA BREEZE is a clean, uplifting blend of bright citrus and airy aquatic notes. It's the scent of clarity, freedom, and effortless style—a revitalizing splash that awakens the senses and clears the mind.`,
 		uniquePoints: [
 			'Clean citrus-aquatic',
 			'Invigorating and airy',
@@ -107,7 +107,7 @@ export const PerfumeCatalogDataEng: PerfumeCatalog[] = [
 		price: 100000,
 		title: 'BUMI VANILI',
 		description:
-			"BUMI VANILI, or 'Earth Vanilla,' celebrates the union of land and its sweetest yield. This comforting scent wraps you in the warmth of rich, creamy vanilla, rooted in an earthy, woody base. It’s like the cozy, sweet aroma of vanilla beans drying in the sun on fertile soil—a truly soothing and indulgent experience.",
+			"BUMI VANILI, or 'Earth Vanilla,' celebrates the union of land and its sweetest yield. This comforting scent wraps you in the warmth of rich, creamy vanilla, rooted in an earthy, woody base. It's like the cozy, sweet aroma of vanilla beans drying in the sun on fertile soil—a truly soothing and indulgent experience.",
 		uniquePoints: [
 			'Sweet earthy gourmand',
 			'Indonesian vanilla richness',
@@ -126,6 +126,18 @@ export const PerfumeCatalogDataEng: PerfumeCatalog[] = [
 			'Inspired by mystical highlands',
 		],
         imagePath: '/images/landing/catalog.png'
+	},
+	{
+		price: 100000,
+		title: 'RARAS ANISA',
+		description:
+			"Inspired by the heart of Sundanese land, RARAS ANISA captures the elegance and beauty of Princess Priyanjan. This fragrance is a gentle harmony of lush jasmine, the warmth of sandalwood, and the depth of oud. Opening with Champs Elisses Ehsas and Al Wafa, it evolves into aromatic sandalwood warmth, then settles into the royal sophistication of Roberto Cavalli and Mukhallat Oud. A beauty that soothes the soul and celebrates quiet strength.",
+		uniquePoints: [
+			'Harmonious blend of jasmine, sandalwood, and oud',
+			'Royal sophistication with gentle strength',
+			'Inspired by Sundanese heritage and Princess Priyanjan',
+		],
+		imagePath: '/images/landing/raras-anisa-feature-1.png',
 	},
 ];
 
@@ -249,5 +261,17 @@ export const PerfumeCatalogDataId: PerfumeCatalog[] = [
 			'Terinspirasi dataran tinggi mistis',
 		],
 		imagePath: '/images/landing/catalog.png',
+	},
+	{
+		price: 100000,
+		title: 'RARAS ANISA',
+		description:
+			"Terinspirasi oleh jantung tanah Sunda. RARAS ANISA adalah wewangian yang menangkap keanggunan dan kecantikan putri Priyanjan. Ini adalah harmoni lembut melati yang rimbun, kehangatan cendana, dan kedalaman oud. Dibuka dengan Champs Elisses Ehsas dan Al Wafa, berkembang menjadi kehangatan aromatik cendana, lalu menetap dalam kemewahan royal Roberto Cavalli dan Mukhallat Oud. Keindahan yang menenangkan jiwa dan merayakan kekuatan yang lembut.",
+		uniquePoints: [
+			'Perpaduan harmonis melati, cendana, dan oud',
+			'Kemewahan royal dengan kekuatan yang lembut',
+			'Terinspirasi warisan Sunda dan Putri Priyanjan',
+		],
+		imagePath: '/images/landing/raras-anisa-feature-1.png',
 	},
 ];

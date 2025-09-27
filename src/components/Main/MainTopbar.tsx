@@ -30,8 +30,8 @@ export const MainTopbar = () => {
 							<Image
 								alt="Nusantara Aroma Craft Logo"
 								src="/images/logo/nac-logo-official.svg"
-								width={100}
-								height={100}
+								width={75}
+								height={50}
 							/>
 						</Link>
 					</div>
@@ -45,8 +45,8 @@ export const MainTopbar = () => {
 							<Image
 								alt="Nusantara Aroma Craft Logo"
 								src="/images/logo/nac-logo-official.svg"
-								width={100}
-								height={100}
+								width={50}
+								height={50}
 							/>
 						</Link>
 					</div>

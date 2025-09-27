@@ -8,7 +8,6 @@
 /* Apply Playfair Display font to body text elements within perfume container */
 .perfumeContainer p,
 .perfumeContainer div,
-.perfumeContainer span,
 .perfumeContainer article,
 .perfumeContainer section,
 .perfumeContainer main,
@@ -37,6 +36,9 @@
 .perfumeContainer .font-montserrat,
 .perfumeContainer .font-montserrat *,
 .perfumeContainer li.font-montserrat,
-.perfumeContainer li.font-montserrat * {
+.perfumeContainer li.font-montserrat *,
+.perfumeContainer span.font-montserrat,
+.perfumeContainer span.font-montserrat *
+ {
   font-family: 'Montserrat', sans-serif !important;
 }

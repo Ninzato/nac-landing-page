@@ -12,12 +12,12 @@ const CatalogWrapper = () => {
 			>
 				<div className="container">
 					{/* Header Section */}
-					<div className="text-center mb-16">
-						<p className="text-sm tracking-wider mb-4 font-montserrat text-primary">
+					<div className="text-center mb-16 flex flex-col gap-6">
+						<p className="text-sm tracking-wider font-montserrat text-primary">
 							KOLEKSI PARFUM
 						</p>
-						<h1 className="text-4xl lg:text-5xl font-bold mb-6 text-accent">PRODUK KAMI.</h1>
-						<p className="text-lg text-accent-75 max-w-2xl mx-auto leading-relaxed">
+						<h1 className="text-4xl font-bold tracking-tight lg:text-6xl lg:leading-none text-center text-accent">PRODUK KAMI.</h1>
+						<p className="text-xl text-accent-75 max-w-2xl mx-auto leading-relaxed">
 							Koleksi parfum eksklusif yang menghadirkan keharuman khas Nusantara.
 							Setiap aroma menceritakan kisah budaya dan tradisi Indonesia yang
 							kaya, dikemas dalam botol mewah untuk pengalaman yang tak
