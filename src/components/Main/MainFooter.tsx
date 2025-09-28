@@ -33,7 +33,7 @@ export const MainFooter = () => {
                         <div>
                             <h2 className="text-lg font-medium">Services</h2>
                             <div className="**:hover:text-primary mt-4 space-y-2 **:block **:transition-all">
-                                <Link href="/export-import/services">Export Import</Link>
+                                <Link href="/export-import/our-services">Export Import</Link>
                             </div>
                         </div>
                     </div>

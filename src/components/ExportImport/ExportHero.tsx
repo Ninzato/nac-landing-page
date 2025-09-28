@@ -31,7 +31,7 @@ export function Hero({
 						<h1 className="text-pretty text-4xl md:text-5xl font-semibold tracking-tight">
 							{title}{' '}
 							{highlight ? (
-								<span className="text-primary">{highlight}</span>
+								<span className="text-secondary">{highlight}</span>
 							) : null}
 						</h1>
 						<p className="text-base-content/80 mt-8 sm:text-lg">

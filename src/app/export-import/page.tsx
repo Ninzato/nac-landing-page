@@ -1,5 +1,3 @@
-import Image from 'next/image';
-import Link from 'next/link';
 import { Hero } from '@/components/ExportImport/ExportHero';
 import { ExportTopbar } from '@/components/ExportImport/ExportTopbar';
 import ExportSelectedCommodities from '@/components/ExportImport/ExportSelectedCommodities';
