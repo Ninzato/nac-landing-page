@@ -1,0 +1,368 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "contact": "Contact",
+    "perfume": "NAC Perfume",
+    "export": "NAC Export",
+    "services": "Export Import"
+  },
+  "hero": {
+    "title": "Discover Indonesia's Luxury Heritage",
+    "subtitle": "Discover the elegance of Indonesian aromas that have captivated the world for centuries. Nusantara Aroma Craft presents premium perfumes and high-quality commodities that combine traditional Nusantara heritage with international luxury standards. From legendary agarwood essence to coffee with unmatched character, we bridge Indonesia's natural wealth with the global premium market.",
+    "perfumeButton": "Explore Perfume Collection",
+    "exportButton": "View Export Services"
+  },
+  "footer": {
+    "company": "Company",
+    "home": "Home",
+    "about": "About Us",
+    "contact": "Contact Us",
+    "brands": "Our Brands",
+    "perfume": "NAC Perfume",
+    "export": "NAC Export",
+    "services": "Services",
+    "exportImport": "Export Import",
+    "copyright": "© 2025 Nusantara Aroma Craft. All rights reserved. | Made with ❤️ for Indonesian Excellence"
+  },
+  "whyChooseUs": {
+    "title": "Why Choose NAC?",
+    "subtitle": "Excellence that makes Nusantara Aroma Craft the top choice for international business partners",
+    "heritage": {
+      "title": "Heritage & Expertise",
+      "description": "Over 20 years of experience in Indonesia's aromatic industry"
+    },
+    "quality": {
+      "title": "Quality Assurance",
+      "description": "International certification and premium quality control at every production stage"
+    },
+    "network": {
+      "title": "Exclusive Network",
+      "description": "Exclusive access to the best suppliers and trusted global distribution networks"
+    },
+    "custom": {
+      "title": "Custom Solutions",
+      "description": "Product customization services tailored to specific business partner needs"
+    },
+    "ctaTitle": "Let's Create Excellence Together",
+    "ctaDescription": "Join our exclusive partner network that has experienced the excellence of Indonesian products in the global market.",
+    "ctaButton": "Contact Us Today"
+  },
+  "whoWeAre": {
+    "title": "Who We Are",
+    "subtitle": "Get to know Nusantara Aroma Craft and our dedication to elevating Indonesia's aromatic heritage to the world stage",
+    "mainTitle": "Building Bridges Between Traditional Wisdom and Global Markets",
+    "paragraph1": "Indonesia is home to some of the rarest and most precious aromas in the world. From legendary agarwood to coffee with unmatched character, the Nusantara archipelago holds an olfactory treasure that has captivated civilizations for centuries.",
+    "paragraph2": "Nusantara Aroma Craft was born from the vision to become the guardian and curator of Indonesia's aromatic heritage. We are committed to presenting high-quality perfumes inspired by Nusantara's natural wealth, as well as facilitating premium commodity trade with the highest international standards. Every product we present reflects our dedication to elevating Indonesia's beauty to the global stage.",
+    "readMoreButton": "Read more"
+  },
+  "perfumeHero": {
+    "title": "Raras Anisa,",
+    "subtitle": "Sundanese Harmony",
+    "description": "Inspired by the heart of Sundanese land. RARAS ANISA captures the elegance and beauty of Princess Priyanjan. This is a gentle harmony of lush jasmine, sandalwood warmth, and oud depth. A beauty that soothes the soul.",
+    "buyButton": "Buy Now"
+  },
+  "exportHero": {
+    "title": "Premium Indonesian Commodities",
+    "highlight": "for Global Markets",
+    "description": "We provide high-quality commodities from Indonesia with international export standards. From specialty coffee to premium agarwood, every product has undergone strict selection and comprehensive quality testing.",
+    "primaryCta": "View Product Catalog",
+    "secondaryCta": "Contact Export Team"
+  },
+  "exportSelectedCommodities": {
+    "title": "Selected Commodities",
+    "subtitle": "Curated for consistent quality and export readiness. We keep specifications transparent and batches traceable.",
+    "agarwood": {
+      "title": "Agarwood (Oud) & Essential Oils",
+      "description": "Selected grades with GC-MS and organoleptic checks. Custom dilutions and export packaging on request.",
+      "features": ["Batch traceability", "CoA/MSDS available", "Secure drum/glass packing"]
+    },
+    "coffee": {
+      "title": "Premium Coffee Beans",
+      "description": "Arabica and Robusta from Sumatra, Java, and Sulawesi. Moisture control, screen size, and defects checked.",
+      "features": ["Specialty-grade options", "Valve bag export packaging", "Lot cupping notes"]
+    },
+    "charcoal": {
+      "title": "Coconut Shell Charcoal",
+      "description": "High-quality charcoal for shisha and BBQ. High carbon content, low ash, and long burning time.",
+      "features": ["Carbon content >85%", "Ash content <3%", "Export standard packaging"]
+    }
+  },
+  "ourStory": {
+    "title": "Our Story",
+    "paragraph1": "Indonesia has been the center of spice and aromatics trade for thousands of years. The legendary silk route carried the fragrance of agarwood, coffee, and Nusantara spices to palaces around the world. However, over time, this aromatic wealth often gets lost in global distribution chains that don't appreciate its uniqueness and original quality.",
+    "paragraph2": "Nusantara Aroma Craft was born from this concern. Founded by a group of professionals who share the same vision about the importance of preserving and elevating Indonesia's aromatic heritage, we are committed to becoming a bridge between traditional Nusantara wisdom and modern global market needs.",
+    "paragraph3": "Our journey began with deep exploration to various regions in Indonesia, studying traditional perfume-making techniques and aromatic commodity processing. From the forests of Kalimantan that hold the world's finest agarwood, to coffee plantations in Java's mountains that produce beans with unique character, every step brought us closer to Indonesia's true essence."
+  },
+  "contactForm": {
+    "title": "Ready to Start Partnership?",
+    "phone": {
+      "title": "Call Us",
+      "description": "Prefer to chat? Give us a call Monday-Friday, 9AM-5PM (GMT+7)"
+    },
+    "hours": {
+      "title": "Business Hours",
+      "monday": "Monday - Friday: 09:00 - 17:00 WIB",
+      "saturday": "Saturday: 09:00 - 12:00 WIB",
+      "sunday": "Sunday: Closed"
+    },
+    "response": {
+      "title": "Quick Response",
+      "description": "Our team is committed to providing responses within 24 hours for all business and partnership inquiries."
+    }
+  },
+  "contactInquiry": {
+    "name": "Full Name",
+    "email": "Email",
+    "company": "Company",
+    "phone": "Phone Number",
+    "subject": "Subject",
+    "message": "Message",
+    "submit": "Send Message",
+    "namePlaceholder": "Your Name",
+    "emailPlaceholder": "email@company.com",
+    "companyPlaceholder": "Company Name",
+    "phonePlaceholder": "+62 xxx xxxx xxxx",
+    "subjectPlaceholder": "Inquiry topic",
+    "messagePlaceholder": "Describe your needs or questions..."
+  },
+  "ourBrands": {
+    "title": "Our Brands",
+    "subtitle": "Two flagship business lines that are the pride and representation of Nusantara Aroma Craft in the global market",
+    "perfume": {
+      "badgeText": "perfume Collection",
+      "title": "NAC perfume",
+      "description": "Taste the essence of Indonesia in every drop. Our premium perfume collection presents a modern interpretation of Nusantara's aromatic heritage that has captivated the world for centuries. Each bottle is the result of a perfect blend of selected raw materials and experienced perfumer expertise.",
+      "features": [
+        "Exclusive Indonesian Aroma",
+        "Selected Raw Materials",
+        "Captivating Aroma Projection",
+        "Premium Collection Packaging"
+      ],
+      "buttonText": "Explore Collection"
+    },
+    "export": {
+      "badgeText": "Export Import",
+      "title": "NAC Export",
+      "description": "Connecting Indonesia's wealth with global premium markets. Our export-import services deliver high-quality commodities with international standards, enabling business partners worldwide to experience the excellence of authentic and premium Indonesian products.",
+      "features": [
+        "Premium Nusantara Coffee",
+        "High-Quality Agarwood",
+        "Global Distribution Network",
+        "International Standard Certification"
+      ],
+      "buttonText": "Our Services"
+    }
+  },
+  "timeline": {
+    "title": "Nusantara Aroma Craft Journey",
+    "entries": [
+      {
+        "date": "1990s",
+        "title": "Exploration of Indonesia's Aromatic Heritage",
+        "content": "Our journey began with deep exploration of the Nusantara's aromatic heritage wealth. We explored various regions in Indonesia to understand the traditional use of spices and aromatherapy that have been passed down through generations, identifying premium ingredients that became Indonesia's olfactory identity."
+      },
+      {
+        "date": "2000s",
+        "title": "Development of Traditional Supplier Networks",
+        "content": "This decade marked the formation of strategic partnership networks with local farmers and artisans. We built direct relationships with traditional communities that have maintained the quality of aromatic materials for generations, ensuring sustainable and high-quality supply while supporting the local economy."
+      },
+      {
+        "date": "2010s",
+        "title": "International Certification and Global Expansion",
+        "content": "An era of transformation towards global standards where we achieved various international certifications that recognize the quality and authenticity of our products. Expansion into international markets began, introducing the uniqueness of Indonesian aromas to the world while maintaining traditional values and premium quality."
+      },
+      {
+        "date": "2020s",
+        "title": "Sustainable Innovation and Premium Partnerships",
+        "content": "Entering the digital and sustainability era, we integrated cutting-edge technology in the production process while strengthening our commitment to environmentally friendly practices. Partnerships with premium global brands strengthened our position as pioneers in the high-quality aromatherapy industry from Indonesia."
+      }
+    ]
+  },
+  "contactCard": {
+    "title": "Contact Us",
+    "subtitle": "Start your business partnership journey with Nusantara Aroma Craft",
+    "email": "Email",
+    "offices": "Offices",
+    "jakarta": "Jakarta",
+    "surabaya": "Surabaya"
+  },
+  "perfume": {
+    "catalog": {
+      "badge": "PERFUME COLLECTION",
+      "title": "OUR PRODUCTS.",
+      "description": "Exclusive perfume collection that brings the distinctive aroma of the Nusantara. Each scent tells the story of Indonesia's rich culture and traditions, packaged in luxurious bottles for an unforgettable experience."
+    },
+    "transition": {
+      "line1": "Our latest masterpiece in the world of perfume.",
+      "line2": "Blending Gentleness, Harmony and Goodness",
+      "line3": "In a formulation of the finest quality."
+    },
+    "cta": {
+      "title": "Experience the sensation of Sundanese harmony aroma",
+      "buttonText": "Check Product",
+      "subtitle": "Bring comfort and confidence",
+      "description": "Raras Anisa fragrance is intended for those who appreciate quiet beauty and gentle strength. This aroma is a celebration of identity, created with love and respect for the noble Sundanese heritage."
+    },
+    "features": [
+      {
+        "tagline": "Like dawn in the green meadow",
+        "title": "Opened with Champs Elisses Ehsas and Al Wafa",
+        "description": "With the initial aroma nuances of Champs Elisses Ehsas and Al Wafa, Raras Anisa appears like morning light in the meadows of Priyanjan. Offering primal, captivating, and refreshing beauty."
+      },
+      {
+        "tagline": "Unparalleled elegance",
+        "title": "Sandalwood Aromatic Core",
+        "description": "The warm aromatic blend of Sandalwood brings the essence of 'Raras'--balanced warmth, tranquility and elegance. A perfect symbol of the distinctive Sundanese spirit."
+      },
+      {
+        "tagline": "Heavenly palace in every drop",
+        "title": "Blend of Roberto Cavalli and Mukhallat Oud",
+        "description": "With royal fragrance nuances, Raras Anisa creates depth and distinction in every touch. This aroma depicts the quiet strength and attraction behind gentle beauty."
+      }
+    ],
+    "card": {
+      "viewDetails": "VIEW DETAILS"
+    },
+    "modal": {
+      "contactSeller": "Contact Seller",
+      "whatsappMessage": "Hello! I'm interested in the {title} perfume priced at {price}. Could you provide more information about this product?"
+    }
+  },
+  "orderStep": {
+    "title": "How Export Orders Are Made",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Inquiry & Specs.",
+        "description": "Tell us your target specs, quantity, destination, Incoterms, and timeline."
+      },
+      {
+        "number": "2",
+        "title": "Quote & Samples.",
+        "description": "We confirm availability, submit pricing and lead times, and dispatch samples if needed."
+      },
+      {
+        "number": "3",
+        "title": "QC & Documents.",
+        "description": "We run quality checks and prepare CoA/MSDS, phytosanitary/export permits, and HS codes."
+      },
+      {
+        "number": "4",
+        "title": "Packing & Shipment.",
+        "description": "Commodity‑appropriate packing, insurance options, tracking updates, and on‑time delivery."
+      }
+    ],
+    "viewServicesButton": "View Our Services"
+  },
+  "exportWhyChooseUs": {
+    "title": "Why Choose Us",
+    "subtitle": "A professional export workflow built on quality, documentation, and reliable logistics.",
+    "features": [
+      {
+        "title": "Verified Sourcing",
+        "description": "Trusted producers across Indonesia with transparent specs."
+      },
+      {
+        "title": "Rigorous QC",
+        "description": "Multi‑stage checks with optional third‑party inspection (SGS)."
+      },
+      {
+        "title": "Full Compliance",
+        "description": "CoA, MSDS, phytosanitary, export permits, and HS coding."
+      },
+      {
+        "title": "On‑Time Logistics",
+        "description": "Clear milestones, insurance options, and shipment tracking."
+      }
+    ]
+  },
+  "exportCta": {
+    "title": "Ready to Start Your Order?",
+    "subtitle": "Let's move from specs to shipment with a partner focused on quality and reliability.",
+    "viewServicesButton": "View Our Services"
+  },
+  "ourServices": {
+    "hero": {
+      "title": "Professional",
+      "titleHighlight": "Export Services",
+      "description": "We operate transparently with strict quality assurance, complete documentation, and reliable logistics. Expect clear Incoterms, agreed timelines, and proactive communication from inquiry to delivery."
+    },
+    "process": {
+      "title": "Our Process",
+      "steps": [
+        {
+          "title": "Sourcing & Curation",
+          "description": "Direct procurement from vetted producers—agarwood/oud, essential oils, specialty coffee, and premium charcoal—mapped by origin and seasonality to ensure authenticity and consistency."
+        },
+        {
+          "title": "Quality Control",
+          "description": "Commodity‑specific checks: GC‑MS & organoleptic for oils; moisture/ash/fixed carbon for charcoal; screen size, defects, and moisture for coffee. Optional third‑party inspections (SGS)."
+        },
+        {
+          "title": "Documentation & Compliance",
+          "description": "We prepare CoA/MSDS, phytosanitary certificates, export permits, packing lists, invoices, BL/AWB, and HS coding. We align with your destination's regulatory requirements."
+        },
+        {
+          "title": "Packaging & Logistics",
+          "description": "Drums and glass (oils), valve bags (coffee), cartons/master cartons (charcoal). We arrange sea/air freight, insurance options, and provide milestone updates until delivery."
+        }
+      ]
+    },
+    "quality": {
+      "title": "Quality & Assurance",
+      "points": [
+        "Batch traceability and retained samples",
+        "Certificates: CoA, MSDS, phytosanitary as applicable",
+        "Optional SGS/third‑party inspection and pre‑shipment checks",
+        "Clear specs and tolerance ranges agreed upfront"
+      ]
+    },
+    "logistics": {
+      "title": "Logistics, Incoterms & Payments",
+      "description": [
+        "We support EXW, FOB, CFR, and CIF depending on your route and risk preference. Freight is arranged with reputable carriers and we provide tracking and milestone updates.",
+        "Payment terms are aligned to commodity and jurisdiction, typically T/T with agreed deposits and balance before or against documents. LC may be available for qualified partners."
+      ],
+      "requestQuoteButton": "Request a Quote"
+    }
+  },
+  "ourCommodities": {
+    "title": "Our Commodities",
+    "subtitle": "A focused portfolio built for reliability and performance across perfumery, coffee, and charcoal applications.",
+    "commodities": [
+      {
+        "name": "Agarwood (Oud) & Essential Oils",
+        "description": "Rare Indonesian oud chips, oud oils, and essential oils with distinctive olfactory profiles curated for perfumery.",
+        "points": [
+          "Selected grades & batches",
+          "GC‑MS & organoleptic checks",
+          "Custom dilutions & packaging"
+        ]
+      },
+      {
+        "name": "Premium Coffee Beans",
+        "description": "Arabica and Robusta from Sumatra, Java, and Sulawesi—traceable lots with cupping notes and moisture control.",
+        "points": [
+          "Specialty‑grade options",
+          "Screen size & defect control",
+          "Valve bag export packaging"
+        ]
+      },
+      {
+        "name": "Charcoal (Shisha & BBQ)",
+        "description": "Coconut shell and hardwood charcoal with high fixed carbon, low ash, and consistent size for shisha and BBQ.",
+        "points": [
+          "Low ash, long‑burning",
+          "Cube/finger sizes available",
+          "SGS inspection on request"
+        ]
+      }
+    ],
+    "inquireButton": "Inquire Availability"
+  },
+  "metadata": {
+    "title": "Nusantara Aroma Craft - Indonesia's Luxury Heritage",
+    "description": "Discover premium Indonesian perfumes and high-quality commodities. Nusantara Aroma Craft combines traditional heritage with international luxury standards."
+  }
+}

@@ -1,7 +1,10 @@
 import Image from "next/image";
-import Link from "next/link";
+import {useTranslations} from 'next-intl';
+import {Link} from '@/i18n/routing';
 
 export const MainFooter = () => {
+    const t = useTranslations('footer');
+
     return (
         <footer className="border-base-300 border-t">
             <div className="p-8 sm:p-10 md:px-16 xl:px-40 xl:py-16">
@@ -16,24 +19,24 @@ export const MainFooter = () => {
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 lg:gap-12">
                         <div>
-                            <h2 className="text-lg font-medium">Company</h2>
+                            <h2 className="text-lg font-medium">{t('company')}</h2>
                             <div className="**:hover:text-primary mt-4 space-y-2 **:block **:transition-all">
-                                <Link href="/">Home</Link>
-                                <Link href="/about">About Us</Link>
-                                <Link href="/contact">Contact Us</Link>
+                                <Link href="/">{t('home')}</Link>
+                                <Link href="/about">{t('about')}</Link>
+                                <Link href="/contact">{t('contact')}</Link>
                             </div>
                         </div>
                         <div>
-                            <h2 className="text-lg font-medium">Our Brands</h2>
+                            <h2 className="text-lg font-medium">{t('brands')}</h2>
                             <div className="**:hover:text-primary mt-4 space-y-2 **:block **:transition-all">
-                                <Link href="/perfume">NAC perfume</Link>
-                                <Link href="/export-import">NAC Export</Link>
+                                <Link href="/perfume">{t('perfume')}</Link>
+                                <Link href="/export-import">{t('export')}</Link>
                             </div>
                         </div>
                         <div>
-                            <h2 className="text-lg font-medium">Services</h2>
+                            <h2 className="text-lg font-medium">{t('services')}</h2>
                             <div className="**:hover:text-primary mt-4 space-y-2 **:block **:transition-all">
-                                <Link href="/export-import/our-services">Export Import</Link>
+                                <Link href="/export-import/our-services">{t('exportImport')}</Link>
                             </div>
                         </div>
                     </div>
@@ -42,8 +45,7 @@ export const MainFooter = () => {
 
             <div className="px-8 py-4 text-center lg:px-40">
                 <p className="text-sm text-base-content/60">
-                    © 2025 Nusantara Aroma Craft. All rights reserved. |
-                    Made with ❤️ for Indonesian Excellence
+                    {t('copyright')}
                 </p>
             </div>
         </footer>

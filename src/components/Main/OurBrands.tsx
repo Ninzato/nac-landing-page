@@ -1,6 +1,9 @@
 import { BrandSection } from './BrandSection';
+import { useTranslations } from 'next-intl';
 
 export const OurBrands = () => {
+	const t = useTranslations('ourBrands');
+
 	return (
 		<section
 			className="relative py-8 lg:py-20"
@@ -12,27 +15,27 @@ export const OurBrands = () => {
 
 			<div className="container">
 				<div className="flex flex-col items-center">
-					<h2 className="text-3xl font-semibold sm:text-5xl">Our Brands</h2>
+					<h2 className="text-3xl font-semibold sm:text-5xl">{t('title')}</h2>
 					<p className="text-base-content/80 mt-4 sm:text-xl text-center max-w-4xl mx-auto">
-						Dua lini bisnis unggulan yang menjadi kebanggaan dan representasi Nusantara Aroma Craft di pasar global
+						{t('subtitle')}
 					</p>
 				</div>
 
 				<div className="mt-8 space-y-8 lg:mt-20 xl:space-y-20">
 					<BrandSection
 						imageSrc="/images/landing/perfume-brand.png"
-						imageAlt="NAC perfume"
-						badgeText="perfume Collection"
+						imageAlt={t('perfume.title')}
+						badgeText={t('perfume.badgeText')}
 						badgeColor="primary"
-						title="NAC perfume"
-						description="asakan esensi Indonesia dalam setiap tetes. Koleksi parfum premium kami menghadirkan interpretasi modern dari warisan aromatik Nusantara yang telah memikat dunia selama berabad-abad. Setiap botol adalah hasil dari perpaduan sempurna antara bahan baku terselecta dan keahlian parfumer berpengalaman."
+						title={t('perfume.title')}
+						description={t('perfume.description')}
 						features={[
-							"Aroma Eksklusif Indonesia",
-							"Bahan Baku Pilihan",
-							"Proyeksi Aroma Menawan",
-							"Kemasan Koleksi Premium"
+							t('perfume.features.0'),
+							t('perfume.features.1'),
+							t('perfume.features.2'),
+							t('perfume.features.3')
 						]}
-						buttonText="Explore Collection"
+						buttonText={t('perfume.buttonText')}
 						buttonHref="/perfume"
 						buttonColor="primary"
 						buttonIcon="lucide--arrow-right"
@@ -40,18 +43,18 @@ export const OurBrands = () => {
 
 					<BrandSection
 						imageSrc="/images/landing/cargo.jpg"
-						imageAlt="NAC Export"
-						badgeText="Export Import"
+						imageAlt={t('export.title')}
+						badgeText={t('export.badgeText')}
 						badgeColor="secondary"
-						title="NAC Export"
-						description="Menghubungkan kekayaan Indonesia dengan pasar global premium. Layanan ekspor-impor kami menghadirkan komoditi berkualitas tinggi dengan standar internasional, memungkinkan mitra bisnis di seluruh dunia merasakan keunggulan produk Indonesia yang autentik dan premium."
+						title={t('export.title')}
+						description={t('export.description')}
 						features={[
-							"Kopi Premium Nusantara",
-							"Kayu Agarwood Berkualitas Tinggi",
-							"Jaringan Distribusi Global",
-							"Sertifikasi Berstandar Internasional"
+							t('export.features.0'),
+							t('export.features.1'),
+							t('export.features.2'),
+							t('export.features.3')
 						]}
-						buttonText="Our Services"
+						buttonText={t('export.buttonText')}
 						buttonHref="/export-import"
 						buttonColor="secondary"
 						buttonIcon="lucide--globe"

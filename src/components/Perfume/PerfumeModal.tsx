@@ -5,13 +5,16 @@ import { useRouter, useSearchParams } from 'next/navigation';
 import { WhatsAppIcon } from '@/components/icon/WhatsAppIcon';
 import Image from 'next/image';
 import { useEffect, useCallback } from 'react';
+import { useTranslations, useLocale } from 'next-intl';
 
 export const PerfumeModal = () => {
   const router = useRouter();
   const searchParams = useSearchParams();
+  const t = useTranslations('perfume.modal');
+  const locale = useLocale();
 
   const perfumeSlug = searchParams.get('perfume');
-  const selectedPerfume = perfumeSlug ? findPerfumeBySlug(perfumeSlug) : null;
+  const selectedPerfume = perfumeSlug ? findPerfumeBySlug(perfumeSlug, locale) : null;
   const isModalOpen = !!selectedPerfume;
 
   const closeModal = useCallback(() => {
@@ -110,13 +113,16 @@ export const PerfumeModal = () => {
               {/* WhatsApp Contact Button */}
               <div className="pt-4 border-t border-gray-200">
                 <a
-                  href={generateWhatsAppURL(selectedPerfume)}
+                  href={generateWhatsAppURL(selectedPerfume, t('whatsappMessage', {
+                    title: selectedPerfume.title,
+                    price: formatPrice(selectedPerfume.price)
+                  }))}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center w-full bg-primary hover:bg-green-600 text-white font-semibold py-4 px-6 rounded-lg transition-colors duration-200 font-montserrat"
                 >
                   <WhatsAppIcon className="w-5 h-5 mr-2" />
-                  Hubungi Penjual
+                  {t('contactSeller')}
                 </a>
               </div>
             </div>

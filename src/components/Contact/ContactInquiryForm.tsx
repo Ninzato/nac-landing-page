@@ -1,8 +1,10 @@
 "use client";
 
 import React, { useState } from 'react';
+import {useTranslations} from 'next-intl';
 
 const ContactInquiryForm = () => {
+	const t = useTranslations('contactInquiry');
 	const [formData, setFormData] = useState({
 		fullName: '',
 		email: '',
@@ -66,7 +68,7 @@ ${formData.message}
 
 	return (
 		<div>
-			<h3 className="text-2xl font-medium mb-6">Kirim Pertanyaan</h3>
+			<h3 className="text-2xl font-medium mb-6">{t("submit")}</h3>
 
 			{/* Success Message */}
 			{submitStatus === 'success' && (
@@ -89,13 +91,13 @@ ${formData.message}
 
 			<form onSubmit={handleSubmit} className="space-y-4">
 				<fieldset className="fieldset">
-					<legend className="fieldset-legend">Nama Lengkap</legend>
+					<legend className="fieldset-legend">{t("name")}</legend>
 					<input
 						name="fullName"
 						value={formData.fullName}
 						onChange={handleInputChange}
 						className="input w-full focus:outline-0"
-						placeholder="First and last name"
+						placeholder={t("namePlaceholder")}
 						type="text"
 						required
 					/>

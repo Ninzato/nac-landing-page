@@ -1,7 +1,10 @@
 import Image from 'next/image';
-import Link from 'next/link';
+import {useTranslations} from 'next-intl';
+import {Link} from '@/i18n/routing';
 
 export const MainHero = () => {
+	const t = useTranslations('hero');
+
 	return (
 		<section
 			className="py-8 lg:py-20"
@@ -11,23 +14,22 @@ export const MainHero = () => {
 				<div className="grid gap-8 items-center lg:grid-cols-2 lg:gap-16">
 					<div className="max-lg:order-2">
 						<h1 className="text-4xl font-bold tracking-tight lg:text-6xl lg:leading-none">
-							Discover Indonesia&apos;s
-							<span className="text-primary"> Luxury Heritage</span>
+							{t('title')}
 						</h1>
 						<p className="text-base-content/80 mt-8 sm:text-lg">
-							Temukan keanggunan aroma Indonesia yang telah memikat dunia selama berabad-abad. Nusantara Aroma Craft menghadirkan parfum premium dan komoditi berkualitas tinggi yang menggabungkan warisan tradisional Nusantara dengan standar kemewahan internasional. Dari esensi kayu agarwood yang legendaris hingga kopi dengan karakter yang tak tertandingi, kami menjadi jembatan antara kekayaan alam Indonesia dan pasar global premium.
+							{t('subtitle')}
 						</p>
 						<div className="mt-8 inline-flex gap-3 sm:mt-16">
 							<Link href="/perfume">
 								<button className="btn btn-primary text-primary-content">
 									<span className="iconify lucide--sparkles size-4"></span>
-									Jelalahi Koleksi Parfum
+									{t('perfumeButton')}
 								</button>
 							</Link>
 							<Link href="/export-import">
 								<button className="btn btn-secondary">
 									<span className="iconify lucide--globe size-4"></span>
-									Lihat Layanan Ekspor
+									{t('exportButton')}
 								</button>
 							</Link>
 						</div>

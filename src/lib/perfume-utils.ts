@@ -1,4 +1,4 @@
-import { PerfumeCatalogDataId, PerfumeCatalog } from '@/data/perfume/Catalog';
+import { PerfumeCatalogDataId, PerfumeCatalogDataEng, PerfumeCatalog } from '@/data/perfume/Catalog';
 
 export const generateSlug = (title: string): string => {
   return title
@@ -8,8 +8,9 @@ export const generateSlug = (title: string): string => {
     .trim();
 };
 
-export const findPerfumeBySlug = (slug: string) => {
-  return PerfumeCatalogDataId.find(perfume =>
+export const findPerfumeBySlug = (slug: string, locale: string = 'id') => {
+  const perfumeData = locale === 'en' ? PerfumeCatalogDataEng : PerfumeCatalogDataId;
+  return perfumeData.find(perfume =>
     generateSlug(perfume.title) === slug
   );
 };
@@ -22,10 +23,8 @@ export const formatPrice = (price: number) => {
   }).format(price);
 };
 
-export const generateWhatsAppURL = (perfume: PerfumeCatalog, sellerPhone: string = '6281234567890') => {
-  const message = `Halo! Saya tertarik dengan parfum ${perfume.title} seharga ${formatPrice(perfume.price)}. Bisakah Anda memberikan informasi lebih lanjut mengenai produk ini?`;
-
-  const encodedMessage = encodeURIComponent(message);
+export const generateWhatsAppURL = (perfume: PerfumeCatalog, whatsappMessage: string, sellerPhone: string = '6281234567890') => {
+  const encodedMessage = encodeURIComponent(whatsappMessage);
   const whatsappURL = `https://wa.me/${sellerPhone}?text=${encodedMessage}`;
 
   return whatsappURL;

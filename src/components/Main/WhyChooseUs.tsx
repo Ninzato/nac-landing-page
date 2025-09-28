@@ -1,46 +1,46 @@
 import React from 'react';
+import {useTranslations} from 'next-intl';
+import {Link} from '@/i18n/routing';
 import FeatureCard, { FeatureCardProps } from './FeatureCard';
 
-const FeatureCardContents: FeatureCardProps[] = [
-	{
-		iconBg: 'bg-primary/15',
-		iconVariant: 'lucide--sparkles',
-		iconSize: 'size-8',
-		titleColor: 'text-primary',
-		titleContent: 'Heritage & Expertise',
-		textContent:
-			'Lebih dari 20 tahun pengalaman dalam industri aromatik Indonesia',
-	},
-	{
-		iconBg: 'bg-secondary/15',
-		iconVariant: 'lucide--package-check',
-		iconSize: 'size-8',
-		titleColor: 'text-secondary',
-		titleContent: 'Quality Assurance',
-		textContent:
-			'Sertifikasi internasional dan kontrol kualitas premium di setiap tahap produksi',
-	},
-    {
-		iconBg: 'bg-accent/15',
-		iconVariant: 'lucide--award',
-		iconSize: 'size-8',
-		titleColor: 'text-accent',
-		titleContent: 'Exclusive Network',
-		textContent:
-			'Akses eksklusif ke supplier terbaik dan jaringan distribusi global yang terpercaya',
-	},
-    {
-		iconBg: 'bg-neutral/15',
-		iconVariant: 'lucide--brush',
-		iconSize: 'size-8',
-		titleColor: 'text-neutral',
-		titleContent: 'Custom Solutions',
-		textContent:
-			'Layanan kustomisasi produk yang disesuaikan dengan kebutuhan spesifik mitra bisnis',
-	},
-];
-
 const WhyChooseUs = () => {
+	const t = useTranslations('whyChooseUs');
+
+	const FeatureCardContents: FeatureCardProps[] = [
+		{
+			iconBg: 'bg-primary/15',
+			iconVariant: 'lucide--sparkles',
+			iconSize: 'size-8',
+			titleColor: 'text-primary',
+			titleContent: t('heritage.title'),
+			textContent: t('heritage.description'),
+		},
+		{
+			iconBg: 'bg-secondary/15',
+			iconVariant: 'lucide--package-check',
+			iconSize: 'size-8',
+			titleColor: 'text-secondary',
+			titleContent: t('quality.title'),
+			textContent: t('quality.description'),
+		},
+		{
+			iconBg: 'bg-accent/15',
+			iconVariant: 'lucide--award',
+			iconSize: 'size-8',
+			titleColor: 'text-accent',
+			titleContent: t('network.title'),
+			textContent: t('network.description'),
+		},
+		{
+			iconBg: 'bg-neutral/15',
+			iconVariant: 'lucide--brush',
+			iconSize: 'size-8',
+			titleColor: 'text-neutral',
+			titleContent: t('custom.title'),
+			textContent: t('custom.description'),
+		},
+	];
+
 	return (
 		<section
 			className="py-8 lg:py-20"
@@ -49,11 +49,10 @@ const WhyChooseUs = () => {
 			<div className="container flex flex-col gap-8">
 				<div className="text-center">
 					<h2 className="text-3xl font-semibold sm:text-5xl">
-						Why Choose NAC?
+						{t('title')}
 					</h2>
 					<p className="text-base-content/80 mt-4 sm:text-xl text-center max-w-4xl mx-auto">
-						Keunggulan yang membuat Nusantara Aroma Craft menjadi pilihan utama
-						mitra bisnis internasional
+						{t('subtitle')}
 					</p>
 				</div>
 				<div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4'>
@@ -70,17 +69,17 @@ const WhyChooseUs = () => {
 					))}
 				</div>
 				<div className="mt-16 text-center">
-					<h3 className="text-2xl font-medium">Mari Ciptakan Keunggulan Bersama</h3>
+					<h3 className="text-2xl font-medium">{t('ctaTitle')}</h3>
 					<p className="text-base-content/80 mt-2">
-						Bergabunglah dengan jaringan mitra eksklusif yang telah merasakan keunggulan produk Indoneisa di pasar global.
+						{t('ctaDescription')}
 					</p>
 					<div className="mt-6">
-						<a href="/contact">
+						<Link href="/contact">
 							<button className="btn btn-outline btn-wide btn-lg rounded-xl">
 								<span className="iconify lucide--handshake size-5"></span>
-								Contact Us Today
+								{t('ctaButton')}
 							</button>
-						</a>
+						</Link>
 					</div>
 				</div>
 			</div>

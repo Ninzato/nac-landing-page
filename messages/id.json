@@ -1,0 +1,368 @@
+{
+  "navigation": {
+    "home": "Beranda",
+    "about": "Tentang Kami",
+    "contact": "Kontak",
+    "perfume": "NAC Parfum",
+    "export": "NAC Ekspor",
+    "services": "Ekspor Impor"
+  },
+  "hero": {
+    "title": "Temukan Warisan Kemewahan Indonesia",
+    "subtitle": "Temukan keanggunan aroma Indonesia yang telah memikat dunia selama berabad-abad. Nusantara Aroma Craft menghadirkan parfum premium dan komoditi berkualitas tinggi yang menggabungkan warisan tradisional Nusantara dengan standar kemewahan internasional. Dari esensi kayu agarwood yang legendaris hingga kopi dengan karakter yang tak tertandingi, kami menjadi jembatan antara kekayaan alam Indonesia dan pasar global premium.",
+    "perfumeButton": "Jelajahi Koleksi Parfum",
+    "exportButton": "Lihat Layanan Ekspor"
+  },
+  "footer": {
+    "company": "Perusahaan",
+    "home": "Beranda",
+    "about": "Tentang Kami",
+    "contact": "Kontak Kami",
+    "brands": "Merek Kami",
+    "perfume": "NAC Parfum",
+    "export": "NAC Ekspor",
+    "services": "Layanan",
+    "exportImport": "Ekspor Impor",
+    "copyright": "© 2025 Nusantara Aroma Craft. Hak cipta dilindungi. | Dibuat dengan ❤️ untuk Keunggulan Indonesia"
+  },
+  "whyChooseUs": {
+    "title": "Mengapa Memilih NAC?",
+    "subtitle": "Keunggulan yang membuat Nusantara Aroma Craft menjadi pilihan utama mitra bisnis internasional",
+    "heritage": {
+      "title": "Heritage & Expertise",
+      "description": "Lebih dari 20 tahun pengalaman dalam industri aromatik Indonesia"
+    },
+    "quality": {
+      "title": "Quality Assurance",
+      "description": "Sertifikasi internasional dan kontrol kualitas premium di setiap tahap produksi"
+    },
+    "network": {
+      "title": "Exclusive Network",
+      "description": "Akses eksklusif ke supplier terbaik dan jaringan distribusi global yang terpercaya"
+    },
+    "custom": {
+      "title": "Custom Solutions",
+      "description": "Layanan kustomisasi produk yang disesuaikan dengan kebutuhan spesifik mitra bisnis"
+    },
+    "ctaTitle": "Mari Ciptakan Keunggulan Bersama",
+    "ctaDescription": "Bergabunglah dengan jaringan mitra eksklusif yang telah merasakan keunggulan produk Indonesia di pasar global.",
+    "ctaButton": "Hubungi Kami Hari Ini"
+  },
+  "whoWeAre": {
+    "title": "Siapa Kami",
+    "subtitle": "Mengenal lebih dekat Nusantara Aroma Craft dan dedikasi kami dalam mengangkat warisan aromatik Indonesia ke panggung dunia",
+    "mainTitle": "Membangun Jembatan Antara Kearifan Tradisional dan Pasar Global",
+    "paragraph1": "Indonesia adalah rumah bagi beberapa aroma paling langka dan berharga di dunia. Dari kayu agarwood yang legendaris hingga kopi dengan karakter yang tak tertandingi, kepulauan Nusantara menyimpan harta karun olfactory yang telah memikat peradaban selama berabad-abad.",
+    "paragraph2": "Nusantara Aroma Craft lahir dari visi untuk menjadi guardian dan kurator warisan aromatik Indonesia. Kami berkomitmen menghadirkan parfum berkualitas tinggi yang terinspirasi dari kekayaan alam Nusantara, serta memfasilitasi perdagangan komoditi premium dengan standar internasional tertinggi. Setiap produk yang kami hadirkan adalah cerminan dari dedikasi kami untuk mengangkat keindahan Indonesia ke panggung global.",
+    "readMoreButton": "Baca selengkapnya"
+  },
+  "perfumeHero": {
+    "title": "Raras Anisa,",
+    "subtitle": "Harmoni Sunda",
+    "description": "Terinspirasi oleh jantung tanah Sunda. RARAS ANISA adalah wewangian yang menangkap keanggunan dan kecantikan putri Priyanjan. Ini adalah harmoni lembut melati yang rimbun, kehangatan cendana, dan kedalaman oud. Keindahan yang menenangkan jiwa.",
+    "buyButton": "Beli Sekarang"
+  },
+  "exportHero": {
+    "title": "Komoditi Premium Indonesia",
+    "highlight": "untuk Pasar Global",
+    "description": "Kami menyediakan komoditi berkualitas tinggi dari Indonesia dengan standar ekspor internasional. Dari kopi specialty hingga agarwood premium, setiap produk telah melalui seleksi ketat dan pengujian kualitas menyeluruh.",
+    "primaryCta": "Lihat Katalog Produk",
+    "secondaryCta": "Hubungi Tim Ekspor"
+  },
+  "exportSelectedCommodities": {
+    "title": "Komoditi Terpilih",
+    "subtitle": "Dikurasi untuk kualitas konsisten dan kesiapan ekspor. Kami menjaga transparansi spesifikasi dan ketertelusuran batch.",
+    "agarwood": {
+      "title": "Agarwood (Oud) & Minyak Esensial",
+      "description": "Grade terpilih dengan pemeriksaan GC-MS dan organoleptik. Pengenceran khusus dan kemasan ekspor tersedia sesuai permintaan.",
+      "features": ["Ketertelusuran batch", "CoA/MSDS tersedia", "Kemasan drum/kaca aman"]
+    },
+    "coffee": {
+      "title": "Biji Kopi Premium",
+      "description": "Arabica dan Robusta dari Sumatra, Jawa, dan Sulawesi. Kontrol kelembaban, ukuran screen, dan cacat telah diperiksa.",
+      "features": ["Opsi specialty-grade", "Kemasan ekspor valve bag", "Catatan cupping lot"]
+    },
+    "charcoal": {
+      "title": "Arang Tempurung Kelapa",
+      "description": "Arang berkualitas tinggi untuk shisha dan BBQ. Kandungan karbon tinggi, rendah abu, dan waktu bakar yang lama.",
+      "features": ["Kandungan karbon >85%", "Kadar abu <3%", "Kemasan sesuai standar ekspor"]
+    }
+  },
+  "ourStory": {
+    "title": "Cerita Kami",
+    "paragraph1": "Indonesia telah menjadi pusat perdagangan rempah dan aromatics selama ribuan tahun. Jalur sutera yang legendaris membawa keharuman kayu agarwood, kopi, dan rempah-rempah Nusantara ke istana-istana di seluruh dunia. Namun seiring berjalannya waktu, kekayaan aromatik ini sering kali hilang dalam rantai distribusi global yang tidak menghargai keunikan dan kualitas aslinya.",
+    "paragraph2": "Nusantara Aroma Craft lahir dari keprihatinan ini. Didirikan oleh sekelompok profesional yang memiliki visi sama tentang pentingnya melestarikan dan mengangkat warisan aromatik Indonesia, kami berkomitmen untuk menjadi jembatan antara kearifan tradisional Nusantara dengan kebutuhan pasar global modern.",
+    "paragraph3": "Perjalanan kami dimulai dengan eksplorasi mendalam ke berbagai daerah di Indonesia, mempelajari teknik tradisional pembuatan parfum dan pengolahan komoditi aromatik. Dari hutan-hutan Kalimantan yang menyimpan kayu agarwood terbaik dunia, hingga perkebunan kopi di pegunungan Jawa yang menghasilkan biji dengan karakter unik, setiap langkah membawa kami semakin dekat dengan esensi sejati Indonesia."
+  },
+  "contactForm": {
+    "title": "Siap Memulai Kemitraan?",
+    "phone": {
+      "title": "Hubungi Kami",
+      "description": "Lebih suka ngobrol? Telepon kami Senin-Jumat, 09:00-17:00 (WIB)"
+    },
+    "hours": {
+      "title": "Jam Operasional",
+      "monday": "Senin - Jumat: 09:00 - 17:00 WIB",
+      "saturday": "Sabtu: 09:00 - 12:00 WIB",
+      "sunday": "Minggu: Tutup"
+    },
+    "response": {
+      "title": "Respon Cepat",
+      "description": "Tim kami berkomitmen memberikan respon dalam waktu 24 jam untuk semua pertanyaan bisnis dan kemitraan."
+    }
+  },
+  "contactInquiry": {
+    "name": "Nama Lengkap",
+    "email": "Email",
+    "company": "Perusahaan",
+    "phone": "Nomor Telepon",
+    "subject": "Subjek",
+    "message": "Pesan",
+    "submit": "Kirim Pesan",
+    "namePlaceholder": "Nama Anda",
+    "emailPlaceholder": "email@perusahaan.com",
+    "companyPlaceholder": "Nama Perusahaan",
+    "phonePlaceholder": "+62 xxx xxxx xxxx",
+    "subjectPlaceholder": "Topik pertanyaan",
+    "messagePlaceholder": "Jelaskan kebutuhan atau pertanyaan Anda..."
+  },
+  "ourBrands": {
+    "title": "Merek Kami",
+    "subtitle": "Dua lini bisnis unggulan yang menjadi kebanggaan dan representasi Nusantara Aroma Craft di pasar global",
+    "perfume": {
+      "badgeText": "Koleksi Parfum",
+      "title": "NAC parfum",
+      "description": "Rasakan esensi Indonesia dalam setiap tetes. Koleksi parfum premium kami menghadirkan interpretasi modern dari warisan aromatik Nusantara yang telah memikat dunia selama berabad-abad. Setiap botol adalah hasil dari perpaduan sempurna antara bahan baku terselecta dan keahlian parfumer berpengalaman.",
+      "features": [
+        "Aroma Eksklusif Indonesia",
+        "Bahan Baku Pilihan",
+        "Proyeksi Aroma Menawan",
+        "Kemasan Koleksi Premium"
+      ],
+      "buttonText": "Jelajahi Koleksi"
+    },
+    "export": {
+      "badgeText": "Ekspor Impor",
+      "title": "NAC Ekspor",
+      "description": "Menghubungkan kekayaan Indonesia dengan pasar global premium. Layanan ekspor-impor kami menghadirkan komoditi berkualitas tinggi dengan standar internasional, memungkinkan mitra bisnis di seluruh dunia merasakan keunggulan produk Indonesia yang autentik dan premium.",
+      "features": [
+        "Kopi Premium Nusantara",
+        "Kayu Agarwood Berkualitas Tinggi",
+        "Jaringan Distribusi Global",
+        "Sertifikasi Berstandar Internasional"
+      ],
+      "buttonText": "Layanan Kami"
+    }
+  },
+  "timeline": {
+    "title": "Perjalanan Nusantara Aroma Craft",
+    "entries": [
+      {
+        "date": "1990s",
+        "title": "Eksplorasi Warisan Aromatik Indonesia",
+        "content": "Perjalanan kami dimulai dengan eksplorasi mendalam terhadap kekayaan warisan aromatik Nusantara. Kami menjelajahi berbagai daerah di Indonesia untuk memahami tradisi penggunaan rempah dan aromaterapi yang telah diwariskan turun-temurun, mengidentifikasi bahan-bahan premium yang menjadi identitas olfaktori Indonesia."
+      },
+      {
+        "date": "2000s",
+        "title": "Pengembangan Jaringan Supplier Tradisional",
+        "content": "Dekade ini menandai pembentukan jaringan kemitraan strategis dengan para petani dan pengrajin lokal. Kami membangun hubungan langsung dengan komunitas tradisional yang telah menjaga kualitas bahan-bahan aromatik selama generasi, memastikan pasokan yang berkelanjutan dan berkualitas tinggi sambil mendukung ekonomi lokal."
+      },
+      {
+        "date": "2010s",
+        "title": "Sertifikasi Internasional dan Ekspansi Global",
+        "content": "Era transformasi menuju standar global dimana kami meraih berbagai sertifikasi internasional yang mengakui kualitas dan keaslian produk kami. Ekspansi ke pasar internasional dimulai, memperkenalkan keunikan aroma Indonesia kepada dunia sambil tetap mempertahankan nilai-nilai tradisional dan kualitas premium."
+      },
+      {
+        "date": "2020s",
+        "title": "Inovasi Berkelanjutan dan Kemitraan Premium",
+        "content": "Memasuki era digital dan keberlanjutan, kami mengintegrasikan teknologi terdepan dalam proses produksi sambil memperkuat komitmen terhadap praktik ramah lingkungan. Kemitraan dengan brand-brand premium global memperkuat posisi kami sebagai pionir dalam industri aromaterapi berkualitas tinggi dari Indonesia."
+      }
+    ]
+  },
+  "contactCard": {
+    "title": "Hubungi Kami",
+    "subtitle": "Mulai perjalanan kemitraan bisnis bersama Nusantara Aroma Craft",
+    "email": "Email",
+    "offices": "Kantor",
+    "jakarta": "Jakarta",
+    "surabaya": "Surabaya"
+  },
+  "perfume": {
+    "catalog": {
+      "badge": "KOLEKSI PARFUM",
+      "title": "PRODUK KAMI.",
+      "description": "Koleksi parfum eksklusif yang menghadirkan keharuman khas Nusantara. Setiap aroma menceritakan kisah budaya dan tradisi Indonesia yang kaya, dikemas dalam botol mewah untuk pengalaman yang tak terlupakan."
+    },
+    "transition": {
+      "line1": "Mahakarya terbaru kami dalam dunia parfum.",
+      "line2": "Memadukan Kelembutan, Harmoni dan Kebaikan",
+      "line3": "Dalam sebuah racikan dengan kualitas terbaik."
+    },
+    "cta": {
+      "title": "Rasakan sensasi aroma harmoni Sunda",
+      "buttonText": "Cek Produk",
+      "subtitle": "Hadirkan kenyamanan dan kepercayaan diri",
+      "description": "Wewangian Raras Anisa ditujukan bagi mereka yang menghargai keindahan yang tenang dan kekuatan yang lembut. Aroma ini merupakan perayaan identitas, yang diciptakan dengan cinta dan rasa hormat terhadap warisan luhur Sunda."
+    },
+    "features": [
+      {
+        "tagline": "Bak arunika di hijaunya loka",
+        "title": "Dibuka dengan Champs Elisses Ehsas dan Al Wafa",
+        "description": "Dengan nuansa aroma awal dari Champs Elisses Ehsas dan Al Wafa, Raras Anisa hadir bagaikan cahaya pagi di padang rumput Priyanjan. Menawarkan keindahan yang primal, menawan, dan menyegarkan."
+      },
+      {
+        "tagline": "Keanggunan tiada tara",
+        "title": "Inti Aromatik Cendana",
+        "description": "Perpaduan aromatik hangat dari Cendana membawakan esensi \"Raras\"--kehangatan, ketenangan dan keanggunan yang seimbang. Perlambang sempurna bagi ciri khas semangat Sunda."
+      },
+      {
+        "tagline": "Mahligai syurgawi di tiap tetes",
+        "title": "Perpaduan Roberto Cavalli dan Mukhallat Oud",
+        "description": "Dengan nuansa wewangian yang royal, Raras Anisa menciptakan kedalam dan keistimewaan dalam tiap sentuhan. Aroma ini menggambarkan kekuatan dan daya tarik yang tenang di balik keindahan yang lembut."
+      }
+    ],
+    "card": {
+      "viewDetails": "LIHAT DETAIL"
+    },
+    "modal": {
+      "contactSeller": "Hubungi Penjual",
+      "whatsappMessage": "Halo! Saya tertarik dengan parfum {title} seharga {price}. Bisakah Anda memberikan informasi lebih lanjut mengenai produk ini?"
+    }
+  },
+  "orderStep": {
+    "title": "Cara Pemesanan Ekspor Dilakukan",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Inquiry & Spesifikasi.",
+        "description": "Beri tahu kami spesifikasi target, kuantitas, tujuan, Incoterms, dan jadwal Anda."
+      },
+      {
+        "number": "2",
+        "title": "Penawaran & Sampel.",
+        "description": "Kami konfirmasi ketersediaan, ajukan harga dan waktu pengiriman, serta kirim sampel jika diperlukan."
+      },
+      {
+        "number": "3",
+        "title": "QC & Dokumen.",
+        "description": "Kami jalankan pemeriksaan kualitas dan siapkan CoA/MSDS, izin fitosanitari/ekspor, dan kode HS."
+      },
+      {
+        "number": "4",
+        "title": "Pengemasan & Pengiriman.",
+        "description": "Pengemasan sesuai komoditas, opsi asuransi, update pelacakan, dan pengiriman tepat waktu."
+      }
+    ],
+    "viewServicesButton": "Lihat Layanan Kami"
+  },
+  "exportWhyChooseUs": {
+    "title": "Mengapa Memilih Kami",
+    "subtitle": "Alur kerja ekspor profesional yang dibangun atas kualitas, dokumentasi, dan logistik yang dapat diandalkan.",
+    "features": [
+      {
+        "title": "Sumber Terverifikasi",
+        "description": "Produsen terpercaya di seluruh Indonesia dengan spesifikasi yang transparan."
+      },
+      {
+        "title": "QC Ketat",
+        "description": "Pemeriksaan multi-tahap dengan inspeksi pihak ketiga opsional (SGS)."
+      },
+      {
+        "title": "Kepatuhan Penuh",
+        "description": "CoA, MSDS, fitosanitari, izin ekspor, dan pengkodean HS."
+      },
+      {
+        "title": "Logistik Tepat Waktu",
+        "description": "Pencapaian yang jelas, opsi asuransi, dan pelacakan pengiriman."
+      }
+    ]
+  },
+  "exportCta": {
+    "title": "Siap Memulai Pesanan Anda?",
+    "subtitle": "Mari beralih dari spesifikasi ke pengiriman dengan mitra yang fokus pada kualitas dan keandalan.",
+    "viewServicesButton": "Lihat Layanan Kami"
+  },
+  "ourServices": {
+    "hero": {
+      "title": "Layanan Ekspor",
+      "titleHighlight": "Profesional",
+      "description": "Kami beroperasi secara transparan dengan jaminan kualitas yang ketat, dokumentasi lengkap, dan logistik yang dapat diandalkan. Harapkan Incoterms yang jelas, jadwal yang disepakati, dan komunikasi proaktif dari inquiry hingga pengiriman."
+    },
+    "process": {
+      "title": "Proses Kami",
+      "steps": [
+        {
+          "title": "Pengadaan & Kurasi",
+          "description": "Pengadaan langsung dari produsen terverifikasi—agarwood/oud, minyak esensial, kopi spesial, dan arang premium—dipetakan berdasarkan asal dan musim untuk memastikan keaslian dan konsistensi."
+        },
+        {
+          "title": "Kontrol Kualitas",
+          "description": "Pemeriksaan khusus komoditas: GC-MS & organoleptik untuk minyak; kelembaban/abu/karbon tetap untuk arang; ukuran layar, cacat, dan kelembaban untuk kopi. Inspeksi pihak ketiga opsional (SGS)."
+        },
+        {
+          "title": "Dokumentasi & Kepatuhan",
+          "description": "Kami siapkan CoA/MSDS, sertifikat fitosanitari, izin ekspor, daftar kemasan, faktur, BL/AWB, dan pengkodean HS. Kami selaraskan dengan persyaratan regulasi tujuan Anda."
+        },
+        {
+          "title": "Pengemasan & Logistik",
+          "description": "Drum dan kaca (minyak), kantong katup (kopi), karton/karton induk (arang). Kami atur angkutan laut/udara, opsi asuransi, dan berikan update pencapaian hingga pengiriman."
+        }
+      ]
+    },
+    "quality": {
+      "title": "Kualitas & Jaminan",
+      "points": [
+        "Ketertelusuran batch dan sampel yang disimpan",
+        "Sertifikat: CoA, MSDS, fitosanitari sesuai kebutuhan",
+        "Inspeksi SGS/pihak ketiga opsional dan pemeriksaan pra-pengiriman",
+        "Spesifikasi jelas dan rentang toleransi disepakati di muka"
+      ]
+    },
+    "logistics": {
+      "title": "Logistik, Incoterms & Pembayaran",
+      "description": [
+        "Kami mendukung EXW, FOB, CFR, dan CIF tergantung pada rute dan preferensi risiko Anda. Angkutan diatur dengan operator terpercaya dan kami berikan pelacakan dan update pencapaian.",
+        "Persyaratan pembayaran diselaraskan dengan komoditas dan yurisdiksi, biasanya T/T dengan deposit yang disepakati dan saldo sebelum atau terhadap dokumen. LC mungkin tersedia untuk mitra yang memenuhi syarat."
+      ],
+      "requestQuoteButton": "Minta Penawaran"
+    }
+  },
+  "ourCommodities": {
+    "title": "Komoditas Kami",
+    "subtitle": "Portofolio terfokus yang dibangun untuk keandalan dan kinerja di berbagai aplikasi parfum, kopi, dan arang.",
+    "commodities": [
+      {
+        "name": "Agarwood (Oud) & Minyak Esensial",
+        "description": "Serpihan oud Indonesia langka, minyak oud, dan minyak esensial dengan profil olfaktori khas yang dikurasi untuk parfum.",
+        "points": [
+          "Grade & batch terpilih",
+          "Pemeriksaan GC-MS & organoleptik",
+          "Pengenceran & kemasan khusus"
+        ]
+      },
+      {
+        "name": "Biji Kopi Premium",
+        "description": "Arabika dan Robusta dari Sumatra, Jawa, dan Sulawesi—lot yang dapat dilacak dengan catatan cupping dan kontrol kelembaban.",
+        "points": [
+          "Opsi specialty-grade",
+          "Kontrol ukuran layar & cacat",
+          "Kemasan ekspor kantong katup"
+        ]
+      },
+      {
+        "name": "Arang (Shisha & BBQ)",
+        "description": "Arang tempurung kelapa dan kayu keras dengan karbon tetap tinggi, abu rendah, dan ukuran konsisten untuk shisha dan BBQ.",
+        "points": [
+          "Abu rendah, tahan bakar lama",
+          "Ukuran kubus/jari tersedia",
+          "Inspeksi SGS atas permintaan"
+        ]
+      }
+    ],
+    "inquireButton": "Tanyakan Ketersediaan"
+  },
+  "metadata": {
+    "title": "Nusantara Aroma Craft - Warisan Kemewahan Indonesia",
+    "description": "Temukan parfum premium dan komoditi berkualitas tinggi Indonesia. Nusantara Aroma Craft menggabungkan warisan tradisional dengan standar kemewahan internasional."
+  }
+}

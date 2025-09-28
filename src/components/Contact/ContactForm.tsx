@@ -1,8 +1,11 @@
 import React from 'react';
+import {useTranslations} from 'next-intl';
 import { Separator } from '@/components/ui/separator';
 import ContactInquiryForm from './ContactInquiryForm';
 
 const ContactForm = () => {
+	const t = useTranslations('contactForm');
+
 	return (
 		<section
 			className="py-8 lg:py-20"
@@ -10,7 +13,7 @@ const ContactForm = () => {
 		>
 			<div className="container">
 				<h2 className="text-center mb-12 text-3xl font-semibold sm:text-5xl">
-					Siap Memulai Kemitraan?
+					{t('title')}
 				</h2>
 
 				<div className="grid lg:grid-cols-2 gap-12 relative">
@@ -23,29 +26,28 @@ const ContactForm = () => {
 					<div className="space-y-8">
 						{/* Phone Section */}
 						<div>
-							<h3 className="text-xl font-medium mb-4">Hubungi Kami</h3>
+							<h3 className="text-xl font-medium mb-4">{t('phone.title')}</h3>
 							<p className="text-base-content/80 text-sm mb-3">
-								Prefer to chat? Give us a call Monday-Friday, 9AM-5PM (GMT+7)
+								{t('phone.description')}
 							</p>
 							<p className="text-base-content font-medium">+62 21 5555-1234</p>
 						</div>
 
 						{/* Business Hours */}
 						<div>
-							<h3 className="text-xl font-medium mb-4">Jam Operasional</h3>
+							<h3 className="text-xl font-medium mb-4">{t('hours.title')}</h3>
 							<div className="space-y-2 text-sm text-base-content/80">
-								<p>Senin - Jumat: 09:00 - 17:00 WIB</p>
-								<p>Sabtu: 09:00 - 12:00 WIB</p>
-								<p>Minggu: Tutup</p>
+								<p>{t('hours.monday')}</p>
+								<p>{t('hours.saturday')}</p>
+								<p>{t('hours.sunday')}</p>
 							</div>
 						</div>
 
 						{/* Quick Response */}
 						<div>
-							<h3 className="text-xl font-medium mb-4">Respon Cepat</h3>
+							<h3 className="text-xl font-medium mb-4">{t('response.title')}</h3>
 							<p className="text-base-content/80 text-sm">
-								Tim kami berkomitmen memberikan respon dalam waktu 24 jam untuk
-								semua pertanyaan bisnis dan kemitraan.
+								{t('response.description')}
 							</p>
 						</div>
 					</div>

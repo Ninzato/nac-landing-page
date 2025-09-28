@@ -1,11 +1,14 @@
 'use client'
 
 import { motion } from 'motion/react';
+import { useTranslations } from 'next-intl';
 
 const PerfumeTransition = () => {
+	const t = useTranslations('perfume.transition');
+
 	return (
 		<section
-			className="py-16 lg:py-32 bg-accent/10"
+			className="py-16 lg:py-20 bg-accent/10"
 			id="home"
 		>
 			<div className="container">
@@ -17,7 +20,7 @@ const PerfumeTransition = () => {
 						viewport={{ once: true }}
 						transition={{ ease: "easeOut", duration: 0.6, delay: 1.2 }}
 					>
-						Mahakarya terbaru kami dalam dunia parfum.
+						{t('line1')}
 					</motion.h2>
 					<motion.h2
 						className="font-semibold text-2xl sm:text-3xl xl:text-[44px] text-center xl:text-right tracking-wide"
@@ -26,7 +29,7 @@ const PerfumeTransition = () => {
 						viewport={{ once: true }}
 						transition={{ ease: "easeOut", duration: 0.6, delay: 1.2 }}
 					>
-						Memadukan <span className="font-montserrat text-accent">Kelembutan, Harmoni dan Kebaikan</span>
+						{t('line2')}
 					</motion.h2>
 					<motion.h2
 						className="font-semibold text-2xl sm:text-3xl xl:text-[44px] tracking-wide text-center xl:text-left"
@@ -35,7 +38,7 @@ const PerfumeTransition = () => {
 						viewport={{ once: true }}
 						transition={{ ease: "easeOut", duration: 0.6, delay: 1.2 }}
 					>
-						Dalam sebuah racikan dengan kualitas terbaik.
+						{t('line3')}
 					</motion.h2>
 				</div>
 			</div>

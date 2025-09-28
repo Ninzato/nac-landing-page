@@ -1,7 +1,11 @@
-import Link from 'next/link';
+'use client';
+
+import {Link} from '@/i18n/routing';
 import React from 'react';
+import {useTranslations} from 'next-intl';
 
 const ExportCta = () => {
+	const t = useTranslations('exportCta');
 	return (
 		<section
 			className="py-8 lg:py-20"
@@ -10,16 +14,15 @@ const ExportCta = () => {
 			<div className="container">
 				<div className="border border-border py-8 bg-base-200">
 					<h2 className="text-3xl font-semibold sm:text-5xl text-center">
-						Ready to Start Your Order?
+						{t('title')}
 					</h2>
 					<p className="text-base-content/80 mt-4 sm:text-xl text-center max-w-4xl mx-auto">
-						Let’s move from specs to shipment with a partner focused on quality
-						and reliability.
+						{t('subtitle')}
 					</p>
 					<div className="mt-6 flex justify-center">
-						<Link href="/our-services">
+						<Link href="/export-import/our-services">
 							<button className="btn btn-neutral btn-outline">
-								View Our Services
+								{t('viewServicesButton')}
 							</button>
 						</Link>
 					</div>

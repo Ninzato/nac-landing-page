@@ -1,7 +1,10 @@
 import Image from 'next/image';
-import Link from 'next/link';
+import {useTranslations} from 'next-intl';
+import {Link} from '@/i18n/routing';
 
 const ExportSelectedCommodities = () => {
+	const t = useTranslations('exportSelectedCommodities');
+
 	return (
 		<section
 			className="py-8 lg:py-20"
@@ -10,11 +13,10 @@ const ExportSelectedCommodities = () => {
 			<div className="container">
 				<header className="max-w-3xl">
 					<h2 className="text-3xl font-semibold sm:text-5xl">
-						Selected Commodities
+						{t('title')}
 					</h2>
 					<p className="text-base-content/80 mt-4 sm:text-xl max-w-4xl">
-						Curated for consistent quality and export readiness. We keep
-						specifications transparent and batches traceable.
+						{t('subtitle')}
 					</p>
 				</header>
 
@@ -30,15 +32,14 @@ const ExportSelectedCommodities = () => {
 							/>
 						</div>
 						<div className="p-5">
-							<h3 className="font-semibold text-lg">Agarwood (Oud) & Essential Oils</h3>
+							<h3 className="font-semibold text-lg">{t('agarwood.title')}</h3>
 							<p className="mt-2 text-base-content">
-								Selected grades with GC‑MS and organoleptic checks. Custom
-								dilutions and export packaging on request.
+								{t('agarwood.description')}
 							</p>
 							<ul className="mt-3 text-base-content">
-								<li>• Batch traceability</li>
-								<li>• CoA/MSDS available</li>
-								<li>• Secure drum/glass packing</li>
+								{(t.raw('agarwood.features') as string[]).map((feature: string, index: number) => (
+									<li key={index}>• {feature}</li>
+								))}
 							</ul>
 						</div>
 					</article>
@@ -54,15 +55,14 @@ const ExportSelectedCommodities = () => {
 							/>
 						</div>
 						<div className="p-5">
-							<h3 className="font-semibold text-lg">Premium Coffee Beans</h3>
+							<h3 className="font-semibold text-lg">{t('coffee.title')}</h3>
 							<p className="mt-2 text-base-content">
-								Arabica and Robusta from Sumatra, Java, and Sulawesi. Moisture
-								control, screen size, and defects checked.
+								{t('coffee.description')}
 							</p>
 							<ul className="mt-3 text-base-content">
-								<li>• Specialty‑grade options</li>
-								<li>• Valve bag export packaging</li>
-								<li>• Lot cupping notes</li>
+								{(t.raw('coffee.features') as string[]).map((feature: string, index: number) => (
+									<li key={index}>• {feature}</li>
+								))}
 							</ul>
 						</div>
 					</article>
@@ -78,15 +78,14 @@ const ExportSelectedCommodities = () => {
 							/>
 						</div>
 						<div className="p-5">
-							<h3 className="font-semibold text-lg">Charcoal (Shisha & BBQ)</h3>
+							<h3 className="font-semibold text-lg">{t('charcoal.title')}</h3>
 							<p className="mt-2 text-base-content">
-								Coconut shell and hardwood charcoal with high fixed carbon, low
-								ash, and consistent cube/finger sizes.
+								{t('charcoal.description')}
 							</p>
 							<ul className="mt-3 text-base-content">
-								<li>• SGS inspection on request</li>
-								<li>• Moisture & ash tests</li>
-								<li>• Carton/private label</li>
+								{(t.raw('charcoal.features') as string[]).map((feature: string, index: number) => (
+									<li key={index}>• {feature}</li>
+								))}
 							</ul>
 						</div>
 					</article>

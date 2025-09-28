@@ -1,11 +1,13 @@
 'use client'
 
 import Image from 'next/image';
-import Link from 'next/link';
+import {useTranslations} from 'next-intl';
+import {Link} from '@/i18n/routing';
 import { useRef, useState, useEffect } from 'react';
 import { motion, useScroll, useTransform } from 'motion/react';
 
 const PerfumeHero = () => {
+	const t = useTranslations('perfumeHero');
 	const heroRef = useRef<HTMLElement>(null);
 	const [isMobile, setIsMobile] = useState(false);
 
@@ -53,16 +55,16 @@ const PerfumeHero = () => {
 							animate={{ opacity: 1, y: 0 }}
 							transition={{ ease: "easeOut", duration: 0.6, delay: 0 }}
 						>
-							Raras Anisa,
-							<span className="text-accent font-montserrat"> Harmoni Sunda</span>
+							{t('title')}
+							<span className="text-accent font-montserrat"> {t('subtitle')}</span>
 						</motion.h1>
 						<motion.p
-							className="text-base-content/80 max-w-3xl text-xl leading-8 text-center"
+							className="text-base-content/80 max-w-3xl text-xl leading-8 text-center mx-auto"
 							initial={{ opacity: 0, y: 20 }}
 							animate={{ opacity: 1, y: 0 }}
 							transition={{ ease: "easeOut", duration: 0.6, delay: 0.3 }}
 						>
-							Terinspirasi oleh jantung tanah Sunda. RARAS ANISA adalah wewangian yang menangkap keanggunan dan kecantikan putri Priyanjan. Ini adalah harmoni lembut melati yang rimbun, kehangatan cendana, dan kedalaman oud. Keindahan yang menenangkan jiwa.
+							{t('description')}
 						</motion.p>
 						<motion.div
 							className="gap-3 sm:mt-16 flex justify-center"
@@ -72,7 +74,7 @@ const PerfumeHero = () => {
 						>
 							<Link href="/perfume/catalog?perfume=raras-anisa">
 								<button className="btn btn-outline btn-accent rounded-none z-100 btn-lg">
-									Beli Sekarang
+									{t('buyButton')}
 								</button>
 							</Link>
 						</motion.div>

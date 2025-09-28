@@ -5,18 +5,21 @@ import OrderStep from '@/components/ExportImport/OrderStep';
 import ExportWhyChooseUs from '@/components/ExportImport/ExportWhyChooseUs';
 import { MainFooter } from '@/components/Main/MainFooter';
 import ExportCta from '@/components/ExportImport/ExportCta';
+import {getTranslations} from 'next-intl/server';
 
-export default function HomePage() {
+export default async function HomePage() {
+	const t = await getTranslations('exportHero');
+
 	return (
 		<>
 			<ExportTopbar />
 			{/* Hero */}
 			<Hero
-				title="Indonesia’s Premium Exports,"
-				highlight="Delivered Reliably"
-				description="Your trusted partner for perfumery raw materials (oud & essential oils), specialty coffee beans, and high‑quality charcoal. We handle sourcing, quality checks, documentation, and logistics—end to end."
-				primaryCta={{ href: '/our-commodities', label: 'Explore Commodities' }}
-				secondaryCta={{ href: '/our-services', label: 'How We Work' }}
+				title={t('title')}
+				highlight={t('highlight')}
+				description={t('description')}
+				primaryCta={{ href: '/our-commodities', label: t('primaryCta') }}
+				secondaryCta={{ href: '/our-services', label: t('secondaryCta') }}
 				imageSrc="/images/landing/cargo.jpg"
 				imageAlt="Cargo"
 			/>

@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 interface PerfumeFeatureSectionData {
 	iconClass: string;
@@ -9,37 +10,36 @@ interface PerfumeFeatureSectionData {
 	imagePath: string;
 }
 
-const data: PerfumeFeatureSectionData[] = [
-	{
-		iconClass: 'ph--sun-light',
-		tagline: 'Bak arunika di hijaunya loka',
-		title: 'Dibuka dengan Champs Elisses Ehsas dan Al Wafa',
-		description:
-			'Dengan nuansa aroma awal dari Champs Elisses Ehsas dan Al Wafa, Raras Anisa hadir bagaikan cahaya pagi di padang rumput Priyanjan. Menawarkan keindahan yang primal, menawan, dan menyegarkan.',
-		isReversed: false,
-		imagePath: '/images/landing/raras-anisa-feature-1.png',
-	},
-	{
-		iconClass: 'ph--rainbow-light',
-		tagline: 'Keanggunan tiada tara',
-		title: 'Inti Aromatik Cendana',
-		description:
-			'Perpaduan aromatik hangat dari Cendana membawakan esensi "Raras"--kehangatan, ketenangan dan keanggunan yang seimbang. Perlambang sempurna bagi ciri khas semangat Sunda.',
-		isReversed: true,
-		imagePath: '/images/landing/raras-anisa-feature-2.png',
-	},
-	{
-		iconClass: 'ph--sparkle-light',
-		tagline: 'Mahligai syurgawi di tiap tetes',
-		title: 'Perpaduan Roberto Cavalli dan Mukhallat Oud',
-		description:
-			'Dengan nuansa wewangian yang royal, Raras Anisa menciptakan kedalam dan keistimewaan dalam tiap sentuhan. Aroma ini menggambarkan kekuatan dan daya tarik yang tenang di balik keindahan yang lembut.',
-		isReversed: false,
-		imagePath: '/images/landing/raras-anisa-feature-3.png',
-	},
-];
-
 const PerfumeFeatureSection = () => {
+	const t = useTranslations('perfume.features');
+
+	const data: PerfumeFeatureSectionData[] = [
+		{
+			iconClass: 'ph--sun-light',
+			tagline: t('0.tagline'),
+			title: t('0.title'),
+			description: t('0.description'),
+			isReversed: false,
+			imagePath: '/images/landing/raras-anisa-feature-1.png',
+		},
+		{
+			iconClass: 'ph--rainbow-light',
+			tagline: t('1.tagline'),
+			title: t('1.title'),
+			description: t('1.description'),
+			isReversed: true,
+			imagePath: '/images/landing/raras-anisa-feature-2.png',
+		},
+		{
+			iconClass: 'ph--sparkle-light',
+			tagline: t('2.tagline'),
+			title: t('2.title'),
+			description: t('2.description'),
+			isReversed: false,
+			imagePath: '/images/landing/raras-anisa-feature-3.png',
+		},
+	];
+
 	return (
 		<>
 			{data.map((item, index) => (

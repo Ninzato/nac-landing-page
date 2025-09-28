@@ -1,7 +1,17 @@
+'use client';
+
 import Image from 'next/image';
-import Link from 'next/link';
+import {Link} from '@/i18n/routing';
+import {useTranslations} from 'next-intl';
+
+interface OrderStep {
+	number: string;
+	title: string;
+	description: string;
+}
 
 const OrderStep = () => {
+	const t = useTranslations('orderStep');
 	return (
 		<section
 			className="py-8 lg:py-20"
@@ -11,42 +21,22 @@ const OrderStep = () => {
 				<div className="grid gap-8 md:grid-cols-2 md:items-center">
 					<div>
 						<h2 className="text-3xl font-semibold sm:text-5xl">
-							How Export Orders Are Made
+							{t('title')}
 						</h2>
 						<ol className="mt-4 space-y-4 text-base-content">
-							<li>
-								<span className="font-medium text-foreground">
-									1) Inquiry & Specs.
-								</span>{' '}
-								Tell us your target specs, quantity, destination, Incoterms, and
-								timeline.
-							</li>
-							<li>
-								<span className="font-medium text-foreground">
-									2) Quote & Samples.
-								</span>{' '}
-								We confirm availability, submit pricing and lead times, and
-								dispatch samples if needed.
-							</li>
-							<li>
-								<span className="font-medium text-foreground">
-									3) QC & Documents.
-								</span>{' '}
-								We run quality checks and prepare CoA/MSDS, phytosanitary/export
-								permits, and HS codes.
-							</li>
-							<li>
-								<span className="font-medium text-foreground">
-									4) Packing & Shipment.
-								</span>{' '}
-								Commodity‑appropriate packing, insurance options, tracking
-								updates, and on‑time delivery.
-							</li>
+							{t.raw('steps').map((step: OrderStep, index: number) => (
+								<li key={index}>
+									<span className="font-medium text-foreground">
+										{step.number}) {step.title}
+									</span>{' '}
+									{step.description}
+								</li>
+							))}
 						</ol>
 						<div className="mt-6">
-							<Link href="/our-services">
+							<Link href="/export-import/our-services">
 								<button className="btn btn-secondary btn-outline w-full">
-									View Our Services
+									{t('viewServicesButton')}
 								</button>
 							</Link>
 						</div>

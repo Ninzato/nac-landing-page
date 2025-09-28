@@ -4,6 +4,7 @@ import { PerfumeCatalog } from '@/data/perfume/Catalog';
 import { generateSlug, formatPrice } from '@/lib/perfume-utils';
 import { useRouter, useSearchParams } from 'next/navigation';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 interface PerfumeCardProps {
 	perfume: PerfumeCatalog;
@@ -12,6 +13,7 @@ interface PerfumeCardProps {
 export const PerfumeCard = ({ perfume }: PerfumeCardProps) => {
 	const router = useRouter();
 	const searchParams = useSearchParams();
+	const t = useTranslations('perfume.card');
 
 	const handleCardClick = () => {
 		const slug = generateSlug(perfume.title);
@@ -38,7 +40,7 @@ export const PerfumeCard = ({ perfume }: PerfumeCardProps) => {
 						onClick={handleCardClick}
 						className="btn btn-accent font-semibold font-montserrat transform translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300 hover:cursor-pointer"
 					>
-						LIHAT DETAIL
+						{t('viewDetails')}
 					</button>
 				</div>
 			</div>

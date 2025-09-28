@@ -1,7 +1,10 @@
 import Image from 'next/image';
-import Link from 'next/link';
+import {useTranslations} from 'next-intl';
+import {Link} from '@/i18n/routing';
 
 export const WhoWeAre = () => {
+	const t = useTranslations('whoWeAre');
+
 	return (
 		<section
 			className="py-8 lg:py-20"
@@ -9,10 +12,9 @@ export const WhoWeAre = () => {
 		>
 			<div className="container">
 				<div className="text-center">
-					<h2 className="text-3xl font-semibold sm:text-5xl">Who We Are</h2>
+					<h2 className="text-3xl font-semibold sm:text-5xl">{t('title')}</h2>
 					<p className="text-base-content/80 mt-4 sm:text-xl text-center max-w-4xl mx-auto">
-						Mengenal lebih dekat Nusantara Aroma Craft dan dedikasi kami dalam
-						mengangkat warisan aromatik Indonesia ke panggung dunia
+						{t('subtitle')}
 					</p>
 				</div>
 				<div className="bg-base-200 rounded-xl mt-12 p-8 lg:p-16">
@@ -31,28 +33,18 @@ export const WhoWeAre = () => {
 						{/* Mobile: Text below logo, Desktop: Text on left */}
 						<div className="lg:col-span-3 order-last lg:order-first">
 							<h3 className="text-2xl font-medium sm:text-3xl">
-								Membangun Jembatan Antara Kearifan Tradisional dan Pasar Global
+								{t('mainTitle')}
 							</h3>
 							<p className="text-base-content/80 mt-4">
-								Indonesia adalah rumah bagi beberapa aroma paling langka dan
-								berharga di dunia. Dari kayu agarwood yang legendaris hingga
-								kopi dengan karakter yang tak tertandingi, kepulauan Nusantara
-								menyimpan harta karun olfactory yang telah memikat peradaban
-								selama berabad-abad.
+								{t('paragraph1')}
 							</p>
 							<p className="text-base-content/80 mt-4">
-								Nusantara Aroma Craft lahir dari visi untuk menjadi guardian dan
-								kurator warisan aromatik Indonesia. Kami berkomitmen
-								menghadirkan parfum berkualitas tinggi yang terinspirasi dari
-								kekayaan alam Nusantara, serta memfasilitasi perdagangan
-								komoditi premium dengan standar internasional tertinggi. Setiap
-								produk yang kami hadirkan adalah cerminan dari dedikasi kami
-								untuk mengangkat keindahan Indonesia ke panggung global.
+								{t('paragraph2')}
 							</p>
 
 							<div className="mt-8 flex justify-center lg:justify-start">
 								<Link href="/about">
-									<button className="btn btn-primary">Baca selengkapnya</button>
+									<button className="btn btn-primary">{t('readMoreButton')}</button>
 								</Link>
 							</div>
 						</div>
