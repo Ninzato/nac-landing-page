@@ -1,0 +1,107 @@
+import Image from 'next/image';
+import Link from 'next/link';
+
+const ExportSelectedCommodities = () => {
+	return (
+		<section
+			className="py-8 lg:py-20"
+			id="selected-commodities"
+		>
+			<div className="container">
+				<header className="max-w-3xl">
+					<h2 className="text-3xl font-semibold sm:text-5xl">
+						Selected Commodities
+					</h2>
+					<p className="text-base-content/80 mt-4 sm:text-xl max-w-4xl">
+						Curated for consistent quality and export readiness. We keep
+						specifications transparent and batches traceable.
+					</p>
+				</header>
+
+				<div className="mt-6 grid gap-6 md:grid-cols-3">
+					<article className="rounded-lg border border-border bg-base-200 overflow-hidden">
+						<div className="relative aspect-[4/3]">
+							{/* herbs/botanicals for perfumery */}
+							<Image
+								src="/images/landing/indonesian-herbs-and-essential-oils-bottles.jpg"
+								alt="Agarwood (oud) chips and essential oils"
+								fill
+								className="object-cover"
+							/>
+						</div>
+						<div className="p-5">
+							<h3 className="font-semibold text-lg">Agarwood (Oud) & Essential Oils</h3>
+							<p className="mt-2 text-base-content">
+								Selected grades with GC‑MS and organoleptic checks. Custom
+								dilutions and export packaging on request.
+							</p>
+							<ul className="mt-3 text-base-content">
+								<li>• Batch traceability</li>
+								<li>• CoA/MSDS available</li>
+								<li>• Secure drum/glass packing</li>
+							</ul>
+						</div>
+					</article>
+
+					<article className="rounded-lg border border-border bg-base-200 overflow-hidden">
+						<div className="relative aspect-[4/3]">
+							{/* coffee beans imagery */}
+							<Image
+								src="/images/landing/indonesian-coffee-beans-in-burlap-sack.jpg"
+								alt="Premium Indonesian coffee beans"
+								fill
+								className="object-cover"
+							/>
+						</div>
+						<div className="p-5">
+							<h3 className="font-semibold text-lg">Premium Coffee Beans</h3>
+							<p className="mt-2 text-base-content">
+								Arabica and Robusta from Sumatra, Java, and Sulawesi. Moisture
+								control, screen size, and defects checked.
+							</p>
+							<ul className="mt-3 text-base-content">
+								<li>• Specialty‑grade options</li>
+								<li>• Valve bag export packaging</li>
+								<li>• Lot cupping notes</li>
+							</ul>
+						</div>
+					</article>
+
+					<article className="rounded-lg border border-border bg-base-200 overflow-hidden">
+						<div className="relative aspect-[4/3]">
+							{/* charcoal imagery */}
+							<Image
+								src="/images/landing/coconut-shell-charcoal-for-shisha-and-bbq.jpg"
+								alt="Coconut shell charcoal"
+								fill
+								className="object-cover"
+							/>
+						</div>
+						<div className="p-5">
+							<h3 className="font-semibold text-lg">Charcoal (Shisha & BBQ)</h3>
+							<p className="mt-2 text-base-content">
+								Coconut shell and hardwood charcoal with high fixed carbon, low
+								ash, and consistent cube/finger sizes.
+							</p>
+							<ul className="mt-3 text-base-content">
+								<li>• SGS inspection on request</li>
+								<li>• Moisture & ash tests</li>
+								<li>• Carton/private label</li>
+							</ul>
+						</div>
+					</article>
+				</div>
+
+				<div className="mt-6 w-full">
+					<Link href="/our-commodities">
+						<button className="btn btn-secondary btn-outline w-full">
+							See All Commodities
+						</button>
+					</Link>
+				</div>
+			</div>
+		</section>
+	);
+};
+
+export default ExportSelectedCommodities;

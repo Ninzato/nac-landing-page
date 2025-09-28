@@ -24,7 +24,7 @@ export const WhoWeAre = () => {
 								src="/images/logo/nac-logo-official-vertical.png"
 								width={300}
 								height={200}
-								className="lg:w-[450px] lg:h-[300px]"
+								className="xl:w-[450px] xl:h-[300px]"
 							/>
 						</div>
 
@@ -33,23 +33,22 @@ export const WhoWeAre = () => {
 							<h3 className="text-2xl font-medium sm:text-3xl">
 								Membangun Jembatan Antara Kearifan Tradisional dan Pasar Global
 							</h3>
-							<p className="text-base-content/80 mt-4 sm:text-lg">
+							<p className="text-base-content/80 mt-4">
 								Indonesia adalah rumah bagi beberapa aroma paling langka dan
 								berharga di dunia. Dari kayu agarwood yang legendaris hingga
 								kopi dengan karakter yang tak tertandingi, kepulauan Nusantara
 								menyimpan harta karun olfactory yang telah memikat peradaban
 								selama berabad-abad.
 							</p>
-                            <p className='text-base-content/80 mt-4 sm:text-lg'>
-                                Nusantara Aroma Craft lahir dari visi untuk
-								menjadi guardian dan kurator warisan aromatik Indonesia. Kami
-								berkomitmen menghadirkan parfum berkualitas tinggi yang
-								terinspirasi dari kekayaan alam Nusantara, serta memfasilitasi
-								perdagangan komoditi premium dengan standar internasional
-								tertinggi. Setiap produk yang kami hadirkan adalah cerminan dari
-								dedikasi kami untuk mengangkat keindahan Indonesia ke panggung
-								global.
-                            </p>
+							<p className="text-base-content/80 mt-4">
+								Nusantara Aroma Craft lahir dari visi untuk menjadi guardian dan
+								kurator warisan aromatik Indonesia. Kami berkomitmen
+								menghadirkan parfum berkualitas tinggi yang terinspirasi dari
+								kekayaan alam Nusantara, serta memfasilitasi perdagangan
+								komoditi premium dengan standar internasional tertinggi. Setiap
+								produk yang kami hadirkan adalah cerminan dari dedikasi kami
+								untuk mengangkat keindahan Indonesia ke panggung global.
+							</p>
 
 							<div className="mt-8 flex justify-center lg:justify-start">
 								<Link href="/about">

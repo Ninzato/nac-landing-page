@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-export const PerfumeTopbar = () => {
+export const ExportTopbar = () => {
 	return (
 		<div
-			id="poerfume-topbar"
+			id="layout-topbar"
 			className="bg-base-100 lg:bg-base-100/90 border-base-300 sticky top-0 z-10 border-b data-[at-top=true]:border-transparent lg:backdrop-blur-sm"
 		>
 			<div className="container">
@@ -54,10 +54,15 @@ export const PerfumeTopbar = () => {
 					<div className="max-lg:hidden">
 						<ul className="menu menu-horizontal gap-2 px-1">
 							<li className="font-medium font-montserrat">
-								<Link href="/perfume">HOME</Link>
+								<Link href="/export-import">HOME</Link>
 							</li>
 							<li className="font-medium">
-								<Link href="/perfume/catalog">CATALOG</Link>
+								<Link href="/export-import/our-services">OUR SERVICES</Link>
+							</li>
+							<li className="font-medium">
+								<Link href="/export-import/our-commodities">
+									OUR COMMODITIES
+								</Link>
 							</li>
 						</ul>
 					</div>
@@ -89,10 +94,15 @@ export const PerfumeTopbar = () => {
 							</Link>
 							<ul className="menu w-full gap-2 p-0 pt-4">
 								<li className="font-medium font-montserrat">
-									<Link href="/perfume">HOME</Link>
+									<Link href="/export-import">HOME</Link>
 								</li>
 								<li className="font-medium font-montserrat">
-									<Link href="/perfume/catalog">CATALOG</Link>
+									<Link href="/export-import/our-services">OUR SERVICES</Link>
+								</li>
+								<li className="font-medium font-montserrat">
+									<Link href="/export-import/our-commodities">
+										OUR COMMODITIES
+									</Link>
 								</li>
 							</ul>
 						</div>
