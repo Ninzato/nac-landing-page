@@ -18,7 +18,7 @@ const PerfumeTransition = () => {
 						initial={{ opacity: 0, y: 30 }}
 						whileInView={{ opacity: 1, y: 0 }}
 						viewport={{ once: true }}
-						transition={{ ease: "easeOut", duration: 0.6, delay: 1.2 }}
+						transition={{ ease: "easeOut", duration: 0.6, delay: 0 }}
 					>
 						{t('line1')}
 					</motion.h2>
@@ -27,7 +27,7 @@ const PerfumeTransition = () => {
 						initial={{ opacity: 0, y: 30 }}
 						whileInView={{ opacity: 1, y: 0 }}
 						viewport={{ once: true }}
-						transition={{ ease: "easeOut", duration: 0.6, delay: 1.2 }}
+						transition={{ ease: "easeOut", duration: 0.6, delay: 0.2 }}
 					>
 						{t('line2')}
 					</motion.h2>
@@ -36,7 +36,7 @@ const PerfumeTransition = () => {
 						initial={{ opacity: 0, y: 30 }}
 						whileInView={{ opacity: 1, y: 0 }}
 						viewport={{ once: true }}
-						transition={{ ease: "easeOut", duration: 0.6, delay: 1.2 }}
+						transition={{ ease: "easeOut", duration: 0.6, delay: 0.4 }}
 					>
 						{t('line3')}
 					</motion.h2>
