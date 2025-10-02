@@ -129,9 +129,9 @@ export const PerfumeCatalogDataEng: PerfumeCatalog[] = [
 	},
 	{
 		price: 100000,
-		title: 'RARAS ANISA',
+		title: 'RAHAS ANISA',
 		description:
-			"Inspired by the heart of Sundanese land, RARAS ANISA captures the elegance and beauty of Princess Priyanjan. This fragrance is a gentle harmony of lush jasmine, the warmth of sandalwood, and the depth of oud. Opening with Champs Elisses Ehsas and Al Wafa, it evolves into aromatic sandalwood warmth, then settles into the royal sophistication of Roberto Cavalli and Mukhallat Oud. A beauty that soothes the soul and celebrates quiet strength.",
+			"Inspired by the heart of Sundanese land, RAHAS ANISA captures the elegance and beauty of Princess Priyanjan. This fragrance is a gentle harmony of lush jasmine, the warmth of sandalwood, and the depth of oud. Opening with Champs Elisses Ehsas and Al Wafa, it evolves into aromatic sandalwood warmth, then settles into the royal sophistication of Roberto Cavalli and Mukhallat Oud. A beauty that soothes the soul and celebrates quiet strength.",
 		uniquePoints: [
 			'Harmonious blend of jasmine, sandalwood, and oud',
 			'Royal sophistication with gentle strength',
@@ -264,9 +264,9 @@ export const PerfumeCatalogDataId: PerfumeCatalog[] = [
 	},
 	{
 		price: 100000,
-		title: 'RARAS ANISA',
+		title: 'RAHAS ANISA',
 		description:
-			"Terinspirasi oleh jantung tanah Sunda. RARAS ANISA adalah wewangian yang menangkap keanggunan dan kecantikan putri Priyanjan. Ini adalah harmoni lembut melati yang rimbun, kehangatan cendana, dan kedalaman oud. Dibuka dengan Champs Elisses Ehsas dan Al Wafa, berkembang menjadi kehangatan aromatik cendana, lalu menetap dalam kemewahan royal Roberto Cavalli dan Mukhallat Oud. Keindahan yang menenangkan jiwa dan merayakan kekuatan yang lembut.",
+			"Terinspirasi oleh jantung tanah Sunda. RAHAS ANISA adalah wewangian yang menangkap keanggunan dan kecantikan putri Priyanjan. Ini adalah harmoni lembut melati yang rimbun, kehangatan cendana, dan kedalaman oud. Dibuka dengan Champs Elisses Ehsas dan Al Wafa, berkembang menjadi kehangatan aromatik cendana, lalu menetap dalam kemewahan royal Roberto Cavalli dan Mukhallat Oud. Keindahan yang menenangkan jiwa dan merayakan kekuatan yang lembut.",
 		uniquePoints: [
 			'Perpaduan harmonis melati, cendana, dan oud',
 			'Kemewahan royal dengan kekuatan yang lembut',

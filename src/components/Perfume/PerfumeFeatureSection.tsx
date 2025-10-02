@@ -62,7 +62,7 @@ const PerfumeFeatureSection = () => {
 					>
 						<Image
 							src={item.imagePath}
-							alt="Raras Anisa perfume on multiple platform"
+							alt="Rahas Anisa perfume on multiple platform"
 							className="object-cover"
 							fill
 						/>

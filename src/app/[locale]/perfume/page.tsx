@@ -2,7 +2,7 @@ import { PerfumeTopbar } from '@/components/Perfume/PerfumeTopbar';
 import { MainFooter } from '@/components/Main/MainFooter';
 import styles from './perfume.module.css';
 import type { Metadata } from 'next';
-import PerfumeTransition from '@/components/Perfume/PerfumeTransition';
+// import PerfumeTransition from '@/components/Perfume/PerfumeTransition';
 import PerfumeFeatures from '@/components/Perfume/PerfumeFeatures';
 import PerfumeCta from '@/components/Perfume/PerfumeCta';
 import PerfumeHeroVideo from '@/components/Perfume/PerfumeHeroVideo';
@@ -82,7 +82,7 @@ const PerfumeHome = () => {
 			<div className={styles.perfumeContainer}>
 				<PerfumeTopbar />
 				<PerfumeHeroVideo />
-				<PerfumeTransition />
+				{/* <PerfumeTransition /> */}
 				<PerfumeFeatures />
 				<PerfumeCta />
 				<MainFooter />

@@ -57,9 +57,9 @@
     "readMoreButton": "Read more"
   },
   "perfumeHero": {
-    "title": "Raras Anisa,",
+    "title": "Rahas Anisa,",
     "subtitle": "Sundanese Harmony",
-    "description": "Inspired by the heart of Sundanese land. RARAS ANISA captures the elegance and beauty of Princess Priyanjan. This is a gentle harmony of lush jasmine, sandalwood warmth, and oud depth. A beauty that soothes the soul.",
+    "description": "Inspired by the heart of Sundanese land. RAHAS ANISA captures the elegance and beauty of Princess Priyanjan. This is a gentle harmony of lush jasmine, sandalwood warmth, and oud depth. A beauty that soothes the soul.",
     "buyButton": "Buy Now"
   },
   "exportHero": {
@@ -190,7 +190,7 @@
   "perfume": {
     "catalog": {
       "badge": "PERFUME COLLECTION",
-      "title": "OUR PRODUCTS.",
+      "title": "OUR PRODUCTS",
       "description": "Exclusive perfume collection that brings the distinctive aroma of the Nusantara. Each scent tells the story of Indonesia's rich culture and traditions, packaged in luxurious bottles for an unforgettable experience."
     },
     "transition": {
@@ -202,23 +202,23 @@
       "title": "Experience the sensation of Sundanese harmony aroma",
       "buttonText": "Check Product",
       "subtitle": "Bring comfort and confidence",
-      "description": "Raras Anisa fragrance is intended for those who appreciate quiet beauty and gentle strength. This aroma is a celebration of identity, created with love and respect for the noble Sundanese heritage."
+      "description": "Rahas Anisa fragrance is intended for those who appreciate quiet beauty and gentle strength. This aroma is a celebration of identity, created with love and respect for the noble Sundanese heritage."
     },
     "features": [
       {
         "tagline": "Like dawn in the green meadow",
         "title": "Opened with Champs Elisses Ehsas and Al Wafa",
-        "description": "With the initial aroma nuances of Champs Elisses Ehsas and Al Wafa, Raras Anisa appears like morning light in the meadows of Priyanjan. Offering primal, captivating, and refreshing beauty."
+        "description": "With the initial aroma nuances of Champs Elisses Ehsas and Al Wafa, Rahas Anisa appears like morning light in the meadows of Priyanjan. Offering primal, captivating, and refreshing beauty."
       },
       {
         "tagline": "Unparalleled elegance",
         "title": "Sandalwood Aromatic Core",
-        "description": "The warm aromatic blend of Sandalwood brings the essence of 'Raras'--balanced warmth, tranquility and elegance. A perfect symbol of the distinctive Sundanese spirit."
+        "description": "The warm aromatic blend of Sandalwood brings the essence of 'Rahas'--balanced warmth, tranquility and elegance. A perfect symbol of the distinctive Sundanese spirit."
       },
       {
         "tagline": "Heavenly palace in every drop",
         "title": "Blend of Roberto Cavalli and Mukhallat Oud",
-        "description": "With royal fragrance nuances, Raras Anisa creates depth and distinction in every touch. This aroma depicts the quiet strength and attraction behind gentle beauty."
+        "description": "With royal fragrance nuances, Rahas Anisa creates depth and distinction in every touch. This aroma depicts the quiet strength and attraction behind gentle beauty."
       }
     ],
     "card": {

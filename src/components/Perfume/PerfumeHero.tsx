@@ -91,7 +91,7 @@ const PerfumeHero = () => {
 					>
 						<Image
 							fill
-							alt="Raras Anisa"
+							alt="Rahas Anisa"
 							className="object-cover translate-y-10 md:-translate-y-28 2xl:-translate-y-52 drop-shadow-2xl z-0 pointer-events-none"
 							src="/images/landing/raras-anisa.png"
 						/>

@@ -63,7 +63,7 @@ const PerfumeHeroVideo = () => {
 			{/* Content Overlay */}
 			<div className="relative z-20 w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 				<motion.div
-					className="text-center space-y-8 backdrop-blur-md bg-black/5 p-8 lg:p-12 border border-white/10"
+					className="text-center space-y-8 bg-black/20 p-8 lg:p-12 border border-white/10"
 					style={{
 						scale: textScale,
 						y: textY

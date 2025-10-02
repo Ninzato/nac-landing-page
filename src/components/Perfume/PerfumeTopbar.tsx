@@ -5,7 +5,7 @@ export const PerfumeTopbar = () => {
 	return (
 		<div
 			id="poerfume-topbar"
-			className="bg-base-100 lg:bg-base-100/90 border-base-300 sticky top-0 z-10 border-b data-[at-top=true]:border-transparent lg:backdrop-blur-sm"
+			className="bg-base-100 lg:bg-base-100/90 border-base-300 sticky top-0 z-[9999999] border-b data-[at-top=true]:border-transparent lg:backdrop-blur-sm"
 		>
 			<div className="container">
 				<nav className="flex items-center justify-between py-4">
