@@ -1,5 +1,6 @@
 import Image from 'next/image';
-import {Link} from '@/i18n/routing';
+import { Link } from '@/i18n/routing';
+import { LanguageSwitcher } from '../LanguageSwitcher';
 
 export const ExportTopbar = () => {
 	return (
@@ -53,16 +54,19 @@ export const ExportTopbar = () => {
 
 					<div className="max-lg:hidden">
 						<ul className="menu menu-horizontal gap-2 px-1">
-							<li className="font-medium font-montserrat">
-								<Link href="/export-import">HOME</Link>
+							<li className="font-medium">
+								<Link href="/export-import">Home</Link>
 							</li>
 							<li className="font-medium">
-								<Link href="/export-import/our-services">OUR SERVICES</Link>
+								<Link href="/export-import/our-services">Our Services</Link>
 							</li>
 							<li className="font-medium">
 								<Link href="/export-import/our-commodities">
-									OUR COMMODITIES
+									Our Commodities
 								</Link>
+							</li>
+							<li>
+								<LanguageSwitcher />
 							</li>
 						</ul>
 					</div>
@@ -93,16 +97,19 @@ export const ExportTopbar = () => {
 								/>
 							</Link>
 							<ul className="menu w-full gap-2 p-0 pt-4">
-								<li className="font-medium font-montserrat">
-									<Link href="/export-import">HOME</Link>
+								<li className="font-medium">
+									<Link href="/export-import">Home</Link>
 								</li>
-								<li className="font-medium font-montserrat">
-									<Link href="/export-import/our-services">OUR SERVICES</Link>
+								<li className="font-medium">
+									<Link href="/export-import/our-services">Our Services</Link>
 								</li>
-								<li className="font-medium font-montserrat">
+								<li className="font-medium">
 									<Link href="/export-import/our-commodities">
-										OUR COMMODITIES
+										Our Commodities
 									</Link>
+								</li>
+								<li>
+									<LanguageSwitcher />
 								</li>
 							</ul>
 						</div>

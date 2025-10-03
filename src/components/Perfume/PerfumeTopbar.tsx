@@ -1,5 +1,6 @@
 import Image from 'next/image';
-import {Link} from '@/i18n/routing';
+import { Link } from '@/i18n/routing';
+import { LanguageSwitcher } from '../LanguageSwitcher';
 
 export const PerfumeTopbar = () => {
 	return (
@@ -59,6 +60,9 @@ export const PerfumeTopbar = () => {
 							<li className="font-medium">
 								<Link href="/perfume/catalog">CATALOG</Link>
 							</li>
+							<li>
+								<LanguageSwitcher />
+							</li>
 						</ul>
 					</div>
 				</nav>
@@ -93,6 +97,9 @@ export const PerfumeTopbar = () => {
 								</li>
 								<li className="font-medium font-montserrat">
 									<Link href="/perfume/catalog">CATALOG</Link>
+								</li>
+								<li>
+									<LanguageSwitcher />
 								</li>
 							</ul>
 						</div>
