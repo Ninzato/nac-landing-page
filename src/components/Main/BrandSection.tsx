@@ -48,7 +48,7 @@ export const BrandSection = ({
 				<h3 className="mt-3 text-xl font-medium sm:text-2xl">
 					{title}
 				</h3>
-				<p className="text-base-content/80 mt-1">
+				<p className="text-base-content/80 mt-1 text-justify">
 					{description}
 				</p>
 				<ul className="mt-4 list-inside list-disc">

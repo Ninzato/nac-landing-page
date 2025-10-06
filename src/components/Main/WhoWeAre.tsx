@@ -35,10 +35,10 @@ export const WhoWeAre = () => {
 							<h3 className="text-2xl font-medium sm:text-3xl">
 								{t('mainTitle')}
 							</h3>
-							<p className="text-base-content/80 mt-4">
+							<p className="text-base-content/80 mt-4 text-justify">
 								{t('paragraph1')}
 							</p>
-							<p className="text-base-content/80 mt-4">
+							<p className="text-base-content/80 mt-4 text-justify">
 								{t('paragraph2')}
 							</p>
 

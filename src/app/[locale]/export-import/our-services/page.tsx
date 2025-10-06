@@ -28,7 +28,7 @@ export default function OurServicesPage() {
 								{t('hero.title')}{' '}
 								<span className="text-secondary">{t('hero.titleHighlight')}</span>
 							</h1>
-							<p className="text-base-content/80 mt-8 sm:text-lg">
+							<p className="text-base-content/80 mt-8 sm:text-lg text-justify">
 								{t('hero.description')}
 							</p>
 						</div>

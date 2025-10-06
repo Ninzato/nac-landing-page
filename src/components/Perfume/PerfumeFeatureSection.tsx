@@ -55,7 +55,7 @@ const PerfumeFeatureSection = () => {
 							<h3 className="text-accent/80 text-lg">{item.tagline}</h3>
 						</div>
 						<h2 className="text-2xl xl:text-4xl tracking-wide">{item.title}</h2>
-						<p className="text-xl leading-8">{item.description}</p>
+						<p className="text-xl leading-8 text-justify">{item.description}</p>
 					</div>
 					<div
 						className={`overflow-hidden aspect-square relative ${item.isReversed ? 'order-last lg:order-first' : ''}`}

@@ -26,7 +26,7 @@ const PerfumeCta = () => {
 						<h2 className="text-3xl font-bold">
 							{t('subtitle')}
 						</h2>
-						<p className="text-xl leading-8">
+						<p className="text-xl leading-8 text-justify">
 							{t('description')}
 						</p>
 					</div>

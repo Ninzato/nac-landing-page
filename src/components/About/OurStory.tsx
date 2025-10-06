@@ -13,15 +13,15 @@ export const OurStory = () => {
 				<div className="space-y-6">
 					<h1 className="text-3xl font-semibold sm:text-5xl mb-8">{t('title')}</h1>
 
-					<p className="text-base-content leading-relaxed">
+					<p className="text-base-content leading-relaxed text-justify">
 						{t('paragraph1')}
 					</p>
 
-					<p className="text-base-content leading-relaxed">
+					<p className="text-base-content leading-relaxed text-justify">
 						{t('paragraph2')}
 					</p>
 
-					<p className="text-base-content leading-relaxed">
+					<p className="text-base-content leading-relaxed text-justify">
 						{t('paragraph3')}
 					</p>
 				</div>

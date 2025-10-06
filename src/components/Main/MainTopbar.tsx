@@ -30,7 +30,7 @@ export const MainTopbar = () => {
 						>
 							<Image
 								alt="Nusantara Aroma Craft Logo"
-								src="/images/logo/nac-logo-official.svg"
+								src="/images/logo/nac-logo-new.svg"
 								width={75}
 								height={50}
 							/>
@@ -45,7 +45,7 @@ export const MainTopbar = () => {
 						>
 							<Image
 								alt="Nusantara Aroma Craft Logo"
-								src="/images/logo/nac-logo-official.svg"
+								src="/images/logo/nac-logo-new.svg"
 								width={50}
 								height={50}
 							/>

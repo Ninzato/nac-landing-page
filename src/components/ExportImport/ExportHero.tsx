@@ -34,7 +34,7 @@ export function Hero({
 								<span className="text-secondary">{highlight}</span>
 							) : null}
 						</h1>
-						<p className="text-base-content/80 mt-8 sm:text-lg">
+						<p className="text-base-content/80 mt-8 sm:text-lg text-justify">
 							{description}
 						</p>
 						<div className="mt-6 flex gap-3 flex-wrap">

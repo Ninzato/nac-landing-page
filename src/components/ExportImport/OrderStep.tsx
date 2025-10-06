@@ -25,7 +25,7 @@ const OrderStep = () => {
 						</h2>
 						<ol className="mt-4 space-y-4 text-base-content">
 							{t.raw('steps').map((step: OrderStep, index: number) => (
-								<li key={index}>
+								<li key={index} className='text-justify'>
 									<span className="font-medium text-foreground">
 										{step.number}) {step.title}
 									</span>{' '}

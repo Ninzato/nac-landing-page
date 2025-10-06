@@ -16,7 +16,7 @@ export const MainHero = () => {
 						<h1 className="text-4xl font-bold tracking-tight lg:text-6xl lg:leading-none">
 							{t('title')}
 						</h1>
-						<p className="text-base-content/80 mt-8 sm:text-lg">
+						<p className="text-base-content/80 mt-8 sm:text-lg text-justify">
 							{t('subtitle')}
 						</p>
 						<div className="mt-8 inline-flex gap-3 sm:mt-16">

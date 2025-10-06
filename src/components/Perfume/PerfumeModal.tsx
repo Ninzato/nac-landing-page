@@ -96,7 +96,7 @@ export const PerfumeModal = () => {
               </h2>
 
               {/* Description */}
-              <p className="text-gray-600 leading-relaxed text-lg">
+              <p className="text-gray-600 leading-relaxed text-lg text-justify">
                 {selectedPerfume.description}
               </p>
 
