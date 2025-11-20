@@ -1,6 +1,6 @@
+import { Link } from '@/i18n/routing';
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
-import {useTranslations} from 'next-intl';
-import {Link} from '@/i18n/routing';
 
 export const MainHero = () => {
 	const t = useTranslations('hero');
@@ -16,7 +16,7 @@ export const MainHero = () => {
 						<h1 className="text-4xl font-bold tracking-tight lg:text-6xl lg:leading-none">
 							{t('title')}
 						</h1>
-						<p className="text-base-content/80 mt-8 sm:text-lg text-justify">
+						<p className="text-base-content/80 mt-8 sm:text-lg ">
 							{t('subtitle')}
 						</p>
 						<div className="mt-8 inline-flex gap-3 sm:mt-16">

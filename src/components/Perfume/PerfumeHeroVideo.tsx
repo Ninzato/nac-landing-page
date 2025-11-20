@@ -1,9 +1,9 @@
 'use client'
 
-import {useTranslations} from 'next-intl';
-import {Link} from '@/i18n/routing';
-import { useRef, useState, useEffect } from 'react';
+import { Link } from '@/i18n/routing';
 import { motion, useScroll, useTransform } from 'motion/react';
+import { useTranslations } from 'next-intl';
+import { useEffect, useRef, useState } from 'react';
 
 const PerfumeHeroVideo = () => {
 	const t = useTranslations('perfumeHero');
@@ -92,7 +92,7 @@ const PerfumeHeroVideo = () => {
 						animate={{ opacity: 1, y: 0 }}
 						transition={{ ease: "easeOut", duration: 0.8, delay: 0.6 }}
 					>
-						<Link href="/perfume/catalog?perfume=raras-anisa">
+						<Link href="/perfume/catalog?perfume=melati-dream">
 							<button className="btn btn-accent hover:btn-accent/90 rounded-none btn-lg px-8 py-4 text-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-2xl shadow-accent/25">
 								{t('buyButton')}
 							</button>

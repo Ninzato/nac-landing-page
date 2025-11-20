@@ -1,5 +1,5 @@
+import { Link } from '@/i18n/routing';
 import Image from 'next/image';
-import {Link} from '@/i18n/routing';
 
 interface BrandSectionProps {
 	imageSrc: string;
@@ -48,7 +48,7 @@ export const BrandSection = ({
 				<h3 className="mt-3 text-xl font-medium sm:text-2xl">
 					{title}
 				</h3>
-				<p className="text-base-content/80 mt-1 text-justify">
+				<p className="text-base-content/80 mt-1 ">
 					{description}
 				</p>
 				<ul className="mt-4 list-inside list-disc">

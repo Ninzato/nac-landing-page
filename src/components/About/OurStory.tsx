@@ -1,5 +1,5 @@
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
-import {useTranslations} from 'next-intl';
 
 export const OurStory = () => {
 	const t = useTranslations('ourStory');
@@ -13,15 +13,15 @@ export const OurStory = () => {
 				<div className="space-y-6">
 					<h1 className="text-3xl font-semibold sm:text-5xl mb-8">{t('title')}</h1>
 
-					<p className="text-base-content leading-relaxed text-justify">
+					<p className="text-base-content leading-relaxed ">
 						{t('paragraph1')}
 					</p>
 
-					<p className="text-base-content leading-relaxed text-justify">
+					<p className="text-base-content leading-relaxed ">
 						{t('paragraph2')}
 					</p>
 
-					<p className="text-base-content leading-relaxed text-justify">
+					<p className="text-base-content leading-relaxed ">
 						{t('paragraph3')}
 					</p>
 				</div>

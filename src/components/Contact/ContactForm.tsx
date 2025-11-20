@@ -1,6 +1,5 @@
-import React from 'react';
-import {useTranslations} from 'next-intl';
 import { Separator } from '@/components/ui/separator';
+import { useTranslations } from 'next-intl';
 import ContactInquiryForm from './ContactInquiryForm';
 
 const ContactForm = () => {
@@ -30,7 +29,7 @@ const ContactForm = () => {
 							<p className="text-base-content/80 text-sm mb-3">
 								{t('phone.description')}
 							</p>
-							<p className="text-base-content font-medium">+62 21 5555-1234</p>
+							<p className="text-base-content font-medium">+6285710596000</p>
 						</div>
 
 						{/* Business Hours */}

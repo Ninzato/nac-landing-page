@@ -1,4 +1,4 @@
-import {Link} from '@/i18n/routing';
+import { Link } from '@/i18n/routing';
 import { useTranslations } from 'next-intl';
 
 const PerfumeCta = () => {
@@ -15,7 +15,7 @@ const PerfumeCta = () => {
 						<h1 className="text-5xl leading-13 font-bold md:text-6xl md:leading-18">
 							{t('title')}
 						</h1>
-						<Link href="/perfume/catalog?perfume=raras-anisa" className='w-full'>
+						<Link href="/perfume/catalog?perfume=melati-dream" className='w-full'>
 							<button className="btn btn-outline btn-accent btn-lg flex rounded-none w-full">
 								{t('buttonText')}{' '}
 								<span className="iconify ph--arrow-right-light size-5"></span>
@@ -26,7 +26,7 @@ const PerfumeCta = () => {
 						<h2 className="text-3xl font-bold">
 							{t('subtitle')}
 						</h2>
-						<p className="text-xl leading-8 text-justify">
+						<p className="text-xl leading-8 ">
 							{t('description')}
 						</p>
 					</div>

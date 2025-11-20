@@ -1,7 +1,7 @@
 'use client';
 
-import {useLocale} from 'next-intl';
-import {usePathname, useRouter} from '@/i18n/routing';
+import { usePathname, useRouter } from '@/i18n/routing';
+import { useLocale } from 'next-intl';
 
 export function LanguageSwitcher() {
   const locale = useLocale();
@@ -22,7 +22,7 @@ export function LanguageSwitcher() {
       aria-label="Switch language"
     >
       <span className="iconify lucide--globe size-4"></span>
-      {locale === 'id' ? 'EN' : 'ID'}
+      {locale === 'id' ? 'ID' : 'EN'}
     </button>
   );
 }

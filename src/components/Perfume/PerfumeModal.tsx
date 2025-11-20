@@ -1,11 +1,11 @@
 'use client';
 
-import { findPerfumeBySlug, formatPrice, generateWhatsAppURL } from '@/lib/perfume-utils';
-import { useRouter, useSearchParams } from 'next/navigation';
 import { WhatsAppIcon } from '@/components/icon/WhatsAppIcon';
+import { findPerfumeBySlug, formatPrice, generateWhatsAppURL } from '@/lib/perfume-utils';
+import { useLocale, useTranslations } from 'next-intl';
 import Image from 'next/image';
-import { useEffect, useCallback } from 'react';
-import { useTranslations, useLocale } from 'next-intl';
+import { useRouter, useSearchParams } from 'next/navigation';
+import { useCallback, useEffect } from 'react';
 
 export const PerfumeModal = () => {
   const router = useRouter();
@@ -96,7 +96,7 @@ export const PerfumeModal = () => {
               </h2>
 
               {/* Description */}
-              <p className="text-gray-600 leading-relaxed text-lg text-justify">
+              <p className="text-gray-600 leading-relaxed text-lg ">
                 {selectedPerfume.description}
               </p>
 
@@ -113,7 +113,7 @@ export const PerfumeModal = () => {
               {/* WhatsApp Contact Button */}
               <div className="pt-4 border-t border-gray-200">
                 <a
-                  href={generateWhatsAppURL(selectedPerfume, t('whatsappMessage', {
+                  href={generateWhatsAppURL(t('whatsappMessage', {
                     title: selectedPerfume.title,
                     price: formatPrice(selectedPerfume.price)
                   }))}

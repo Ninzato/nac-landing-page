@@ -1,5 +1,5 @@
-import { BrandSection } from './BrandSection';
 import { useTranslations } from 'next-intl';
+import { BrandSection } from './BrandSection';
 
 export const OurBrands = () => {
 	const t = useTranslations('ourBrands');
@@ -23,7 +23,7 @@ export const OurBrands = () => {
 
 				<div className="mt-8 space-y-8 lg:mt-20 xl:space-y-20">
 					<BrandSection
-						imageSrc="/images/landing/perfume-brand.png"
+						imageSrc="/images/landing/perfume-brand.webp"
 						imageAlt={t('perfume.title')}
 						badgeText={t('perfume.badgeText')}
 						badgeColor="primary"

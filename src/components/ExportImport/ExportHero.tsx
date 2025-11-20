@@ -1,5 +1,5 @@
+import { Link } from '@/i18n/routing';
 import Image from 'next/image';
-import {Link} from '@/i18n/routing';
 
 type HeroProps = {
 	title: string;
@@ -34,7 +34,7 @@ export function Hero({
 								<span className="text-secondary">{highlight}</span>
 							) : null}
 						</h1>
-						<p className="text-base-content/80 mt-8 sm:text-lg text-justify">
+						<p className="text-base-content/80 mt-8 sm:text-lg ">
 							{description}
 						</p>
 						<div className="mt-6 flex gap-3 flex-wrap">

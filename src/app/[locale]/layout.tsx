@@ -1,8 +1,10 @@
-import {NextIntlClientProvider} from 'next-intl';
-import {getMessages} from 'next-intl/server';
-import {notFound} from 'next/navigation';
-import {routing} from '@/i18n/routing';
+import { WhatsAppIcon } from '@/components/icon/WhatsAppIcon';
+import { routing } from '@/i18n/routing';
+import { generateWhatsAppURL } from '@/lib/perfume-utils';
+import { NextIntlClientProvider } from 'next-intl';
+import { getMessages } from 'next-intl/server';
 import { Geist, Geist_Mono } from "next/font/google";
+import { notFound } from 'next/navigation';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -54,6 +56,13 @@ export default async function LocaleLayout({
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <NextIntlClientProvider messages={messages}>
           {children}
+          <div className='fixed bottom-6 right-6 z-50'>
+            <div className='bg-green-600 p-4 rounded-full shadow-lg hover:bg-green-700 transition-colors cursor-pointer'>
+              <a href={generateWhatsAppURL("Hi PT NAC, I want to know more about your product!")} target="_blank" rel="noopener noreferrer" >
+                <WhatsAppIcon className="w-8 h-8 text-white" />
+              </a>
+            </div>
+          </div>
         </NextIntlClientProvider>
       </body>
     </html>

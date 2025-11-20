@@ -2,8 +2,8 @@
 
 import { ExportTopbar } from '@/components/ExportImport/ExportTopbar';
 import { MainFooter } from '@/components/Main/MainFooter';
-import Image from 'next/image';
 import { useTranslations } from 'next-intl';
+import Image from 'next/image';
 
 interface ProcessStep {
 	title: string;
@@ -28,7 +28,7 @@ export default function OurServicesPage() {
 								{t('hero.title')}{' '}
 								<span className="text-secondary">{t('hero.titleHighlight')}</span>
 							</h1>
-							<p className="text-base-content/80 mt-8 sm:text-lg text-justify">
+							<p className="text-base-content/80 mt-8 sm:text-lg ">
 								{t('hero.description')}
 							</p>
 						</div>

@@ -57,9 +57,9 @@
     "readMoreButton": "Read more"
   },
   "perfumeHero": {
-    "title": "Rahas Anisa,",
-    "subtitle": "Sundanese Harmony",
-    "description": "Inspired by the heart of Sundanese land. RAHAS ANISA captures the elegance and beauty of Princess Priyanjan. This is a gentle harmony of lush jasmine, sandalwood warmth, and oud depth. A beauty that soothes the soul.",
+    "title": "Melati Dream,",
+    "subtitle": "Nusantara Harmony",
+    "description": "Inspired by the long journey of Indonesia’s aromatic heritage. MELATI DREAM embodies the belief that the richness of the Archipelago deserves a place beside the world’s finest fragrances. The intoxicating jasmine, warm Sumatran amber, and Maluku island spices create a scent that is elegant, soulful, and enduring. A beauty born from vision and dedication.",
     "buyButton": "Buy Now"
   },
   "exportHero": {
@@ -199,26 +199,26 @@
       "line3": "In a formulation of the finest quality."
     },
     "cta": {
-      "title": "Experience the sensation of Sundanese harmony aroma",
+      "title": "Experience the beauty of Melati Dream",
       "buttonText": "Check Product",
-      "subtitle": "Bring comfort and confidence",
-      "description": "Rahas Anisa fragrance is intended for those who appreciate quiet beauty and gentle strength. This aroma is a celebration of identity, created with love and respect for the noble Sundanese heritage."
+      "subtitle": "Embrace quiet elegance and captivating charm",
+      "description": "Melati Dream is a celebration of identity and the aromatic richness of the Archipelago. Crafted with love, precision, and deep respect for Indonesian heritage, this fragrance invites you to experience its eternal soul, strength, and elegance."
     },
-    "features": [
+     "features": [
       {
-        "tagline": "Like dawn in the green meadow",
-        "title": "Opened with Champs Elisses Ehsas and Al Wafa",
-        "description": "With the initial aroma nuances of Champs Elisses Ehsas and Al Wafa, Rahas Anisa appears like morning light in the meadows of Priyanjan. Offering primal, captivating, and refreshing beauty."
+        "tagline": "From a vision to an unforgettable aroma",
+        "title": "Opening Notes of Nusantara Jasmine",
+        "description": "Opening with soft yet captivating jasmine, Melati Dream introduces a first impression inspired by Indonesia’s floral treasures. Like dawn awakening the horizon, this scent symbolizes the beginning of a journey toward a true masterpiece."
       },
       {
-        "tagline": "Unparalleled elegance",
-        "title": "Sandalwood Aromatic Core",
-        "description": "The warm aromatic blend of Sandalwood brings the essence of 'Rahas'--balanced warmth, tranquility and elegance. A perfect symbol of the distinctive Sundanese spirit."
+        "tagline": "Elegance shaped with precision",
+        "title": "Amber Core & Maluku Spices",
+        "description": "Warm Sumatran amber blends harmoniously with legendary spices from the Maluku Islands, forming an aromatic core that is deep, calm, and profoundly Indonesian. A refined elegance born from uncompromising ingredient selection."
       },
       {
-        "tagline": "Heavenly palace in every drop",
-        "title": "Blend of Roberto Cavalli and Mukhallat Oud",
-        "description": "With royal fragrance nuances, Rahas Anisa creates depth and distinction in every touch. This aroma depicts the quiet strength and attraction behind gentle beauty."
+        "tagline": "Craft refined in every drop",
+        "title": "The “Heat & Pulse” Technique",
+        "description": "Through the Heat & Pulse accelerated maturation process, Melati Dream becomes a high-quality Extrait de Parfum. Each drop is smooth on the skin, long-lasting, and radiates a quiet yet powerful luxury."
       }
     ],
     "card": {

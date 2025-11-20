@@ -1,8 +1,8 @@
 'use client';
 
+import { Link } from '@/i18n/routing';
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
-import {Link} from '@/i18n/routing';
-import {useTranslations} from 'next-intl';
 
 interface OrderStep {
 	number: string;
@@ -25,7 +25,7 @@ const OrderStep = () => {
 						</h2>
 						<ol className="mt-4 space-y-4 text-base-content">
 							{t.raw('steps').map((step: OrderStep, index: number) => (
-								<li key={index} className='text-justify'>
+								<li key={index} className=''>
 									<span className="font-medium text-foreground">
 										{step.number}) {step.title}
 									</span>{' '}

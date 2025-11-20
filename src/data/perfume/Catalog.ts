@@ -3,7 +3,7 @@ export interface PerfumeCatalog {
 	title: string;
 	description: string;
 	uniquePoints: string[];
-    imagePath: string;
+	imagePath: string;
 }
 
 export const PerfumeCatalogDataEng: PerfumeCatalog[] = [
@@ -17,7 +17,7 @@ export const PerfumeCatalogDataEng: PerfumeCatalog[] = [
 			'Resinous and mystical',
 			'Commanding and bold presence',
 		],
-        imagePath: '/images/landing/catalog.png'
+		imagePath: '/images/landing/java-oudh.webp',
 	},
 	{
 		price: 100000,
@@ -29,7 +29,7 @@ export const PerfumeCatalogDataEng: PerfumeCatalog[] = [
 			'Resinous and grounding',
 			'Captures Sumatran wilderness',
 		],
-        imagePath: '/images/landing/catalog.png'
+		imagePath: '/images/landing/sumatra-amber.png',
 	},
 	{
 		price: 100000,
@@ -41,7 +41,7 @@ export const PerfumeCatalogDataEng: PerfumeCatalog[] = [
 			'Inspired by Spice Islands',
 			'Nutmeg, clove, and pepper notes',
 		],
-        imagePath: '/images/landing/catalog.png'
+		imagePath: '/images/landing/pulau-rempah.png',
 	},
 	{
 		price: 100000,
@@ -53,19 +53,18 @@ export const PerfumeCatalogDataEng: PerfumeCatalog[] = [
 			'Inspired by mythical Garuda',
 			'Spicy and golden majesty',
 		],
-        imagePath: '/images/landing/catalog.png'
+		imagePath: '/images/landing/garuda-gold.png',
 	},
 	{
 		price: 100000,
 		title: 'BALI SUNRISE',
-		description:
-			`Experience the first light of dawn over the shores of Bali. BALI SUNRISE is a breath of fresh, floral air, blended with the calming serenity of aquatic notes. It's a fragrance that evokes peace, new beginnings, and the simple, pure joy of a perfect morning by the ocean.`,
+		description: `Experience the first light of dawn over the shores of Bali. BALI SUNRISE is a breath of fresh, floral air, blended with the calming serenity of aquatic notes. It's a fragrance that evokes peace, new beginnings, and the simple, pure joy of a perfect morning by the ocean.`,
 		uniquePoints: [
 			'Fresh floral aquatic',
 			'Captures serene Bali sunrise',
 			'Peaceful and uplifting',
 		],
-        imagePath: '/images/landing/catalog.png'
+		imagePath: '/images/landing/bali-sunrise.png',
 	},
 	{
 		price: 100000,
@@ -77,19 +76,18 @@ export const PerfumeCatalogDataEng: PerfumeCatalog[] = [
 			'Romantic and elegant',
 			'Night-blooming enchantment',
 		],
-        imagePath: '/images/landing/catalog.png'
+		imagePath: '/images/landing/melati-dream.webp',
 	},
 	{
 		price: 100000,
 		title: 'SUNDA BREEZE',
-		description:
-			`Feel the refreshing coolness of the wind across the Sunda Strait. SUNDA BREEZE is a clean, uplifting blend of bright citrus and airy aquatic notes. It's the scent of clarity, freedom, and effortless style—a revitalizing splash that awakens the senses and clears the mind.`,
+		description: `Feel the refreshing coolness of the wind across the Sunda Strait. SUNDA BREEZE is a clean, uplifting blend of bright citrus and airy aquatic notes. It's the scent of clarity, freedom, and effortless style—a revitalizing splash that awakens the senses and clears the mind.`,
 		uniquePoints: [
 			'Clean citrus-aquatic',
 			'Invigorating and airy',
 			'Refreshing Sunda Strait breeze',
 		],
-        imagePath: '/images/landing/catalog.png'
+		imagePath: '/images/landing/sunda-breeze.webp',
 	},
 	{
 		price: 100000,
@@ -101,7 +99,7 @@ export const PerfumeCatalogDataEng: PerfumeCatalog[] = [
 			'Essence of homeland',
 			'Grounding and rooted',
 		],
-        imagePath: '/images/landing/catalog.png'
+		imagePath: '/images/landing/tanah-air.png',
 	},
 	{
 		price: 100000,
@@ -113,7 +111,7 @@ export const PerfumeCatalogDataEng: PerfumeCatalog[] = [
 			'Indonesian vanilla richness',
 			'Comforting and indulgent',
 		],
-        imagePath: '/images/landing/catalog.png'
+		imagePath: '/images/landing/bumi-vanili.png',
 	},
 	{
 		price: 100000,
@@ -125,19 +123,7 @@ export const PerfumeCatalogDataEng: PerfumeCatalog[] = [
 			'Atmospheric and mysterious',
 			'Inspired by mystical highlands',
 		],
-        imagePath: '/images/landing/catalog.png'
-	},
-	{
-		price: 100000,
-		title: 'RAHAS ANISA',
-		description:
-			"Inspired by the heart of Sundanese land, RAHAS ANISA captures the elegance and beauty of Princess Priyanjan. This fragrance is a gentle harmony of lush jasmine, the warmth of sandalwood, and the depth of oud. Opening with Champs Elisses Ehsas and Al Wafa, it evolves into aromatic sandalwood warmth, then settles into the royal sophistication of Roberto Cavalli and Mukhallat Oud. A beauty that soothes the soul and celebrates quiet strength.",
-		uniquePoints: [
-			'Harmonious blend of jasmine, sandalwood, and oud',
-			'Royal sophistication with gentle strength',
-			'Inspired by Sundanese heritage and Princess Priyanjan',
-		],
-		imagePath: '/images/landing/raras-anisa-feature-1.png',
+		imagePath: '/images/landing/pulau-kabut.png',
 	},
 ];
 
@@ -146,13 +132,13 @@ export const PerfumeCatalogDataId: PerfumeCatalog[] = [
 		price: 100000,
 		title: 'JAVA OUDH',
 		description:
-			"Menjelajah ke jantung Jawa, tempat pepohonan tua membisikkan rahasia bumi. JAVA OUDH lebih dari sekadar aroma; ia adalah gema hutan berkabut dan tradisi sakral. Wewangian tegas nan berasap ini untuk sosok yang menyimpan aura misteri dan keteguhan. Inilah aroma warisan abadi yang dibotolkan.",
+			'Menjelajah ke jantung Jawa, tempat pepohonan tua membisikkan rahasia bumi. JAVA OUDH lebih dari sekadar aroma; ia adalah gema hutan berkabut dan tradisi sakral. Wewangian tegas nan berasap ini untuk sosok yang menyimpan aura misteri dan keteguhan. Inilah aroma warisan abadi yang dibotolkan.',
 		uniquePoints: [
 			'Oud pekat berasap',
 			'Beraroma resin dan mistis',
 			'Hadir dengan wibawa dan keberanian',
 		],
-		imagePath: '/images/landing/catalog.png',
+		imagePath: '/images/landing/java-oudh.webp',
 	},
 	{
 		price: 100000,
@@ -164,19 +150,19 @@ export const PerfumeCatalogDataId: PerfumeCatalog[] = [
 			'Beraroma resin yang menenangkan',
 			'Mewakili liar alam Sumatra',
 		],
-		imagePath: '/images/landing/catalog.png',
+		imagePath: '/images/landing/sumatra-amber.png',
 	},
 	{
 		price: 100000,
 		title: 'PULAU REMPAH',
 		description:
-			"PULAU REMPAH merupakan penghormatan terhadap harta paling legendaris nusantara. Aroma ini bagaikan pelayaran di jalur rempah kuno, dengan gelombang kehangatan dari pala, cengkeh, dan lada. Ia bercerita tentang petualangan, kemakmuran, dan semangat penjelajahan yang membentuk Indonesia.",
+			'PULAU REMPAH merupakan penghormatan terhadap harta paling legendaris nusantara. Aroma ini bagaikan pelayaran di jalur rempah kuno, dengan gelombang kehangatan dari pala, cengkeh, dan lada. Ia bercerita tentang petualangan, kemakmuran, dan semangat penjelajahan yang membentuk Indonesia.',
 		uniquePoints: [
 			'Perpaduan rempah hangat',
 			'Terinspirasi Kepulauan Rempah',
 			'Aroma pala, cengkeh, dan lada',
 		],
-		imagePath: '/images/landing/catalog.png',
+		imagePath: '/images/landing/pulau-rempah.png',
 	},
 	{
 		price: 100000,
@@ -188,7 +174,7 @@ export const PerfumeCatalogDataId: PerfumeCatalog[] = [
 			'Terinspirasi Garuda mitologis',
 			'Rempah hangat bernuansa keemasan',
 		],
-		imagePath: '/images/landing/catalog.png',
+		imagePath: '/images/landing/garuda-gold.png',
 	},
 	{
 		price: 100000,
@@ -200,19 +186,19 @@ export const PerfumeCatalogDataId: PerfumeCatalog[] = [
 			'Menangkap ketenangan fajar Bali',
 			'Menentramkan dan membangkitkan semangat',
 		],
-		imagePath: '/images/landing/catalog.png',
+		imagePath: '/images/landing/bali-sunrise.png',
 	},
 	{
 		price: 100000,
 		title: 'MELATI DREAM',
 		description:
-			"MELATI DREAM adalah ode untuk bunga paling dicintai di Indonesia. Wewangian ini menangkap romantika melati yang memabukkan di bawah cahaya bulan. Ia memancarkan kesan anggun nan melankolis, janji manis malam tropis yang menawan.",
+			'MELATI DREAM adalah ode untuk bunga paling dicintai di Indonesia. Wewangian ini menangkap romantika melati yang memabukkan di bawah cahaya bulan. Ia memancarkan kesan anggun nan melankolis, janji manis malam tropis yang menawan.',
 		uniquePoints: [
 			'Jasmine floral yang intens',
 			'Romantis dan elegan',
 			'Pesona mekar malam',
 		],
-		imagePath: '/images/landing/catalog.png',
+		imagePath: '/images/landing/melati-dream.webp',
 	},
 	{
 		price: 100000,
@@ -224,54 +210,42 @@ export const PerfumeCatalogDataId: PerfumeCatalog[] = [
 			'Menyegarkan dan ringan',
 			'Semilir Selat Sunda yang menyegarkan',
 		],
-		imagePath: '/images/landing/catalog.png',
+		imagePath: '/images/landing/sunda-breeze.webp',
 	},
 	{
 		price: 100000,
 		title: 'TANAH AIR',
 		description:
-			"TANAH AIR adalah aroma rumah yang mendalam. Wewangian ini mengajak menelusuri tanah lembap selepas hujan, daun hijau rimbun, dan kayu tua. Sederhana namun kuat, menjadi penghormatan rendah hati bagi bumi yang membesarkan kita, menumbuhkan rasa memiliki dan akar.",
+			'TANAH AIR adalah aroma rumah yang mendalam. Wewangian ini mengajak menelusuri tanah lembap selepas hujan, daun hijau rimbun, dan kayu tua. Sederhana namun kuat, menjadi penghormatan rendah hati bagi bumi yang membesarkan kita, menumbuhkan rasa memiliki dan akar.',
 		uniquePoints: [
 			'Hijau-kayu bernuansa tanah',
 			'Esensi tanah air',
 			'Menguatkan dan membumi',
 		],
-		imagePath: '/images/landing/catalog.png',
+		imagePath: '/images/landing/tanah-air.png',
 	},
 	{
 		price: 100000,
 		title: 'BUMI VANILI',
 		description:
-			"BUMI VANILI merayakan persatuan tanah dengan manisan terbaiknya. Aroma hangat ini menyelimuti dengan vanila kaya dan lembut yang bertumpu pada dasar kayu bernuansa tanah. Sehangat aroma polong vanila yang dijemur di atas tanah subur—pengalaman menenangkan sekaligus memanjakan.",
+			'BUMI VANILI merayakan persatuan tanah dengan manisan terbaiknya. Aroma hangat ini menyelimuti dengan vanila kaya dan lembut yang bertumpu pada dasar kayu bernuansa tanah. Sehangat aroma polong vanila yang dijemur di atas tanah subur—pengalaman menenangkan sekaligus memanjakan.',
 		uniquePoints: [
 			'Gourmand manis bernuansa tanah',
 			'Kaya vanila Indonesia',
 			'Hangat, menenangkan, dan memanjakan',
 		],
-		imagePath: '/images/landing/catalog.png',
+		imagePath: '/images/landing/bumi-vanili.png',
 	},
 	{
 		price: 100000,
 		title: 'PULAU KABUT',
 		description:
-			"Masuk ke misteri tenang PULAU KABUT, pulau berselimut kabut. Aroma atmosferik ini menangkap udara sejuk dan lembap hutan pegunungan yang diselimuti kabut. Dengan sentuhan hijau, akuatik, dan mineral, ia menghadirkan rasa sunyi damai dan keindahan tersembunyi dataran tinggi mistis Indonesia.",
+			'Masuk ke misteri tenang PULAU KABUT, pulau berselimut kabut. Aroma atmosferik ini menangkap udara sejuk dan lembap hutan pegunungan yang diselimuti kabut. Dengan sentuhan hijau, akuatik, dan mineral, ia menghadirkan rasa sunyi damai dan keindahan tersembunyi dataran tinggi mistis Indonesia.',
 		uniquePoints: [
 			'Hijau berair berkabut',
 			'Atmosferik dan misterius',
 			'Terinspirasi dataran tinggi mistis',
 		],
-		imagePath: '/images/landing/catalog.png',
-	},
-	{
-		price: 100000,
-		title: 'RAHAS ANISA',
-		description:
-			"Terinspirasi oleh jantung tanah Sunda. RAHAS ANISA adalah wewangian yang menangkap keanggunan dan kecantikan putri Priyanjan. Ini adalah harmoni lembut melati yang rimbun, kehangatan cendana, dan kedalaman oud. Dibuka dengan Champs Elisses Ehsas dan Al Wafa, berkembang menjadi kehangatan aromatik cendana, lalu menetap dalam kemewahan royal Roberto Cavalli dan Mukhallat Oud. Keindahan yang menenangkan jiwa dan merayakan kekuatan yang lembut.",
-		uniquePoints: [
-			'Perpaduan harmonis melati, cendana, dan oud',
-			'Kemewahan royal dengan kekuatan yang lembut',
-			'Terinspirasi warisan Sunda dan Putri Priyanjan',
-		],
-		imagePath: '/images/landing/raras-anisa-feature-1.png',
+		imagePath: '/images/landing/pulau-kabut.png',
 	},
 ];

@@ -1,5 +1,5 @@
-import Image from 'next/image';
 import { useTranslations } from 'next-intl';
+import Image from 'next/image';
 
 interface PerfumeFeatureSectionData {
 	iconClass: string;
@@ -20,7 +20,7 @@ const PerfumeFeatureSection = () => {
 			title: t('0.title'),
 			description: t('0.description'),
 			isReversed: false,
-			imagePath: '/images/landing/raras-anisa-feature-1.png',
+			imagePath: '/images/landing/melati-dream-feature-1.png',
 		},
 		{
 			iconClass: 'ph--rainbow-light',
@@ -28,7 +28,7 @@ const PerfumeFeatureSection = () => {
 			title: t('1.title'),
 			description: t('1.description'),
 			isReversed: true,
-			imagePath: '/images/landing/raras-anisa-feature-2.png',
+			imagePath: '/images/landing/melati-dream-feature-2.png',
 		},
 		{
 			iconClass: 'ph--sparkle-light',
@@ -36,7 +36,7 @@ const PerfumeFeatureSection = () => {
 			title: t('2.title'),
 			description: t('2.description'),
 			isReversed: false,
-			imagePath: '/images/landing/raras-anisa-feature-3.png',
+			imagePath: '/images/landing/melati-dream-feature-3.png',
 		},
 	];
 
@@ -55,7 +55,7 @@ const PerfumeFeatureSection = () => {
 							<h3 className="text-accent/80 text-lg">{item.tagline}</h3>
 						</div>
 						<h2 className="text-2xl xl:text-4xl tracking-wide">{item.title}</h2>
-						<p className="text-xl leading-8 text-justify">{item.description}</p>
+						<p className="text-xl leading-8 ">{item.description}</p>
 					</div>
 					<div
 						className={`overflow-hidden aspect-square relative ${item.isReversed ? 'order-last lg:order-first' : ''}`}

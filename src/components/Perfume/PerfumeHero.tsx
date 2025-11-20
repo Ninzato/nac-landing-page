@@ -1,10 +1,10 @@
 'use client'
 
-import Image from 'next/image';
-import {useTranslations} from 'next-intl';
-import {Link} from '@/i18n/routing';
-import { useRef, useState, useEffect } from 'react';
+import { Link } from '@/i18n/routing';
 import { motion, useScroll, useTransform } from 'motion/react';
+import { useTranslations } from 'next-intl';
+import Image from 'next/image';
+import { useEffect, useRef, useState } from 'react';
 
 const PerfumeHero = () => {
 	const t = useTranslations('perfumeHero');
@@ -72,7 +72,7 @@ const PerfumeHero = () => {
 							animate={{ opacity: 1, y: 0 }}
 							transition={{ ease: "easeOut", duration: 0.6, delay: 0.6 }}
 						>
-							<Link href="/perfume/catalog?perfume=raras-anisa">
+							<Link href="/perfume/catalog?perfume=melati-dream">
 								<button className="btn btn-outline btn-accent rounded-none z-100 btn-lg">
 									{t('buyButton')}
 								</button>

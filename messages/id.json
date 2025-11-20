@@ -57,9 +57,9 @@
     "readMoreButton": "Baca selengkapnya"
   },
   "perfumeHero": {
-    "title": "Rahas Anisa,",
-    "subtitle": "Harmoni Sunda",
-    "description": "Terinspirasi oleh jantung tanah Sunda. RAHAS ANISA adalah wewangian yang menangkap keanggunan dan kecantikan putri Priyanjan. Ini adalah harmoni lembut melati yang rimbun, kehangatan cendana, dan kedalaman oud. Keindahan yang menenangkan jiwa.",
+    "title": "Melati Dream,",
+    "subtitle": "Harmoni Nusantara",
+    "description": "Terinspirasi dari perjalanan panjang warisan aroma Nusantara. MELATI DREAM adalah wujud kepercayaan bahwa kekayaan Indonesia layak bersanding dengan wewangian mewah dunia. Perpaduan melati yang memabukkan, amber Sumatra yang hangat, dan sentuhan rempah Maluku menghadirkan karakter yang anggun dan abadi. Sebuah keindahan yang lahir dari visi dan dedikasi.",
     "buyButton": "Beli Sekarang"
   },
   "exportHero": {
@@ -132,7 +132,7 @@
     "perfume": {
       "badgeText": "Koleksi Parfum",
       "title": "NAC parfum",
-      "description": "Rasakan esensi Indonesia dalam setiap tetes. Koleksi parfum premium kami menghadirkan interpretasi modern dari warisan aromatik Nusantara yang telah memikat dunia selama berabad-abad. Setiap botol adalah hasil dari perpaduan sempurna antara bahan baku terselecta dan keahlian parfumer berpengalaman.",
+      "description": "Rasakan esensi Indonesia dalam setiap tetes. Koleksi parfum premium kami menghadirkan interpretasi modern dari warisan aromatik Nusantara yang telah memikat dunia selama berabad-abad. Setiap botol adalah hasil dari perpaduan sempurna antara bahan baku terpilih dan keahlian pengrajin parfum berpengalaman.",
       "features": [
         "Aroma Eksklusif Indonesia",
         "Bahan Baku Pilihan",
@@ -199,28 +199,28 @@
       "line3": "Dalam sebuah racikan dengan kualitas terbaik."
     },
     "cta": {
-      "title": "Rasakan sensasi aroma harmoni Sunda",
+      "title": "Rasakan keindahan Melati Dream",
       "buttonText": "Cek Produk",
-      "subtitle": "Hadirkan kenyamanan dan kepercayaan diri",
-      "description": "Wewangian Rahas Anisa ditujukan bagi mereka yang menghargai keindahan yang tenang dan kekuatan yang lembut. Aroma ini merupakan perayaan identitas, yang diciptakan dengan cinta dan rasa hormat terhadap warisan luhur Sunda."
+      "subtitle": "Hadirkan keanggunan yang tenang dan memikat",
+      "description": "Melati Dream adalah perayaan identitas dan kekayaan aroma Nusantara. Diciptakan dengan cinta, presisi, dan rasa hormat pada warisan Indonesia, wewangian ini mengajak Anda merasakan jiwa, kekuatan, dan keanggunan yang abadi."
     },
     "features": [
-      {
-        "tagline": "Bak arunika di hijaunya loka",
-        "title": "Dibuka dengan Champs Elisses Ehsas dan Al Wafa",
-        "description": "Dengan nuansa aroma awal dari Champs Elisses Ehsas dan Al Wafa, Rahas Anisa hadir bagaikan cahaya pagi di padang rumput Priyanjan. Menawarkan keindahan yang primal, menawan, dan menyegarkan."
-      },
-      {
-        "tagline": "Keanggunan tiada tara",
-        "title": "Inti Aromatik Cendana",
-        "description": "Perpaduan aromatik hangat dari Cendana membawakan esensi \"Rahas\"--kehangatan, ketenangan dan keanggunan yang seimbang. Perlambang sempurna bagi ciri khas semangat Sunda."
-      },
-      {
-        "tagline": "Mahligai syurgawi di tiap tetes",
-        "title": "Perpaduan Roberto Cavalli dan Mukhallat Oud",
-        "description": "Dengan nuansa wewangian yang royal, Rahas Anisa menciptakan kedalam dan keistimewaan dalam tiap sentuhan. Aroma ini menggambarkan kekuatan dan daya tarik yang tenang di balik keindahan yang lembut."
-      }
-    ],
+    {
+      "tagline": "Dari sebuah visi menjadi sebuah keharuman",
+      "title": "Aroma Awal Melati Nusantara",
+      "description": "Dibuka dengan harum melati yang lembut namun memikat, Melati Dream menghadirkan nuansa pertama yang terinspirasi dari kekayaan bunga Nusantara. Layaknya cahaya subuh yang membangunkan harapan, aroma ini menjadi lambang perjalanan panjang menuju sebuah mahakarya."
+    },
+    {
+      "tagline": "Elegansi yang diciptakan dengan presisi",
+      "title": "Inti Amber & Rempah Maluku",
+      "description": "Amber Sumatra yang hangat berpadu harmonis dengan rempah khas Kepulauan Maluku, menciptakan inti aromatik yang dalam, tenang, dan memancarkan karakter Indonesia. Sebuah keanggunan yang dibentuk oleh seleksi bahan baku tanpa kompromi."
+    },
+    {
+      "tagline": "Seni yang matang dalam setiap tetes",
+      "title": "Proses “Heat & Pulse”",
+      "description": "Melalui proses Heat & Pulse — metode pematangan yang memperhalus setiap elemen — Melati Dream hadir sebagai Extrait de Parfum berkualitas tinggi. Setiap tetesnya lembut pada kulit, tahan lama, dan memancarkan pesona mewah yang tenang namun kuat."
+    }
+  ],
     "card": {
       "viewDetails": "LIHAT DETAIL"
     },

@@ -1,6 +1,5 @@
-import React from 'react';
-import Image from 'next/image';
 import { useTranslations } from 'next-intl';
+import Image from 'next/image';
 
 const ContactCard = () => {
 	const t = useTranslations('contactCard');
@@ -39,10 +38,7 @@ const ContactCard = () => {
 							<h3 className="flex-1 text-xl font-medium mb-4">{t('email')}</h3>
 							<div className="flex-1 flex flex-col justify-end gap-2">
 								<p className="text-base-content/80">
-									info@nusantaraaromacraft.com
-								</p>
-								<p className="text-base-content/80">
-									business@nusantaraaromacraft.com
+									ptnusantaraaromacraft@gmail.com
 								</p>
 							</div>
 						</div>
@@ -51,32 +47,14 @@ const ContactCard = () => {
 						<div className='bg-base-100 flex-1 flex flex-col w-full p-6 rounded-xl'>
 							<h3 className="flex-1 text-xl font-medium mb-6">{t('offices')}</h3>
 							<div className="flex-1 flex items-center">
-								<div className="grid sm:grid-cols-2 gap-6 w-full">
+								<div className="grid sm:grid-cols-1 gap-6 w-full">
 									{/* Jakarta Office */}
 									<div>
 										<h4 className="font-medium text-base-content/90 mb-2">
 											{t('jakarta')}
 										</h4>
 										<p className="text-sm text-base-content/70">
-											Jl. Sudirman Kav. 52-53
-											<br />
-											Jakarta Selatan 12190
-											<br />
-											Indonesia
-										</p>
-									</div>
-
-									{/* Surabaya Office */}
-									<div>
-										<h4 className="font-medium text-base-content/90 mb-2">
-											{t('surabaya')}
-										</h4>
-										<p className="text-sm text-base-content/70">
-											Jl. Pemuda No. 31-37
-											<br />
-											Surabaya 60271
-											<br />
-											East Java, Indonesia
+											Gedung Jaya Lantai 5 Unit A6, Jalan MH Thamrin Nomor 12 ,Desa/Kelurahan Kebon Sirih, Kec. Menteng, Kota Adm. Jakarta Pusat,Provinsi DKI Jakarta, Kode Pos: 10340
 										</p>
 									</div>
 								</div>
