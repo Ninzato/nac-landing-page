@@ -1,28 +1,28 @@
 'use client';
 
-import { PerfumeCatalogDataId, PerfumeCatalogDataEng } from '@/data/perfume/Catalog';
+import { PerfumeCatalogDataEng, PerfumeCatalogDataId } from '@/data/perfume/Catalog';
+import { useLocale, useTranslations } from 'next-intl';
+import { Suspense } from 'react';
 import { PerfumeCard } from './PerfumeCard';
 import { PerfumeModal } from './PerfumeModal';
-import { Suspense } from 'react';
-import { useTranslations, useLocale } from 'next-intl';
 
 const CatalogWrapper = () => {
 	const t = useTranslations('perfume.catalog');
 	const locale = useLocale();
 
 	// Debug logging
-	console.log('🌍 CatalogWrapper - Current locale:', locale);
-	console.log('🌍 CatalogWrapper - Locale type:', typeof locale);
+	console.debug('🌍 CatalogWrapper - Current locale:', locale);
+	console.debug('🌍 CatalogWrapper - Locale type:', typeof locale);
 
 	// Select the appropriate data array based on current locale with explicit checking
 	const isEnglish = locale === 'en' || locale?.toString() === 'en';
 	const perfumeData = isEnglish ? PerfumeCatalogDataEng : PerfumeCatalogDataId;
 
 	// Debug logging for data selection
-	console.log('🔍 CatalogWrapper - isEnglish:', isEnglish);
-	console.log('📦 CatalogWrapper - Selected data array:', isEnglish ? 'PerfumeCatalogDataEng' : 'PerfumeCatalogDataId');
-	console.log('📦 CatalogWrapper - First item title:', perfumeData[0]?.title);
-	console.log('📦 CatalogWrapper - First item description preview:', perfumeData[0]?.description?.substring(0, 50) + '...');
+	console.debug('🔍 CatalogWrapper - isEnglish:', isEnglish);
+	console.debug('📦 CatalogWrapper - Selected data array:', isEnglish ? 'PerfumeCatalogDataEng' : 'PerfumeCatalogDataId');
+	console.debug('📦 CatalogWrapper - First item title:', perfumeData[0]?.title);
+	console.debug('📦 CatalogWrapper - First item description preview:', perfumeData[0]?.description?.substring(0, 50) + '...');
 
 	return (
 		<>

@@ -1,10 +1,10 @@
 'use client';
 
 import { PerfumeCatalog } from '@/data/perfume/Catalog';
-import { generateSlug, formatPrice } from '@/lib/perfume-utils';
-import { useRouter, useSearchParams } from 'next/navigation';
-import Image from 'next/image';
+import { formatPrice, generateSlug } from '@/lib/perfume-utils';
 import { useTranslations } from 'next-intl';
+import Image from 'next/image';
+import { useRouter, useSearchParams } from 'next/navigation';
 
 interface PerfumeCardProps {
 	perfume: PerfumeCatalog;
@@ -24,7 +24,7 @@ export const PerfumeCard = ({ perfume }: PerfumeCardProps) => {
 
 	return (
 		<div className="group transition-shadow duration-300 overflow-hidden flex flex-col gap-4">
-			<div className="aspect-square bg-gray-100 relative overflow-hidden">
+			<div onClick={handleCardClick} className="aspect-square bg-gray-100 relative overflow-hidden">
 				{/* Product Image */}
 				<Image
 					src={perfume.imagePath}

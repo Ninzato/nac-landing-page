@@ -50,7 +50,7 @@ export const PerfumeModal = () => {
   }
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+    <div className="fixed inset-0 z-[9999999999] flex items-center justify-center p-4">
       {/* Backdrop */}
       <div
         className="absolute inset-0 bg-black/60 backdrop-blur-sm"
@@ -58,7 +58,7 @@ export const PerfumeModal = () => {
       />
 
       {/* Modal Content */}
-      <div className="relative bg-white shadow-2xl max-w-4xl w-full max-h-[90vh] overflow-hidden">
+      <div className="relative bg-white shadow-2xl max-w-4xl w-full max-h-[90vh] flex flex-col overflow-hidden">
         {/* Close Button */}
         <button
           onClick={closeModal}
@@ -69,10 +69,10 @@ export const PerfumeModal = () => {
           </svg>
         </button>
 
-        <div className="flex flex-col lg:flex-row">
+        <div className="flex flex-col lg:flex-row flex-1 min-h-0">
           {/* Image Section */}
-          <div className="lg:w-1/2 bg-accent/80 relative p-4">
-            <div className="aspect-square lg:aspect-auto lg:h-full relative bg-accent">
+          <div className="lg:w-1/2 bg-accent/80 relative lg:p-4 shrink-0">
+            <div className="relative bg-accent w-full h-96 lg:h-full">
               <Image
                 src={selectedPerfume.imagePath}
                 alt={selectedPerfume.title}
@@ -83,7 +83,7 @@ export const PerfumeModal = () => {
           </div>
 
           {/* Content Section */}
-          <div className="lg:w-1/2 p-8 flex flex-col justify-center">
+          <div className="lg:w-1/2 p-8 flex flex-col lg:justify-center flex-1 overflow-y-auto min-h-0">
             <div className="space-y-6">
               {/* Price */}
               <p className="text-sm tracking-wider text-accent font-montserrat">
