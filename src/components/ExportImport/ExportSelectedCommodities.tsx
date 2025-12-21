@@ -1,6 +1,6 @@
+import { Link } from '@/i18n/routing';
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
-import {useTranslations} from 'next-intl';
-import {Link} from '@/i18n/routing';
 
 const ExportSelectedCommodities = () => {
 	const t = useTranslations('exportSelectedCommodities');
@@ -92,7 +92,7 @@ const ExportSelectedCommodities = () => {
 				</div>
 
 				<div className="mt-6 w-full">
-					<Link href="/our-commodities">
+					<Link href="/export-import/our-commodities">
 						<button className="btn btn-secondary btn-outline w-full">
 							See All Commodities
 						</button>

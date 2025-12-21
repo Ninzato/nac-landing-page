@@ -1,10 +1,10 @@
-import { PerfumeTopbar } from '@/components/Perfume/PerfumeTopbar';
 import { MainFooter } from '@/components/Main/MainFooter';
-import styles from './perfume.module.css';
+import { PerfumeTopbar } from '@/components/Perfume/PerfumeTopbar';
 import type { Metadata } from 'next';
+import styles from './perfume.module.css';
 // import PerfumeTransition from '@/components/Perfume/PerfumeTransition';
-import PerfumeFeatures from '@/components/Perfume/PerfumeFeatures';
 import PerfumeCta from '@/components/Perfume/PerfumeCta';
+import PerfumeFeatures from '@/components/Perfume/PerfumeFeatures';
 import PerfumeHeroVideo from '@/components/Perfume/PerfumeHeroVideo';
 
 export const metadata: Metadata = {

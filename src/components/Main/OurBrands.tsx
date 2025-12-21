@@ -23,7 +23,7 @@ export const OurBrands = () => {
 
 				<div className="mt-8 space-y-8 lg:mt-20 xl:space-y-20">
 					<BrandSection
-						imageSrc="/images/landing/perfume-brand.webp"
+						imageSrc="/images/landing/perfume-brand.png"
 						imageAlt={t('perfume.title')}
 						badgeText={t('perfume.badgeText')}
 						badgeColor="primary"
