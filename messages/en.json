@@ -90,7 +90,7 @@
   },
   "ourStory": {
     "title": "Our Story",
-    "paragraph1": "Indonesia has been the center of spice and aromatics trade for thousands of years. The legendary silk route carried the fragrance of agarwood, coffee, and Nusantara spices to palaces around the world. However, over time, this aromatic wealth often gets lost in global distribution chains that don't appreciate its uniqueness and original quality.",
+    "paragraph1": "Indonesia has been the center of spice and aromatics trade for thousands of years. The legendary silk route carried the fragrance of agarwood, coffee, and Nusantara spices to places around the world. However, over time, this aromatic wealth often gets lost in global distribution chains that don't appreciate its uniqueness and original quality.",
     "paragraph2": "Nusantara Aroma Craft was born from this concern. Founded by a group of professionals who share the same vision about the importance of preserving and elevating Indonesia's aromatic heritage, we are committed to becoming a bridge between traditional Nusantara wisdom and modern global market needs.",
     "paragraph3": "Our journey began with deep exploration to various regions in Indonesia, studying traditional perfume-making techniques and aromatic commodity processing. From the forests of Kalimantan that hold the world's finest agarwood, to coffee plantations in Java's mountains that produce beans with unique character, every step brought us closer to Indonesia's true essence."
   },
@@ -146,9 +146,9 @@
       "title": "NAC Export",
       "description": "Connecting Indonesia's wealth with global premium markets. Our export-import services deliver high-quality commodities with international standards, enabling business partners worldwide to experience the excellence of authentic and premium Indonesian products.",
       "features": [
+        "Global Distribution Network",
         "Premium Nusantara Coffee",
         "High-Quality Agarwood",
-        "Global Distribution Network",
         "International Standard Certification"
       ],
       "buttonText": "Our Services"
@@ -350,16 +350,53 @@
         ]
       },
       {
-        "name": "Charcoal (Shisha & BBQ)",
-        "description": "Coconut shell and hardwood charcoal with high fixed carbon, low ash, and consistent size for shisha and BBQ.",
+        "name": "Briquettes (Shisha & BBQ)",
+        "description": "Premium coconut shell briquettes with high fixed carbon, low ash, and consistent sizing for both shisha and barbecue applications.",
         "points": [
           "Low ash, long‑burning",
-          "Cube/finger sizes available",
+          "Multiple sizes available",
           "SGS inspection on request"
+        ],
+        "types": [
+          {
+            "name": "Shisha Briquettes",
+            "description": "Natural coconut shell briquettes designed for consistent heat and minimal smoke in hookah applications.",
+            "image": "/images/landing/shisha-briquettes.jpg",
+            "sizes": [
+              "Cube: 20×20×20mm, 22×22×22mm, 25×25×25mm, 26×26×26mm",
+              "Flat: 25×25×15mm"
+            ],
+            "specs": [
+              "Ash content: 1.8% – 2.5%",
+              "Burn time: 90 – 120 minutes",
+              "Fixed carbon: Min 80%",
+              "Moisture: Max 5%"
+            ]
+          },
+          {
+            "name": "BBQ Briquettes",
+            "description": "High-quality charcoal briquettes for grilling with long burn time, smokeless, and food-grade quality.",
+            "image": "/images/landing/bbq-briquettes.webp",
+            "sizes": [
+              "Hexagonal: 50×200mm, 50×150mm, 50×100mm, 40×200mm, 40×150mm",
+              "Rectangle: 40×200mm, 50×200mm",
+              "Prism: 40×40×80mm"
+            ],
+            "specs": [
+              "Ash content: 7% – 20%",
+              "Burn time: 5 – 9 hours",
+              "Fixed carbon: 65% – 70%",
+              "Smokeless • Food grade"
+            ]
+          }
         ]
       }
     ],
-    "inquireButton": "Inquire Availability"
+    "inquireButton": "Inquire Availability",
+    "viewTypes": "View Product Types",
+    "hideTypes": "Hide Product Types",
+    "availableSizes": "Available Sizes",
+    "specifications": "Specifications"
   },
   "metadata": {
     "title": "Nusantara Aroma Craft - Indonesia's Luxury Heritage",

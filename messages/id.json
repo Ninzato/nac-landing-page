@@ -350,16 +350,53 @@
         ]
       },
       {
-        "name": "Arang (Shisha & BBQ)",
-        "description": "Arang tempurung kelapa dan kayu keras dengan karbon tetap tinggi, abu rendah, dan ukuran konsisten untuk shisha dan BBQ.",
+        "name": "Briket (Shisha & BBQ)",
+        "description": "Briket tempurung kelapa premium dengan kandungan karbon tetap tinggi, abu rendah, dan ukuran konsisten untuk aplikasi shisha dan barbecue.",
         "points": [
           "Abu rendah, tahan bakar lama",
-          "Ukuran kubus/jari tersedia",
+          "Berbagai ukuran tersedia",
           "Inspeksi SGS atas permintaan"
+        ],
+        "types": [
+          {
+            "name": "Briket Shisha",
+            "description": "Briket tempurung kelapa alami yang dirancang untuk panas konsisten dan asap minimal dalam aplikasi hookah.",
+            "image": "/images/placeholder-shisha.jpg",
+            "sizes": [
+              "Kubus: 20×20×20mm, 22×22×22mm, 25×25×25mm, 26×26×26mm",
+              "Datar: 25×25×15mm"
+            ],
+            "specs": [
+              "Kadar abu: 1,8% – 2,5%",
+              "Waktu bakar: 90 – 120 menit",
+              "Karbon tetap: Min 80%",
+              "Kelembaban: Maks 5%"
+            ]
+          },
+          {
+            "name": "Briket BBQ",
+            "description": "Briket arang berkualitas tinggi untuk memanggang dengan waktu bakar lama, tanpa asap, dan kualitas food-grade.",
+            "image": "/images/placeholder-bbq.jpg",
+            "sizes": [
+              "Heksagonal: 50×200mm, 50×150mm, 50×100mm, 40×200mm, 40×150mm",
+              "Persegi Panjang: 40×200mm, 50×200mm",
+              "Prisma: 40×40×80mm"
+            ],
+            "specs": [
+              "Kadar abu: 7% – 20%",
+              "Waktu bakar: 5 – 9 jam",
+              "Karbon tetap: 65% – 70%",
+              "Tanpa asap • Food grade"
+            ]
+          }
         ]
       }
     ],
-    "inquireButton": "Tanyakan Ketersediaan"
+    "inquireButton": "Tanyakan Ketersediaan",
+    "viewTypes": "Lihat Jenis Produk",
+    "hideTypes": "Sembunyikan Jenis Produk",
+    "availableSizes": "Ukuran Tersedia",
+    "specifications": "Spesifikasi"
   },
   "metadata": {
     "title": "Nusantara Aroma Craft - Warisan Kemewahan Indonesia",
