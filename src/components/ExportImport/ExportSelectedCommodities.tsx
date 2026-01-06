@@ -69,21 +69,21 @@ const ExportSelectedCommodities = () => {
 
 					<article className="rounded-lg border border-border bg-base-200 overflow-hidden">
 						<div className="relative aspect-[4/3]">
-							{/* charcoal imagery */}
+							{/* Briquette imagery */}
 							<Image
 								src="/images/landing/coconut-shell-charcoal-for-shisha-and-bbq.jpg"
-								alt="Coconut shell charcoal"
+								alt="Coconut shell Briquette"
 								fill
 								className="object-cover"
 							/>
 						</div>
 						<div className="p-5">
-							<h3 className="font-semibold text-lg">{t('charcoal.title')}</h3>
+							<h3 className="font-semibold text-lg">{t('Briquette.title')}</h3>
 							<p className="mt-2 text-base-content">
-								{t('charcoal.description')}
+								{t('Briquette.description')}
 							</p>
 							<ul className="mt-3 text-base-content">
-								{(t.raw('charcoal.features') as string[]).map((feature: string, index: number) => (
+								{(t.raw('Briquette.features') as string[]).map((feature: string, index: number) => (
 									<li key={index}>• {feature}</li>
 								))}
 							</ul>

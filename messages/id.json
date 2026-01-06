@@ -82,7 +82,7 @@
       "description": "Arabica dan Robusta dari Sumatra, Jawa, dan Sulawesi. Kontrol kelembaban, ukuran screen, dan cacat telah diperiksa.",
       "features": ["Opsi specialty-grade", "Kemasan ekspor valve bag", "Catatan cupping lot"]
     },
-    "charcoal": {
+    "Briquette": {
       "title": "Arang Tempurung Kelapa",
       "description": "Arang berkualitas tinggi untuk shisha dan BBQ. Kandungan karbon tinggi, rendah abu, dan waktu bakar yang lama.",
       "features": ["Kandungan karbon >85%", "Kadar abu <3%", "Kemasan sesuai standar ekspor"]
@@ -401,5 +401,90 @@
   "metadata": {
     "title": "Nusantara Aroma Craft - Warisan Kemewahan Indonesia",
     "description": "Temukan parfum premium dan komoditi berkualitas tinggi Indonesia. Nusantara Aroma Craft menggabungkan warisan tradisional dengan standar kemewahan internasional."
+  },
+  "briquettesPage": {
+    "hero": {
+      "title": "Briket Tempurung Kelapa Premium",
+      "subtitle": "Briket berkualitas tinggi untuk aplikasi shisha dan barbecue, dibuat dari bahan tempurung kelapa alami dengan output panas konsisten dan waktu bakar yang lama."
+    },
+    "tabs": {
+      "shisha": "Briket Shisha",
+      "bbq": "Briket BBQ"
+    },
+    "shisha": {
+      "title": "Briket Shisha",
+      "subtitle": "Dikenal juga sebagai arang hookah atau shisha",
+      "description": "Briket ini adalah jenis arang khusus yang digunakan untuk menghisap tembakau beraroma di dalam pipa air yang disebut hookah atau pipa shisha. Briket shisha dirancang khusus untuk memberikan sumber panas yang konsisten dan tahan lama untuk campuran tembakau sehingga dapat dipanaskan dan diuapkan tanpa pembakaran langsung.",
+      "paragraph2": "Briket shisha kami terbuat dari bahan alami. Mereka diformulasikan khusus untuk membakar pada suhu yang lebih rendah dan menghasilkan asap minimal sambil tetap menghasilkan panas yang cukup untuk menguapkan tembakau beraroma.",
+      "paragraph3": "Briket shisha dapat bervariasi dalam bentuk dan ukuran tetapi umumnya tersedia dalam bentuk kubus dan datar. Briket ini sering diinfus dengan aditif atau perasa untuk meningkatkan pengalaman merokok dan menambahkan rasa halus pada tembakau.",
+      "benefits": "Briket shisha telah mendapatkan popularitas karena output panas yang konsisten, waktu bakar yang lebih lama, dan produksi asap yang lebih sedikit dibandingkan dengan arang tradisional. Briket ini memberikan pengalaman merokok yang lebih halus dan menyenangkan, memungkinkan pengguna menikmati rasa tembakau tanpa kekerasan pembakaran langsung.",
+      "note": "Briket shisha secara khusus ditujukan untuk digunakan dengan hookah atau pipa shisha dan tidak boleh digunakan sebagai bahan bakar memasak atau dalam aplikasi lain.",
+      "shapes": {
+        "cube": {
+          "name": "Kubus",
+          "sizes": ["20 × 20 × 20 mm", "22 × 22 × 22 mm", "25 × 25 × 25 mm", "26 × 26 × 26 mm"]
+        },
+        "flat": {
+          "name": "Datar",
+          "sizes": ["25 × 25 × 15 mm"]
+        }
+      },
+      "specs": {
+        "ashContent": "Kadar abu: 1,8% – 2,5%",
+        "ashColor": "Warna abu: Abu-abu Terang / Alami",
+        "burningTime": "Waktu bakar: 90 – 120 menit",
+        "ignitionTime": "Waktu penyalaan: <4 menit",
+        "fixCarbon": "Karbon tetap: Minimal 80%",
+        "moisture": "Kelembaban: Maks 5%",
+        "volatileMatter": "Zat volatil: 14%",
+        "calorificValue": "Nilai kalori: 7000 – 7500 Kcal/kg"
+      }
+    },
+    "bbq": {
+      "title": "Briket Barbecue",
+      "subtitle": "Dikenal juga sebagai briket arang",
+      "description": "Briket barbecue adalah jenis bahan bakar yang digunakan untuk memanggang dan barbecue. Briket ini dirancang khusus untuk memberikan sumber panas yang konsisten dan terkontrol untuk memasak di luar ruangan.",
+      "paragraph2": "Briket barbecue biasanya terbuat dari kombinasi arang, batubara, kayu, atau bahan organik lainnya yang telah diproses dan dipadatkan menjadi bentuk yang seragam. Bahan-bahan sering dicampur dengan pengikat atau aditif untuk membantu briket mempertahankan bentuknya dan memberikan karakteristik pembakaran yang konsisten.",
+      "paragraph3": "Proses pembuatan melibatkan karbonisasi bahan organik pada suhu tinggi untuk menghilangkan kotoran dan kelembaban, menghasilkan sumber bahan bakar yang lebih terkonsentrasi dan efisien. Proses karbonisasi juga berkontribusi pada pembentukan warna hitam khas pada briket arang ini.",
+      "benefits": "Briket barbecue menawarkan beberapa keunggulan untuk memanggang dan barbecue. Mereka memberikan sumber panas yang stabil dan tahan lama, memungkinkan memasak merata dan suhu yang konsisten. Briket ini juga menghasilkan lebih sedikit asap dibandingkan bentuk arang lainnya, menghasilkan lebih sedikit kobaran api dan pengalaman memanggang yang lebih bersih.",
+      "varieties": "Briket barbecue sering tersedia dalam berbagai bentuk dan ukuran untuk mengakomodasi kebutuhan memanggang yang berbeda. Yang paling umum di pasaran adalah bentuk batang dan heksagonal. Namun, mereka juga dapat berupa briket berbentuk bantal tradisional, serta briket yang lebih besar untuk sesi memasak yang lebih lama atau panggangan yang lebih besar.",
+      "note": "Briket barbecue secara khusus dirancang untuk memasak di luar ruangan dan tidak boleh digunakan di dalam ruangan atau di ruang tertutup karena pelepasan karbon monoksida selama pembakaran. Penting juga untuk mengikuti pedoman keselamatan yang tepat saat menangani dan membuang briket bekas untuk mencegah bahaya kebakaran.",
+      "shapes": {
+        "hexagonal": {
+          "name": "Heksagonal",
+          "sizes": ["50 × 200 mm", "50 × 150 mm", "50 × 100 mm", "50 × 50 mm", "40 × 200 mm", "40 × 150 mm", "40 × 100 mm", "40 × 50 mm"]
+        },
+        "rectangle": {
+          "name": "Persegi Panjang",
+          "sizes": ["40 × 200 mm", "50 × 200 mm"]
+        },
+        "prism": {
+          "name": "Prisma Persegi Panjang",
+          "sizes": ["40 × 40 × 80 mm"]
+        }
+      },
+      "specs": {
+        "ashContent": "Kadar abu: 7% – 20%",
+        "ashColor": "Warna abu: Abu-abu Terang / Alami",
+        "burningTime": "Waktu bakar: 5 – 9 jam",
+        "ignitionTime": "Waktu penyalaan: <5 menit",
+        "fixCarbon": "Karbon tetap: 65% – 70%",
+        "moisture": "Kelembaban: Maks 5%",
+        "volatileMatter": "Zat volatil: 14%",
+        "calorificValue": "Nilai kalori: 6400 – 7200 Kcal/kg"
+      },
+      "features": ["Tanpa asap", "Tanpa bau", "Tanpa percikan api", "Tanpa bahan kimia", "Food grade"]
+    },
+    "gallery": {
+      "title": "Galeri Produk",
+      "production": "Produksi",
+      "product": "Produk"
+    },
+    "availableSizes": "Ukuran Tersedia",
+    "specifications": "Spesifikasi Produk",
+    "customNote": "Kami juga menyediakan briket dengan spesifikasi khusus, dan kemasan dengan ukuran, merek, dan desain khusus. Silakan hubungi kami.",
+    "noteFromUs": "Catatan dari kami",
+    "backButton": "Kembali ke Komoditas",
+    "inquireButton": "Tanyakan Sekarang"
   }
 }

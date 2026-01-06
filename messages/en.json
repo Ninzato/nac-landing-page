@@ -82,9 +82,9 @@
       "description": "Arabica and Robusta from Sumatra, Java, and Sulawesi. Moisture control, screen size, and defects checked.",
       "features": ["Specialty-grade options", "Valve bag export packaging", "Lot cupping notes"]
     },
-    "charcoal": {
-      "title": "Coconut Shell Charcoal",
-      "description": "High-quality charcoal for shisha and BBQ. High carbon content, low ash, and long burning time.",
+    "Briquette": {
+      "title": "Coconut Shell Briquette",
+      "description": "High-quality Briquette for shisha and BBQ. High carbon content, low ash, and long burning time.",
       "features": ["Carbon content >85%", "Ash content <3%", "Export standard packaging"]
     }
   },
@@ -293,11 +293,11 @@
       "steps": [
         {
           "title": "Sourcing & Curation",
-          "description": "Direct procurement from vetted producers—agarwood/oud, essential oils, specialty coffee, and premium charcoal—mapped by origin and seasonality to ensure authenticity and consistency."
+          "description": "Direct procurement from vetted producers—agarwood/oud, essential oils, specialty coffee, and premium Briquette—mapped by origin and seasonality to ensure authenticity and consistency."
         },
         {
           "title": "Quality Control",
-          "description": "Commodity‑specific checks: GC‑MS & organoleptic for oils; moisture/ash/fixed carbon for charcoal; screen size, defects, and moisture for coffee. Optional third‑party inspections (SGS)."
+          "description": "Commodity‑specific checks: GC‑MS & organoleptic for oils; moisture/ash/fixed carbon for Briquette; screen size, defects, and moisture for coffee. Optional third‑party inspections (SGS)."
         },
         {
           "title": "Documentation & Compliance",
@@ -305,7 +305,7 @@
         },
         {
           "title": "Packaging & Logistics",
-          "description": "Drums and glass (oils), valve bags (coffee), cartons/master cartons (charcoal). We arrange sea/air freight, insurance options, and provide milestone updates until delivery."
+          "description": "Drums and glass (oils), valve bags (coffee), cartons/master cartons (Briquette). We arrange sea/air freight, insurance options, and provide milestone updates until delivery."
         }
       ]
     },
@@ -329,7 +329,7 @@
   },
   "ourCommodities": {
     "title": "Our Commodities",
-    "subtitle": "A focused portfolio built for reliability and performance across perfumery, coffee, and charcoal applications.",
+    "subtitle": "A focused portfolio built for reliability and performance across perfumery, coffee, and Briquette applications.",
     "commodities": [
       {
         "name": "Agarwood (Oud) & Essential Oils",
@@ -375,7 +375,7 @@
           },
           {
             "name": "BBQ Briquettes",
-            "description": "High-quality charcoal briquettes for grilling with long burn time, smokeless, and food-grade quality.",
+            "description": "High-quality Briquette briquettes for grilling with long burn time, smokeless, and food-grade quality.",
             "image": "/images/landing/bbq-briquettes.webp",
             "sizes": [
               "Hexagonal: 50×200mm, 50×150mm, 50×100mm, 40×200mm, 40×150mm",
@@ -401,5 +401,90 @@
   "metadata": {
     "title": "Nusantara Aroma Craft - Indonesia's Luxury Heritage",
     "description": "Discover premium Indonesian perfumes and high-quality commodities. Nusantara Aroma Craft combines traditional heritage with international luxury standards."
+  },
+  "briquettesPage": {
+    "hero": {
+      "title": "Premium Coconut Shell Briquettes",
+      "subtitle": "High-quality briquettes for shisha and barbecue applications, crafted from natural coconut shell materials with consistent heat output and long burning time."
+    },
+    "tabs": {
+      "shisha": "Shisha Briquettes",
+      "bbq": "BBQ Briquettes"
+    },
+    "shisha": {
+      "title": "Shisha Briquettes",
+      "subtitle": "Also known as hookah or shisha charcoal",
+      "description": "These briquettes are a special type of charcoal used to smoke flavored tobacco inside a water pipe called a hookah or shisha pipe. Shisha briquettes are specifically designed to provide a consistent and long-lasting heat source for the tobacco mixture so that it can be heated and vaporized without direct combustion.",
+      "paragraph2": "Our shisha briquettes are made from natural materials. They are specially formulated to burn at lower temperatures and produce minimal smoke while still generating enough heat to vaporize flavorful tobacco.",
+      "paragraph3": "Shisha briquettes can vary in shape and size but are generally available in cubes and flats. These briquettes are often infused with additives or flavorings to enhance the smoking experience and add a subtle taste to the tobacco.",
+      "benefits": "Shisha briquettes have gained popularity due to their consistent heat output, longer burn time, and less smoke production compared to traditional charcoal. These briquettes provide a smoother and more pleasant smoking experience, allowing users to enjoy the flavor of tobacco without the harshness of direct combustion.",
+      "note": "Shisha briquettes are specifically intended for use with hookahs or shisha pipes and should not be used as cooking fuel or in other applications.",
+      "shapes": {
+        "cube": {
+          "name": "Cube",
+          "sizes": ["20 × 20 × 20 mm", "22 × 22 × 22 mm", "25 × 25 × 25 mm", "26 × 26 × 26 mm"]
+        },
+        "flat": {
+          "name": "Flat",
+          "sizes": ["25 × 25 × 15 mm"]
+        }
+      },
+      "specs": {
+        "ashContent": "Ash content: 1.8% – 2.5%",
+        "ashColor": "Ash color: Light Grey / Natural",
+        "burningTime": "Burning time: 90 – 120 minutes",
+        "ignitionTime": "Ignition time: <4 minutes",
+        "fixCarbon": "Fixed carbon: Minimal 80%",
+        "moisture": "Moisture: Max 5%",
+        "volatileMatter": "Volatile matter: 14%",
+        "calorificValue": "Calorific value: 7000 – 7500 Kcal/kg"
+      }
+    },
+    "bbq": {
+      "title": "Barbecue Briquettes",
+      "subtitle": "Also known as charcoal briquettes",
+      "description": "Barbecue briquettes are a type of fuel used for grilling and barbecuing. These briquettes are specifically designed to provide a consistent and controlled heat source for outdoor cooking.",
+      "paragraph2": "Barbecue briquettes are typically made from a combination of charcoal, coal, wood, or other organic materials that have been processed and compressed into a uniform form. The materials are often mixed with binders or additives to help the briquettes retain their shape and provide consistent burning characteristics.",
+      "paragraph3": "The manufacturing process involves carbonizing the organic material at high temperatures to remove impurities and moisture, resulting in a more concentrated and efficient fuel source. The carbonization process also contributes to the formation of the distinctive black color in these charcoal briquettes.",
+      "benefits": "Barbecue briquettes offer several advantages for grilling and barbecuing. They provide a stable and long-lasting heat source, allowing for even cooking and consistent temperatures. These briquettes also produce less smoke compared to other forms of charcoal, resulting in fewer fire flare-ups and a cleaner grilling experience.",
+      "varieties": "Barbecue briquettes often come in a variety of shapes and sizes to accommodate different grilling needs. The most prevalent on the market are stick and hexagonal shapes. However, they can come in traditional pillow-shaped briquettes, as well as larger briquettes or pieces of briquettes for longer cooking sessions or larger grills.",
+      "note": "Barbecue briquettes are specifically designed for outdoor cooking and should not be used indoors or in enclosed spaces due to the release of carbon monoxide during combustion. It is also important to follow proper safety guidelines when handling and disposing of used briquettes to prevent fire hazards.",
+      "shapes": {
+        "hexagonal": {
+          "name": "Hexagonal",
+          "sizes": ["50 × 200 mm", "50 × 150 mm", "50 × 100 mm", "50 × 50 mm", "40 × 200 mm", "40 × 150 mm", "40 × 100 mm", "40 × 50 mm"]
+        },
+        "rectangle": {
+          "name": "Rectangle",
+          "sizes": ["40 × 200 mm", "50 × 200 mm"]
+        },
+        "prism": {
+          "name": "Rectangular Prism",
+          "sizes": ["40 × 40 × 80 mm"]
+        }
+      },
+      "specs": {
+        "ashContent": "Ash content: 7% – 20%",
+        "ashColor": "Ash color: Light Grey / Natural",
+        "burningTime": "Burning time: 5 – 9 hours",
+        "ignitionTime": "Ignition time: <5 minutes",
+        "fixCarbon": "Fixed carbon: 65% – 70%",
+        "moisture": "Moisture: Max 5%",
+        "volatileMatter": "Volatile matter: 14%",
+        "calorificValue": "Calorific value: 6400 – 7200 Kcal/kg"
+      },
+      "features": ["Smokeless", "Odorless", "No spark", "No chemical", "Food grade"]
+    },
+    "gallery": {
+      "title": "Product Gallery",
+      "production": "Production",
+      "product": "Product"
+    },
+    "availableSizes": "Available Sizes",
+    "specifications": "Product Specifications",
+    "customNote": "We also provide briquettes with custom specifications, and packaging with custom sizes, brands, and designs. Please contact us.",
+    "noteFromUs": "Note from us",
+    "backButton": "Back to Commodities",
+    "inquireButton": "Inquire Now"
   }
 }
