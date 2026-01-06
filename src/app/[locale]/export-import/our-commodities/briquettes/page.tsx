@@ -361,7 +361,7 @@ export default function BriquettesPage() {
 						Interested in our briquettes?
 					</h2>
 					<p className="mt-4 text-muted-foreground max-w-2xl mx-auto">
-						Contact us for pricing, samples, and custom specifications. We're ready to meet your business needs.
+						Contact us for pricing, samples, and custom specifications. We&apos;re ready to meet your business needs.
 					</p>
 					<a
 						href="mailto:trade@nusantara.example?subject=Briquettes%20Inquiry"
