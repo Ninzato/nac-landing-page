@@ -17,7 +17,7 @@ type Commodity = {
 const commodityImages = [
 	'/images/landing/oud-chips-and-essential-oils-bottles.jpg',
 	'/images/landing/indonesian-coffee-beans-with-sack.jpg',
-	'/images/landing/coconut-shell-charcoal-for-shisha.jpg',
+	'/commodities/briquettes/shisha/shisha-product-4.webp',
 ];
 
 export default function OurCommoditiesPage() {
