@@ -65,7 +65,7 @@ export default function BriquettesPage() {
 			<ExportTopbar />
 
 			{/* Hero Section */}
-			<section className="relative py-16 lg:py-24 overflow-hidden">
+			<section className="relative py-10 sm:py-16 lg:py-24 overflow-hidden">
 				{/* Background gradient */}
 				<div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-background to-secondary/5" />
 
@@ -79,20 +79,20 @@ export default function BriquettesPage() {
 						{t('backButton')}
 					</Link>
 
-					<div className="grid lg:grid-cols-2 gap-12 items-center">
+					<div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
 						<div>
-							<h1 className="text-4xl font-bold tracking-tight lg:text-5xl lg:leading-tight">
+							<h1 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight lg:text-5xl lg:leading-tight">
 								{t('hero.title')}
 							</h1>
-							<p className="mt-6 text-lg text-muted-foreground">
+							<p className="mt-4 sm:mt-6 text-base sm:text-lg text-muted-foreground">
 								{t('hero.subtitle')}
 							</p>
 
 							{/* Tab Buttons */}
-							<div className="mt-8 flex gap-4">
+							<div className="mt-6 sm:mt-8 flex flex-wrap gap-3 sm:gap-4">
 								<button
 									onClick={() => setActiveTab('shisha')}
-									className={`cursor-pointer flex items-center gap-2 px-6 py-3 rounded-full font-medium transition-all ${
+									className={`cursor-pointer flex items-center gap-2 px-4 sm:px-6 py-2.5 sm:py-3 rounded-full text-sm sm:text-base font-medium transition-all ${
 										activeTab === 'shisha'
 											? 'bg-primary text-primary-foreground shadow-lg'
 											: 'bg-muted text-muted-foreground hover:bg-muted/80'
@@ -103,7 +103,7 @@ export default function BriquettesPage() {
 								</button>
 								<button
 									onClick={() => setActiveTab('bbq')}
-									className={`cursor-pointer flex items-center gap-2 px-6 py-3 rounded-full font-medium transition-all ${
+									className={`cursor-pointer flex items-center gap-2 px-4 sm:px-6 py-2.5 sm:py-3 rounded-full text-sm sm:text-base font-medium transition-all ${
 										activeTab === 'bbq'
 											? 'bg-primary text-primary-foreground shadow-lg'
 											: 'bg-muted text-muted-foreground hover:bg-muted/80'
@@ -134,22 +134,22 @@ export default function BriquettesPage() {
 			</section>
 
 			{/* Product Details Section */}
-			<section className="py-16 lg:py-20 bg-muted/30">
+			<section className="py-10 sm:py-16 lg:py-20 bg-muted/30">
 				<div className="container">
 					{/* Shisha Content */}
 					{activeTab === 'shisha' && (
-						<div className="space-y-12 animate-in fade-in duration-500">
+						<div className="space-y-12 animate-in fade-in duration-500 overflow-hidden">
 							{/* Title & Description */}
 							<div className="max-w-3xl">
-								<h2 className="text-3xl font-bold">{t('shisha.title')}</h2>
+								<h2 className="text-2xl sm:text-3xl font-bold">{t('shisha.title')}</h2>
 								<p className="mt-2 text-lg text-primary font-medium">
 									{t('shisha.subtitle')}
 								</p>
 							</div>
 
-							<div className="grid lg:grid-cols-2 gap-12">
+							<div className="grid lg:grid-cols-2 gap-8 lg:gap-12 overflow-hidden">
 								{/* Left: Description */}
-								<div className="space-y-6">
+								<div className="space-y-6 min-w-0">
 									<p className="text-muted-foreground leading-relaxed">
 										{t('shisha.description')}
 									</p>
@@ -185,10 +185,10 @@ export default function BriquettesPage() {
 							</div>
 
 							{/* Sizes & Specs */}
-							<div className="grid md:grid-cols-2 gap-8">
+							<div className="grid sm:grid-cols-2 gap-6 sm:gap-8">
 								{/* Available Sizes */}
-								<div className="rounded-xl border border-border bg-card p-6">
-									<h3 className="text-xl font-semibold mb-6">
+								<div className="rounded-xl border border-border bg-card p-4 sm:p-6">
+									<h3 className="text-lg sm:text-xl font-semibold mb-4 sm:mb-6">
 										{t('availableSizes')}
 									</h3>
 									<div className="space-y-4">
@@ -213,8 +213,8 @@ export default function BriquettesPage() {
 								</div>
 
 								{/* Specifications */}
-								<div className="rounded-xl border border-border bg-card p-6">
-									<h3 className="text-xl font-semibold mb-6">
+								<div className="rounded-xl border border-border bg-card p-4 sm:p-6">
+									<h3 className="text-lg sm:text-xl font-semibold mb-4 sm:mb-6">
 										{t('specifications')}
 									</h3>
 									<ul className="space-y-3">
@@ -235,18 +235,18 @@ export default function BriquettesPage() {
 
 					{/* BBQ Content */}
 					{activeTab === 'bbq' && (
-						<div className="space-y-12 animate-in fade-in duration-500">
+						<div className="space-y-12 animate-in fade-in duration-500 overflow-hidden">
 							{/* Title & Description */}
 							<div className="max-w-3xl">
-								<h2 className="text-3xl font-bold">{t('bbq.title')}</h2>
+								<h2 className="text-2xl sm:text-3xl font-bold">{t('bbq.title')}</h2>
 								<p className="mt-2 text-lg text-primary font-medium">
 									{t('bbq.subtitle')}
 								</p>
 							</div>
 
-							<div className="grid lg:grid-cols-2 gap-12">
+							<div className="grid lg:grid-cols-2 gap-8 lg:gap-12 overflow-hidden">
 								{/* Left: Description */}
-								<div className="space-y-6">
+								<div className="space-y-6 min-w-0">
 									<p className="text-muted-foreground leading-relaxed">
 										{t('bbq.description')}
 									</p>
@@ -297,10 +297,10 @@ export default function BriquettesPage() {
 							</div>
 
 							{/* Sizes & Specs */}
-							<div className="grid md:grid-cols-2 gap-8">
+							<div className="grid sm:grid-cols-2 gap-6 sm:gap-8">
 								{/* Available Sizes */}
-								<div className="rounded-xl border border-border bg-card p-6">
-									<h3 className="text-xl font-semibold mb-6">
+								<div className="rounded-xl border border-border bg-card p-4 sm:p-6">
+									<h3 className="text-lg sm:text-xl font-semibold mb-4 sm:mb-6">
 										{t('availableSizes')}
 									</h3>
 									<div className="space-y-4">
@@ -325,8 +325,8 @@ export default function BriquettesPage() {
 								</div>
 
 								{/* Specifications */}
-								<div className="rounded-xl border border-border bg-card p-6">
-									<h3 className="text-xl font-semibold mb-6">
+								<div className="rounded-xl border border-border bg-card p-4 sm:p-6">
+									<h3 className="text-lg sm:text-xl font-semibold mb-4 sm:mb-6">
 										{t('specifications')}
 									</h3>
 									<ul className="space-y-3">
@@ -346,7 +346,7 @@ export default function BriquettesPage() {
 					)}
 
 					{/* Custom Order Note */}
-					<div className="mt-12 p-6 rounded-xl bg-gradient-to-r from-primary/5 to-secondary/5 border border-primary/10">
+					<div className="mt-8 sm:mt-12 p-4 sm:p-6 rounded-xl bg-gradient-to-r from-primary/5 to-secondary/5 border border-primary/10">
 						<p className="text-center text-muted-foreground">
 							{t('customNote')}
 						</p>
@@ -355,9 +355,9 @@ export default function BriquettesPage() {
 			</section>
 
 			{/* CTA Section */}
-			<section className="py-16 lg:py-20">
+			<section className="py-10 sm:py-16 lg:py-20">
 				<div className="container text-center">
-					<h2 className="text-2xl font-bold lg:text-3xl">
+					<h2 className="text-xl sm:text-2xl font-bold lg:text-3xl">
 						Interested in our briquettes?
 					</h2>
 					<p className="mt-4 text-muted-foreground max-w-2xl mx-auto">

@@ -71,8 +71,8 @@ const ExportSelectedCommodities = () => {
 						<div className="relative aspect-[4/3]">
 							{/* Briquette imagery */}
 							<Image
-								src="/images/landing/coconut-shell-charcoal-for-shisha-and-bbq.jpg"
-								alt="Coconut shell Briquette"
+								src="/commodities/briquettes/shisha/shisha-product-4.webp"
+								alt="Premium Briquette"
 								fill
 								className="object-cover"
 							/>

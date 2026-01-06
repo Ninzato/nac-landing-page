@@ -66,24 +66,22 @@ export default function OurCommoditiesPage() {
 										)}
 									</ul>
 
-									{/* View Details link for commodities with types (briquettes) */}
+									<div className="mt-auto pt-4 flex flex-wrap gap-2">
+									{/* View Details button for commodities with types (briquettes) */}
 									{commodity.types && commodity.types.length > 0 && (
 										<Link
 											href="/export-import/our-commodities/briquettes"
-											className="mt-4 inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors"
+											className="btn btn-outline btn-secondary"
 										>
-											<span>{t('viewTypes')}</span>
-											<ArrowRight className="w-4 h-4" />
+											{t('viewTypes')}
 										</Link>
 									)}
-
-									<div className="mt-auto pt-4">
-										<a href="mailto:trade@nusantara.example?subject=Commodity%20Inquiry">
-											<button className="btn btn-outline btn-secondary">
-												{t('inquireButton')}
-											</button>
-										</a>
-									</div>
+									<a href="mailto:trade@nusantara.example?subject=Commodity%20Inquiry">
+										<button className="btn btn-secondary">
+											{t('inquireButton')}
+										</button>
+									</a>
+								</div>
 								</div>
 							</article>
 						))}

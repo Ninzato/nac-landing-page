@@ -37,7 +37,7 @@ export function BriquetteGallery({ media, title }: GalleryProps) {
 	const currentItem = displayMedia[activeIndex];
 
 	return (
-		<div className="space-y-4">
+		<div className="space-y-4 w-full max-w-full overflow-hidden">
 			{title && (
 				<h3 className="text-lg font-semibold text-foreground">{title}</h3>
 			)}
