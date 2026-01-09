@@ -49,6 +49,7 @@ export function BriquetteGallery({ media, title }: GalleryProps) {
 						key={currentItem.src}
 						src={currentItem.src}
 						controls
+						muted
 						className="absolute inset-0 w-full h-full object-cover"
 						playsInline
 					>
